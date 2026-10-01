@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Explore 578 selected PROWBench outputs across 57 single-view, multiview and 30-second examples. Compare methods on a synchronized timeline.">
+<meta name="theme-color" content="#0a0c10"><meta property="og:type" content="website"><meta property="og:title" content="Gallery · PROWBench"><meta property="og:description" content="Explore 578 selected PROWBench outputs across 57 single-view, multiview and 30-second examples. Compare methods on a synchronized timeline.">
+<title>Gallery · PROWBench</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="styles.css?v=layout-20260928"><link rel="stylesheet" href="playback-controls.css?v=aligned-20260928"><link rel="stylesheet" href="pages.css?v=layout-20260928">
+<script src="assets/gallery-data.js?v=compact-20261002" defer></script><script src="gallery-store.js?v=long30-1" defer></script><script src="gallery-player.js?v=quality-20260927" defer></script><script src="gallery.js?v=compact-20261002" defer></script>
+</head>
+<body class="gallery-page">
+<a class="skip-link" href="#results">Skip to video comparisons</a>
+<header class="site-header page-shell"><a class="wordmark" href="index.html" aria-label="PROWBench home">PROW<span>Bench</span></a><nav aria-label="Main navigation"><a href="index.html">Benchmark</a><a href="gallery.html" aria-current="page">Gallery</a></nav></header>
+<main class="container gallery-main page-shell" id="top">
+  <section id="results" aria-labelledby="gallery-title">
+    <div class="gallery-heading"><h1 id="gallery-title">Gallery</h1><span id="selection-summary" class="selection-summary">57 examples · 578 outputs · 10 methods</span></div>
+    <div class="gallery-datasets" role="group" aria-label="Example type"><button type="button" data-dataset="single-view" aria-pressed="true">Main track</button><button type="button" data-dataset="multi-view" aria-pressed="false">Multi-view</button><button type="button" data-dataset="long-video" aria-pressed="false">Long horizon · 30 s</button></div>
+    <div class="gallery-controls">
+      <div id="protocol-tabs" class="protocol-tabs" role="group" aria-label="Evaluation setting">
+        <button type="button" data-protocol="with-first-frame" aria-pressed="true" title="A shared first frame checked against the recorded state">Verified-FF</button>
+        <button type="button" data-protocol="without-first-frame" aria-pressed="false" title="No prescribed appearance reference; image-conditioned methods use an unchecked H3 frame">Unverified-FF</button>
+      </div>
+      <div class="scene-toolbar">
+        <div class="scene-picker"><label class="sr-only" for="scene-select">Scene</label><select id="scene-select" aria-describedby="scene-meta"></select></div>
+        <div class="scene-navigation"><span id="scene-count"></span><button id="previous-scene" class="icon-button" type="button" aria-label="Previous scene">←</button><button id="next-scene" class="icon-button" type="button" aria-label="Next scene">→</button></div>
+      </div>
+    </div>
+    <div class="comparison-heading"><p id="scene-meta" class="gallery-scene-meta"></p><div class="method-actions"><span id="method-count" aria-live="polite">2 / 10 methods</span><button id="add-method" class="button" type="button" aria-controls="compare-board" disabled>+ Add method</button></div></div>
+    <div class="compare-board" id="compare-board">
+      <article class="compare-card reference-card">
+        <div class="compare-card-header"><h2>Input</h2><label class="sr-only" for="reference-select">Input representation or reference frame</label><select id="reference-select" aria-describedby="input-description"></select></div>
+        <div class="media-frame">
+          <video id="input-video" muted playsinline preload="none"></video>
+          <img id="input-image" hidden width="672" height="378" alt="">
+          <p id="input-error" class="media-error" hidden>Input unavailable. Try another representation.</p>
+        </div>
+        <p id="input-description" class="conditioning"></p>
+        <div class="reference-footer"><a id="input-open" target="_blank" rel="noopener">Open input ↗</a><span id="input-kind" class="sr-only">Structural input</span></div>
+      </article>
+    </div>
+    <div class="comparison-controls" aria-label="Synchronized playback">
+      <button id="play-all" class="button button-primary" type="button" aria-label="Play comparison">▶ Play</button>
+      <button id="restart-all" class="icon-button" type="button" aria-label="Reset comparison to the beginning">↺</button>
+      <label class="quality-control" for="video-quality"><span>Quality</span><select id="video-quality" aria-label="Playback quality" title="Video height; lower-resolution originals keep their native size."><option value="480" selected>480p</option><option value="720">720p</option></select></label>
+      <input id="comparison-time" type="range" min="0" max="5" step="0.01" value="0" aria-label="Comparison timeline in seconds">
+      <output id="time-label" for="comparison-time">0.0 / 5.0 s</output>
+    </div>
+    <p id="playback-status" class="comparison-status sr-only" role="status" aria-live="polite">Press Play to load the selected videos.</p>
+    <button id="retry-scene" type="button" class="button" hidden>Reload scene</button>
+    <details class="gallery-notes"><summary>About these comparisons</summary>
+      <p id="protocol-note" class="conditioning-note"></p>
+      <p class="gallery-footnote">480p uses less data; 720p shows more detail. Lower-resolution originals keep their native size and are marked on the method card. For multi-view, the resolution refers to the complete four-view grid.</p>
+      <p class="gallery-footnote">Selected gallery: 20 Verified-FF and 25 Unverified-FF examples on disjoint scenes, 6 multi-view examples × 4 cameras, and 6 long-horizon examples × 30 seconds. <a href="index.html#representations">Input representations ↗</a></p>
+      <p class="gallery-footnote">This gallery presents a selection of the supplied qualitative clips. The paper additionally evaluates 20 Gunfight cases and a fifth multi-view method, Seedance 2.5; those outputs are not available in this gallery. See the <a href="assets/PROWBench.pdf?v=395ecc3bb8a2" target="_blank" rel="noopener">October 1 paper</a> for quantitative results and evaluation protocols.</p>
+    </details>
+    <noscript><p class="notice">Enable JavaScript to select scenes and compare videos. The <a href="assets/PROWBench.pdf?v=395ecc3bb8a2">paper</a> includes qualitative examples.</p></noscript>
+  </section>
+</main>
+</body>
+</html>

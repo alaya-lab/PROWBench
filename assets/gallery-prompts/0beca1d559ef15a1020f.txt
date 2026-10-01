@@ -1,0 +1,15 @@
+Appearance and scene:
+
+The protagonist, the camera wearer is the camera wearer and stays outside the frame: the whole shot is seen through this person's eyes, and whatever the timeline says this person does is experienced as camera motion, never shown as a figure.
+
+The small dog is a small, fluffy dog with a black and tan coat, featuring a bushy tail curled over its back and a purple collar, standing on the snow and looking back over its left shoulder. The background is filled with snow-laden coniferous trees and faceted ice formations, fading into a misty, bright horizon with a soft, hazy sky, keeping the spacing and sizes of the conditioning reference. The protagonist observes and accompanies the small dog from 0.00 s to 5.00 s. the small dog is one continuous object throughout and comes to rest about 2 metres from the protagonist. The person keeps the same face, build and clothing throughout, with clothing folds responding naturally to movement.
+
+The setting is a frozen landscape covered in deep white snow, featuring a packed, icy path with visible tracks running diagonally from screen-left. Photorealistic rendering, clean high-detail CG surfaces with soft fur textures, shallow depth of field keeping the foreground subject sharp while blurring the background, diffuse low-angle sunlight creating long soft shadows and bright specular highlights on the snow, cool desaturated blue-grey grading with muted warm amber accents, misty atmospheric perspective softening the distance, dry matte surfaces with subtle glossy reflections on the icy path, natural human anatomy; no proxy colours, wireframes, block figures or game UI; the anchor image establishes this look and every later frame keeps it: Photorealistic rendering, clean high-detail CG surfaces with soft fur textures, shallow depth of field keeping the foreground subject sharp while blurring the background, diffuse low-angle sunlight creating long soft shadows and bright specular highlights on the snow, cool desaturated blue-grey grading with muted warm amber accents, misty atmospheric perspective softening the distance, dry matte surfaces with subtle glossy reflections on the icy path, natural human anatomy; no proxy colours, wireframes, block figures or game UI. The camera follows the recorded third-person path of the conditioning reference with its fixed 75-degree vertical field of view.
+
+Protagonist action timeline:
+
+0.00–4.57s: The protagonist walks along the route while the dogs trot alongside and turn with it; the protagonist moves about 3 metres along its route.; 4.57–5.00s: The protagonist slows down and watches the dogs as they stop and look around.; 5.00–5.17s: Everyone holds the final pose and position and the camera holds its final pose.
+
+Other visible actors:
+
+0.00–5.17s, the small dog: Moves about 3 metres along its route from 0.00 to 4.57 s; holds the final state from 5.00 to 5.17 s.

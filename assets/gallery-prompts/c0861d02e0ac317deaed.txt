@@ -1,0 +1,15 @@
+Appearance and scene:
+
+The protagonist is a person with dark hair in a long braid, wearing a tan shirt with rolled sleeves, olive trousers, and brown boots, facing away from the camera.
+
+Independently moving adult participant 1 is a person wearing a khaki uniform shirt, a wide-brimmed hat, tan trousers, and dark boots, standing with hands at sides. Independently moving adult participant 2 is a person with short dark hair, wearing a maroon jacket, blue jeans, and white shoes, facing forward. Independently moving adult participant 3 is a person with short dark hair, wearing an olive hooded jacket, dark grey trousers, and tan boots, facing away from the camera. The ground is a pale, misty expanse scattered with large, dark grey boulders rendered with heavy ink strokes. Tall pine trees with dark foliage stand on screen-left and screen-right edges. The sky is a pale, washed-out blue-grey, blending into the misty horizon, keeping the spacing and sizes of the conditioning reference. All people keep the same face, build and clothing throughout, with clothing folds responding naturally to movement. Brushstrokes and painted edges belong to the target style; they never trace a proxy box, proxy edge or proxy silhouette.
+
+The setting is a rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Painterly rendering, sumi-e ink wash: visible brush and ink strokes, graded black ink washes with sparse strong colour, rice-paper texture, empty breathing space and hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; no proxy colours, wireframes, block figures or game UI; the anchor image establishes this look and every later frame keeps it: Painterly rendering, sumi-e ink wash: visible brush and ink strokes, graded black ink washes with sparse strong colour, rice-paper texture, empty breathing space and hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; no proxy colours, wireframes, block figures or game UI. The camera follows the recorded third-person path of the conditioning reference with its fixed 53-degree vertical field of view.
+
+Protagonist action timeline:
+
+0.00–4.77s: The protagonist walks forward over ground that rises and falls; the protagonist moves about 9 metres along its route, rises about a metre.; 4.77–5.00s: The protagonist comes to a stop and stands still.; 5.00–5.17s: Everyone holds the final pose and position and the camera holds its final pose.
+
+Other visible actors:
+
+0.00–5.17s, independently moving adult participant 1: Moves about 3 metres along its route, drops a short distance from 0.00 to 4.77 s; holds the final state from 5.00 to 5.17 s.; 0.00–5.17s, independently moving adult participant 2: Moves about 3 metres along its route, rises a short distance from 0.00 to 4.77 s; holds the final state from 5.00 to 5.17 s.; 0.00–5.17s, independently moving adult participant 3: Moves about 3 metres along its route, drops about half a metre from 0.00 to 4.77 s; holds the final state from 5.00 to 5.17 s.

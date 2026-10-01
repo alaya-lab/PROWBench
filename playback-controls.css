@@ -1,0 +1,15 @@
+/* Shared by Gallery comparisons and Benchmark structural inputs. */
+.comparison-controls { display: flex; align-items: center; gap: 12px; width: 100%; padding-top: 16px; margin-top: 16px; border-top: 1px solid var(--line); }
+.comparison-controls .button { min-height: 40px; min-width: 92px; padding: 7px 14px; }
+.comparison-controls .button:disabled { cursor: progress; opacity: .75; }
+.comparison-controls .icon-button { min-width: 38px; min-height: 40px; }
+.comparison-controls input { flex: 1; min-width: 50px; width: 100%; accent-color: var(--gold); cursor: pointer; }
+.comparison-controls output { color: var(--muted); min-width: 82px; text-align: right; font-size: 14px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.comparison-status { color: var(--muted); font-size: 14px; }
+.comparison-status:not(.sr-only) { margin-top: 8px; }
+@media (max-width: 480px) {
+  .comparison-controls { flex-wrap: wrap; gap: 10px; }
+  .comparison-controls .button { flex: 1; }
+  .comparison-controls input { order: 3; flex-basis: calc(100% - 105px); }
+  .comparison-controls output { order: 4; }
+}

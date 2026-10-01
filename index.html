@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Do video models render what the program specifies? PROWBench evaluates generated videos against replayable world records across 170 cases, 200 selected views and 600 synchronized proxy videos.">
+<meta name="theme-color" content="#08090c"><meta property="og:type" content="website"><meta property="og:title" content="PROWBench · Do Video Models Render What the Program Specifies?"><meta property="og:description" content="A benchmark grounded in recorded world states and events, with Verified-FF and Unverified-FF settings, long-horizon memory, and independently generated synchronized views.">
+<title>PROWBench · Do Video Models Render What the Program Specifies?</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="styles.css?v=layout-20260928"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="playback-controls.css?v=aligned-20260928"><link rel="stylesheet" href="benchmark.css?v=demo-20261002">
+<script src="assets/structural-inputs.js" defer></script><script src="gallery-player.js?v=quality-20260927" defer></script><script src="benchmark.js?v=paper-20261001" defer></script>
+</head>
+<body class="benchmark-page">
+<a class="skip-link" href="#overview">Skip to benchmark overview</a>
+<header class="site-header page-shell"><a class="wordmark" href="index.html" aria-label="PROWBench home">PROW<span>Bench</span></a><nav aria-label="Main navigation"><a href="index.html" aria-current="page">Benchmark</a><a href="gallery.html">Gallery</a></nav></header>
+<main id="top" class="benchmark-wrap page-shell">
+  <section class="benchmark-hero" aria-labelledby="hero-title">
+    <h1 id="hero-title">PROWBench</h1>
+    <p class="benchmark-subtitle">Do Video Models Render What the Program Specifies?</p>
+    <p class="benchmark-team"><a href="#authors" title="View authors">Alaya Lab</a></p>
+    <div class="publication-links" role="group" aria-label="Publication links">
+      <a href="assets/PROWBench.pdf?v=395ecc3bb8a2" target="_blank" rel="noopener" title="October 1, 2026 paper"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg>Paper</a>
+      <!-- Replace these placeholders with links when the project resources are available. -->
+      <button type="button" disabled title="GitHub — coming soon" aria-label="GitHub (coming soon)">
+        <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        GitHub
+      </button>
+      <button type="button" disabled title="Daily Paper — coming soon" aria-label="Daily Paper (coming soon)"><span class="publication-emoji" aria-hidden="true">🤗</span>Daily Paper</button>
+      <button type="button" disabled title="X — coming soon" aria-label="X (coming soon)">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        X
+      </button>
+    </div>
+    <figure class="benchmark-demo">
+      <video id="benchmark-demo" controls playsinline preload="none" width="1280" height="720" poster="assets/demo/PROWBench_ad_720p.jpg" aria-label="PROWBench overview video">
+        <source src="assets/demo/PROWBench_ad_720p.mp4?v=4852fef7633e" type="video/mp4">
+        <a href="assets/demo/PROWBench_ad_720p.mp4?v=4852fef7633e">Watch the PROWBench overview video.</a>
+      </video>
+    </figure>
+  </section>
+
+  <section id="overview" class="benchmark-tldr" aria-labelledby="tldr-title">
+    <h2 id="tldr-title">TL;DR</h2>
+    <p id="evaluation">PROWBench checks whether generated videos faithfully realize <strong>program-specified entity trajectories, camera motion, and interactions</strong>, using replayable world states and timestamped events as the reference.</p>
+  </section>
+
+  <section id="dataset" class="benchmark-section" aria-labelledby="dataset-title">
+    <div class="benchmark-section-head">
+      <h2 id="dataset-title">Benchmark contents</h2>
+    </div>
+    <dl class="benchmark-stats" aria-label="Benchmark scale">
+      <div><dt>Evaluation cases</dt><dd>170</dd></div>
+      <div><dt>Selected views</dt><dd>200</dd></div>
+      <div><dt>Proxy videos</dt><dd>600</dd></div>
+    </dl>
+    <div class="benchmark-contents">
+      <section class="benchmark-data" aria-labelledby="data-group-title">
+        <h3 id="data-group-title" class="benchmark-group-label">Tracks and settings</h3>
+        <div class="subset-grid">
+          <article class="subset-card" aria-labelledby="title-verified">
+            <p class="subset-track">Main track</p>
+            <h4 id="title-verified">Verified-FF</h4>
+            <p class="subset-count">40 <span>pairs</span></p>
+            <p class="subset-meta">5 s · 1 view</p>
+            <p class="subset-description">A shared RGB first frame, checked against the recorded state.</p>
+          </article>
+          <article class="subset-card" aria-labelledby="title-unverified">
+            <p class="subset-track">Main track</p>
+            <h4 id="title-unverified">Unverified-FF</h4>
+            <p class="subset-count">90 <span>pairs</span></p>
+            <p class="subset-meta">5 s · 1 view</p>
+            <p class="subset-description">Appearance and identity binding from text and control signals.</p>
+          </article>
+          <article class="subset-card" aria-labelledby="title-long">
+            <p class="subset-track">Challenge track</p>
+            <h4 id="title-long">Long horizon</h4>
+            <p class="subset-count">10 <span>cases</span></p>
+            <p class="subset-meta">30 s · 1 view</p>
+            <p class="subset-description">Entity reappearance and state persistence across generation windows.</p>
+          </article>
+          <article class="subset-card" aria-labelledby="title-multi">
+            <p class="subset-track">Challenge track</p>
+            <h4 id="title-multi">Multi-view</h4>
+            <p class="subset-count">10 <span>cases</span></p>
+            <p class="subset-meta">5 s · 4 views</p>
+            <p class="subset-description">Four synchronized cameras, with each view generated independently.</p>
+          </article>
+        </div>
+        <p class="benchmark-records"><span><strong>Plus 20 Gunfight cases</strong> from 10 recordings for domain-specific evaluation.</span><span>7 domains · 30 environments · 47 semantic actions · 9 interaction categories.</span></p>
+      </section>
+      <section class="benchmark-evaluation" aria-labelledby="metrics-group-title">
+        <h3 id="metrics-group-title" class="benchmark-group-label">Metrics</h3>
+        <dl class="benchmark-metrics">
+          <div><dt>Interaction Success Rate</dt><dd>VLM-based evaluation of whether each recorded event shows both its prescribed action and expected end state.</dd></div>
+          <div><dt>Logic-Render Alignment</dt><dd>VLM-based evaluation of whether each prescribed action appears within its engine-annotated time segment.</dd></div>
+        </dl>
+        <p class="benchmark-metrics-note"><span><strong>gISR / gLRA</strong> multiply each sample’s behavioral score by its BBox IoU, then average across samples.</span><span>The suite also measures entity and camera control, visual and temporal quality, multi-view consistency, and long-horizon memory.</span></p>
+      </section>
+    </div>
+    <details class="benchmark-protocol-note">
+      <summary>What do Verified-FF and Unverified-FF mean?</summary>
+      <p>The main-track settings use disjoint scenes. Verified-FF supplies the same MiniMax-H3-generated first frame to every method that accepts one, after checking it against the recorded person count, positions, facing, and layout.</p>
+      <p>Unverified-FF supplies no prescribed appearance reference. Methods whose interface requires an RGB image use unchecked frame 0 of the MiniMax-H3 output for that scene and camera. This can transfer H3’s appearance assignments; the paper also notes potential curation bias from using H3 outputs to select this set.</p>
+    </details>
+  </section>
+
+  <section id="representations" class="benchmark-section" aria-labelledby="representations-title">
+    <div class="benchmark-section-head benchmark-input-head">
+      <h2 id="representations-title">Structural inputs</h2>
+      <div class="structural-example-picker"><label class="sr-only" for="structural-example">Example</label><select id="structural-example">
+        <optgroup label="Third-person view"><option value="dv200-001-city-crossing__follow">Street crossing · Urban</option><option value="dv200-033-indoor-carryStairs__follow">Carrying on stairs · Indoor</option><option value="dv200-051-nature-slope__follow">Slope traversal · Nature</option><option value="dv200-079-racing-racing__follow">Vehicle racing · Racing</option><option value="dv200-200-underwater-fish-encounter__follow">Fish encounters · Underwater</option></optgroup>
+        <optgroup label="First-person view"><option value="dv200-008-city-cart__first-person">Cart transport · Urban</option><option value="dv200-074-sky-helicopter__first-person">Cockpit flight · Sky</option><option value="dv200-091-fantasy-walk__first-person">Cave exploration · Fantasy</option></optgroup>
+      </select></div>
+    </div>
+    <p class="benchmark-section-intro">Coarse 3D, CWM proxy, and Colored-OBB are rendered from the same recorded world state and camera trajectory. The world record retains entity states and events even outside the camera’s field of view.</p>
+    <div class="representation-grid" id="structural-grid">
+      <figure><div class="structural-media"><video id="repr-white" muted playsinline preload="none" poster="assets/structural-inputs/dv200-001-city-crossing__follow/white.jpg" aria-label="Coarse 3D structural input: Street crossing"></video><p class="structural-error" hidden>Video unavailable. Use the video link below.</p></div><figcaption><h3><a id="open-white" href="assets/structural-inputs/dv200-001-city-crossing__follow/white.mp4" target="_blank" rel="noopener">Coarse 3D ↗</a></h3></figcaption></figure>
+      <figure><div class="structural-media"><video id="repr-mixed" muted playsinline preload="none" poster="assets/structural-inputs/dv200-001-city-crossing__follow/mixed.jpg" aria-label="CWM proxy structural input: Street crossing"></video><p class="structural-error" hidden>Video unavailable. Use the video link below.</p></div><figcaption><h3><a id="open-mixed" href="assets/structural-inputs/dv200-001-city-crossing__follow/mixed.mp4" target="_blank" rel="noopener">CWM proxy ↗</a></h3></figcaption></figure>
+      <figure><div class="structural-media"><video id="repr-obb" muted playsinline preload="none" poster="assets/structural-inputs/dv200-001-city-crossing__follow/obb.jpg" aria-label="Colored-OBB structural input: Street crossing"></video><p class="structural-error" hidden>Video unavailable. Use the video link below.</p></div><figcaption><h3><a id="open-obb" href="assets/structural-inputs/dv200-001-city-crossing__follow/obb.mp4" target="_blank" rel="noopener">Colored-OBB ↗</a></h3></figcaption></figure>
+    </div>
+    <div class="comparison-controls structural-playback" role="group" aria-label="Synchronized structural input playback">
+      <button id="structural-play" type="button" class="button button-primary" aria-label="Play inputs" title="Play inputs">▶ Play</button>
+      <button id="structural-reset" type="button" class="icon-button" aria-label="Reset structural inputs to the beginning" title="Reset">↺</button>
+      <input id="structural-time" type="range" min="0" max="5" step="0.01" value="0" aria-label="Structural input timeline in seconds">
+      <output id="structural-time-label" for="structural-time" aria-live="off">0.0 / 5.0 s</output>
+    </div>
+    <p id="structural-status" class="comparison-status sr-only" role="status" aria-live="polite">Press Play to load this example.</p>
+    <noscript><p class="notice">Enable JavaScript to switch examples and play the three inputs together, or open the individual videos above.</p></noscript>
+  </section>
+
+  <section id="examples" class="benchmark-section" aria-labelledby="examples-title">
+    <div class="benchmark-section-head">
+      <h2 id="examples-title">Scenes and interactions</h2>
+      <p>40 Verified-FF appearance references</p>
+    </div>
+    <div class="scene-examples">
+      <figure><img src="assets/benchmark-examples/dv200-001-city-crossing__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: People and cars at a sunlit city street crossing (Urban; third person view)"><figcaption><strong>Crossing a street</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-002-city-drive__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A person beside a red car on a city street lined with buildings (Urban; third person view)"><figcaption><strong>City driving</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-103-city-traffic__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A person and cars sharing a broad tree-lined city street (Urban; third person view)"><figcaption><strong>Navigating traffic</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-107-city-stairsDown__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A person at the top of outdoor steps overlooking a residential street (Urban; third person view)"><figcaption><strong>Descending steps</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-006-city-handoff__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: Two people with a small box on a wet residential street (Urban; third person view)"><figcaption><strong>Passing an object</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-008-city-cart__first-person.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: First-person view over a wooden cart on a cobbled old-town street (Urban; first person view)"><figcaption><strong>Pushing a street cart</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-014-city-push__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A worker with a wooden crate at an outdoor construction site (Urban; third person view)"><figcaption><strong>Moving a crate</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-134-indoor-push__first-person.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: First-person hands behind a wooden box in a sunlit industrial interior (Indoor; first person view)"><figcaption><strong>Pushing a wooden box</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-023-indoor-sit__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A seated person facing three people in a room rendered in an ink-wash style (Indoor; third person view)"><figcaption><strong>Sitting down</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-028-indoor-crowd__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: People and a cart sharing a glass-fronted office corridor (Indoor; third person view)"><figcaption><strong>Navigating a crowd</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-033-indoor-carryStairs__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A person near warehouse stairs and a raised loading platform (Indoor; third person view)"><figcaption><strong>Carrying upstairs</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-138-indoor-carryChair__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A person carrying a chair through an office corridor with other people nearby (Indoor; third person view)"><figcaption><strong>Carrying a chair</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-030-indoor-cart__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A person with a shopping cart among store shelves and other shoppers (Indoor; third person view)"><figcaption><strong>Pushing a shopping cart</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-126-indoor-stairs__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A person approaching steps at a modern building entrance (Indoor; third person view)"><figcaption><strong>Climbing stairs</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-051-nature-slope__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: People on a rocky mountain trail in an ink-wash landscape (Nature; third person view)"><figcaption><strong>Walking on rocky terrain</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-056-nature-slide__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: People and a vehicle on an icy path through a snowy forest (Nature; third person view)"><figcaption><strong>Sliding on ice</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-074-sky-helicopter__first-person.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: Cockpit view over a coastal town with an aircraft ahead (Sky; first person view)"><figcaption><strong>Helicopter flight</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-079-racing-racing__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: Cars on a racing track bordered by pine trees (Racing; third person view)"><figcaption><strong>Racing through a forest</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-084-racing-racing__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: Two cars beneath a track gantry on a reflective wet racing circuit (Racing; third person view)"><figcaption><strong>Racing on a wet track</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-091-fantasy-walk__first-person.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: First-person view of people along a path through a stylized cave (Fantasy; first person view)"><figcaption><strong>Exploring a cave</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-094-fantasy-walk__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: People on a path through a misty forest with oversized trees (Fantasy; third person view)"><figcaption><strong>Exploring a fantasy forest</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-100-fantasy-walk__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: People among cacti and unusual rock formations in a stylized desert (Fantasy; third person view)"><figcaption><strong>Exploring a desert</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-150-nature-dog-encounter__first-person.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A dog on a snow-covered forest path (Nature; first person view)"><figcaption><strong>Dog on a snowy trail</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-160-indoor-cat-encounter__first-person.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A cat crossing a sunlit living-room floor (Indoor; first person view)"><figcaption><strong>Cat in a sunlit room</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-168-city-rabbit-encounter__first-person.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A rabbit on a wet paved park plaza (Urban; first person view)"><figcaption><strong>Rabbit in an urban park</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-174-nature-bird-encounter__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A person beneath flying birds in a grassy field (Nature; third person view)"><figcaption><strong>Birds over grassland</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-186-city-duck-encounter__first-person.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A duck on a rain-soaked plaza beside trees and benches (Urban; first person view)"><figcaption><strong>Duck on a rainy plaza</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-200-underwater-fish-encounter__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A diver among colorful fish, kelp, and coral underwater (Underwater; third person view)"><figcaption><strong>Diving among fish</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-085-racing-racing__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: Cars on a forest race track beneath an illuminated gantry at dusk (Racing; third person view)"><figcaption><strong>Racing at dusk</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-114-city-push__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A stylized character with a wooden crate on a street beside workers and a van (Urban; third person view)"><figcaption><strong>Pushing a crate</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-123-indoor-sit__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A seated person facing other people in a dark room lit by overhead lamps (Indoor; third person view)"><figcaption><strong>Sitting in a dark room</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-130-indoor-cart__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A person pushing a shopping cart through a supermarket aisle (Indoor; third person view)"><figcaption><strong>Pushing a cart indoors</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-152-city-cat-encounter__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A stylized character and cats on a quiet residential street at sunset (Urban; third person view)"><figcaption><strong>Cats on a quiet street</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-153-city-cat-encounter__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A person and cats on a wet walkway beside trees and park benches (Urban; third person view)"><figcaption><strong>Cats in a city park</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-164-nature-rabbit-encounter__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A stylized character and rabbits leaving tracks on a snowy forest path (Nature; third person view)"><figcaption><strong>Rabbits in the snow</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-181-city-duck-encounter__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A person and ducks on a wet park walkway bordered by geometric trees (Urban; third person view)"><figcaption><strong>Ducks on a park walkway</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-184-city-duck-encounter__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A stylized person and ducks on a residential street with colorful houses (Urban; third person view)"><figcaption><strong>Ducks in a neighborhood</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-187-nature-duck-encounter__first-person.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: First-person view of a duck in grass beside a fence and a country house at dusk (Nature; first person view)"><figcaption><strong>Duck in the countryside</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-190-nature-duck-encounter__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A person and ducks on a snow-covered path among trees and houses (Nature; third person view)"><figcaption><strong>Ducks on a snowy path</strong></figcaption></figure>
+      <figure><img src="assets/benchmark-examples/dv200-199-underwater-fish-encounter__follow.jpg" width="672" height="378" loading="lazy" decoding="async" alt="First-frame appearance reference: A diver and fish above a sandy seabed with rocks and sparse aquatic plants (Underwater; third person view)"><figcaption><strong>Diving over the seabed</strong></figcaption></figure>
+    </div>
+  </section>
+</main>
+<footer id="authors" class="benchmark-attribution" aria-label="Authors and affiliations" tabindex="-1">
+  <p class="benchmark-authors">
+    <span>Zheng-Hui Huang<sup>△,*</sup></span>
+    <span>Guixu Lin<sup>△,*</sup></span>
+    <span>Yu-Ju Tsai<sup>△</sup></span>
+    <span>Jian-Kai Zhu</span>
+    <span>Fengbo Lan<sup>△</sup></span>
+    <span>Yu-Lun Liu</span>
+    <span>Yung-Yu Chuang</span>
+    <span>Kaipeng Zhang<sup>△,†</sup></span>
+    <span>Zhixiang Wang<sup>△,†</sup></span>
+  </p>
+  <p class="benchmark-credits">
+    <a href="https://alayalab.ai/" target="_blank" rel="noopener"><sup>△</sup> Alaya Lab</a>
+    <span>* Equal contribution.</span>
+    <span>† Correspondence: Zhixiang Wang (Project Lead), Kaipeng Zhang.</span>
+  </p>
+</footer>
+</body>
+</html>
