@@ -5,7 +5,7 @@
 <meta name="description" content="Do video models render what the program specifies? PROWBench evaluates generated videos against replayable world records across 170 cases, 200 selected views and 600 synchronized proxy videos.">
 <meta name="theme-color" content="#08090c"><meta property="og:type" content="website"><meta property="og:title" content="PROWBench · Do Video Models Render What the Program Specifies?"><meta property="og:description" content="A benchmark grounded in recorded world states and events, with Verified-FF and Unverified-FF settings, long-horizon memory, and independently generated synchronized views.">
 <title>PROWBench</title>
-<link rel="icon" href="favicon.svg?v=1050fdd87c29" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="styles.css?v=layout-20260928"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="playback-controls.css?v=aligned-20260928"><link rel="stylesheet" href="benchmark.css?v=d26f4af696d5">
+<link rel="icon" href="favicon.svg?v=1050fdd87c29" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="styles.css?v=layout-20260928"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="playback-controls.css?v=aligned-20260928"><link rel="stylesheet" href="benchmark.css?v=5f780857445e">
 <script src="assets/structural-inputs.js" defer></script><script src="gallery-player.js?v=quality-20260927" defer></script><script src="benchmark.js?v=paper-20261001" defer></script>
 </head>
 <body class="benchmark-page">
@@ -46,7 +46,7 @@
       <div class="takeaway-feature-copy">
         <p class="takeaway-label"><span class="takeaway-number">01</span> Entity control</p>
         <h3 id="takeaway-1-title">Explicit entity control makes the difference.</h3>
-        <p class="takeaway-description">Proxy-conditioned models follow entity trajectories more faithfully than models given camera control alone. Paired with a strong video prior, the proxy also helps realize the prescribed event timeline.</p>
+        <p class="takeaway-description">Proxy-conditioned models follow entity trajectories more faithfully than camera control alone. Strong video priors also help realize prescribed events.</p>
       </div>
       <div class="takeaway-evidence">
         <span class="takeaway-evidence-value">+0.14</span>
@@ -58,33 +58,33 @@
     <div class="takeaway-grid">
       <article class="takeaway-card" aria-labelledby="takeaway-2-title">
         <p class="takeaway-label"><span class="takeaway-number">02</span> Camera motion</p>
-        <h3 id="takeaway-2-title">The proxy already carries the camera.</h3>
-        <p class="takeaway-description">Rendered views encode the prescribed camera path. Proxy-only video models achieve camera control comparable to several models given explicit camera poses.</p>
+        <h3 id="takeaway-2-title">Proxies carry camera motion.</h3>
+        <p class="takeaway-description">Proxy videos encode the camera path, giving proxy-only models camera control comparable to several models using explicit poses.</p>
       </article>
       <article class="takeaway-card" aria-labelledby="takeaway-3-title">
         <p class="takeaway-label"><span class="takeaway-number">03</span> Video priors</p>
-        <h3 id="takeaway-3-title">Strong video priors go a long way.</h3>
-        <p class="takeaway-description">General-purpose video models are competitive with specialized renderers on short clips, across entity placement, camera control, and event alignment.</p>
+        <h3 id="takeaway-3-title">Strong priors handle short clips.</h3>
+        <p class="takeaway-description">General-purpose video models compete with specialized renderers on short clips in placement, camera control, and event alignment.</p>
       </article>
       <article class="takeaway-card" aria-labelledby="takeaway-4-title">
         <p class="takeaway-label"><span class="takeaway-number">04</span> Targeted training</p>
-        <h3 id="takeaway-4-title">Fine-tuning needs a clear target.</h3>
-        <p class="takeaway-description">Fine-tuning brings mixed gains. Dedicated training still helps with domain-specific events, where correct placement alone does not ensure the prescribed outcome.</p>
+        <h3 id="takeaway-4-title">Training gains depend on the task.</h3>
+        <p class="takeaway-description">Fine-tuning brings mixed gains; dedicated training still helps execute domain-specific events and their prescribed outcomes.</p>
       </article>
       <article class="takeaway-card" aria-labelledby="takeaway-5-title">
         <p class="takeaway-label"><span class="takeaway-number">05</span> Proxy design</p>
         <h3 id="takeaway-5-title">Identity needs more than a box.</h3>
-        <p class="takeaway-description">Boxes constrain where entities go, but appearance, facing direction, and articulation can remain ambiguous. Better proxies need to bind each identity to its intended appearance.</p>
+        <p class="takeaway-description">Boxes constrain motion but can leave appearance, facing, and articulation ambiguous. Proxies still need stronger identity binding.</p>
       </article>
       <article class="takeaway-card" aria-labelledby="takeaway-6-title">
         <p class="takeaway-label"><span class="takeaway-number">06</span> Memory &amp; multi-view</p>
         <h3 id="takeaway-6-title">Memory and identity remain open.</h3>
-        <p class="takeaway-description">Entity control degrades over 30 seconds, especially after re-entry. Independently generated views can agree geometrically while depicting different participant appearances.</p>
+        <p class="takeaway-description">Entity alignment weakens over 30 seconds and after re-entry. Geometrically consistent views can still disagree on participant appearance.</p>
       </article>
       <article class="takeaway-card" aria-labelledby="takeaway-7-title">
         <p class="takeaway-label"><span class="takeaway-number">07</span> Faithful evaluation</p>
-        <h3 id="takeaway-7-title">Evaluate what the program specifies.</h3>
-        <p class="takeaway-description">Interaction Success and Logic-Render Alignment reveal errors that placement and visual-quality scores miss. Judge-based scores and small challenge sets still limit the conclusions.</p>
+        <h3 id="takeaway-7-title">Measure the prescribed events.</h3>
+        <p class="takeaway-description">Interaction Success and Logic-Render Alignment expose failures that placement and visual scores miss. Judge calibration and small challenge sets remain limitations.</p>
       </article>
     </div>
 

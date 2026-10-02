@@ -45,32 +45,32 @@
 .benchmark-tldr p { color: var(--muted); font-size: 17px; line-height: 1.75; }
 .benchmark-tldr strong { color: var(--ink); font-weight: 500; }
 .benchmark-section { margin-top: 52px; }
-#dataset { margin-top: 42px; }
+#dataset { margin-top: 32px; }
 .benchmark-section-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 24px; margin-bottom: 22px; }
 .benchmark-section-head h2 { font: 500 clamp(27px, 3vw, 32px)/1.2 var(--serif); letter-spacing: -.025em; }
 .benchmark-section-head p { color: var(--faint); font-size: 13px; line-height: 1.5; }
 
 /* Findings from Section 4.5: one lead result, followed by six concise takeaways. */
-.takeaways-head { align-items: end; margin-bottom: 20px; }
+.takeaways-head { align-items: end; margin-bottom: 14px; }
 .takeaway-feature {
-  display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 40px; align-items: center;
-  padding: 30px 32px; border: 1px solid rgba(223, 189, 125, .24); border-radius: 12px;
+  display: grid; grid-template-columns: minmax(0, 1fr) 238px; gap: 26px; align-items: center;
+  padding: 20px 24px; border: 1px solid rgba(223, 189, 125, .24); border-radius: 12px;
   background: linear-gradient(115deg, rgba(223, 189, 125, .065), rgba(223, 189, 125, .015));
 }
-.takeaway-label { display: flex; align-items: center; gap: 12px; color: var(--faint); font-size: 11px; font-weight: 500; line-height: 1.5; letter-spacing: .09em; text-transform: uppercase; }
+.takeaway-label { display: flex; align-items: center; gap: 9px; color: var(--faint); font-size: 11px; font-weight: 500; line-height: 1.5; letter-spacing: .09em; text-transform: uppercase; }
 .takeaway-number { color: var(--gold); font-size: 12px; letter-spacing: .04em; font-variant-numeric: tabular-nums; }
-.takeaway-feature h3 { max-width: 24ch; margin-top: 13px; font: 500 clamp(25px, 2.8vw, 32px)/1.25 var(--serif); letter-spacing: -.025em; text-wrap: balance; }
-.takeaway-description { margin-top: 12px; color: var(--muted); font-size: 14px; line-height: 1.75; }
-.takeaway-feature .takeaway-description { max-width: 68ch; }
-.takeaway-evidence { display: flex; flex-direction: column; justify-content: center; padding-left: 32px; border-left: 1px solid rgba(223, 189, 125, .2); }
-.takeaway-evidence-value { color: var(--gold); font: 450 clamp(50px, 5vw, 64px)/1.08 var(--serif); letter-spacing: -.045em; font-variant-numeric: tabular-nums; }
-.takeaway-evidence-label { margin-top: 9px; color: var(--ink); font-size: 13px; font-weight: 500; line-height: 1.5; }
-.takeaway-evidence p { margin-top: 7px; color: var(--faint); font-size: 11px; line-height: 1.7; }
-.takeaway-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 14px; }
-.takeaway-card { min-width: 0; padding: 24px; border: 1px solid var(--line); border-radius: 10px; background: rgba(243, 240, 233, .018); }
-.takeaway-card h3 { min-height: 2.8em; margin-top: 16px; color: var(--ink); font-size: 19px; font-weight: 500; line-height: 1.4; letter-spacing: -.025em; text-wrap: balance; }
-.takeaway-card .takeaway-description { margin-top: 10px; font-size: 13px; }
-.takeaways-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px; padding-top: 18px; }
+.takeaway-feature h3 { max-width: none; margin-top: 8px; font: 500 clamp(23px, 2.6vw, 28px)/1.25 var(--serif); letter-spacing: -.025em; text-wrap: balance; }
+.takeaway-description { margin-top: 8px; color: var(--muted); font-size: 14px; line-height: 1.6; }
+.takeaway-feature .takeaway-description { max-width: 86ch; }
+.takeaway-evidence { display: flex; flex-direction: column; justify-content: center; padding-left: 24px; border-left: 1px solid rgba(223, 189, 125, .2); }
+.takeaway-evidence-value { color: var(--gold); font: 450 clamp(44px, 4vw, 50px)/1.08 var(--serif); letter-spacing: -.045em; font-variant-numeric: tabular-nums; }
+.takeaway-evidence-label { margin-top: 5px; color: var(--ink); font-size: 13px; font-weight: 500; line-height: 1.5; }
+.takeaway-evidence p { margin-top: 4px; color: var(--faint); font-size: 11px; line-height: 1.5; }
+.takeaway-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 10px; }
+.takeaway-card { min-width: 0; padding: 18px; border: 1px solid var(--line); border-radius: 10px; background: rgba(243, 240, 233, .018); }
+.takeaway-card h3 { margin-top: 8px; color: var(--ink); font-size: 18px; font-weight: 500; line-height: 1.4; letter-spacing: -.025em; text-wrap: balance; }
+.takeaway-card .takeaway-description { margin-top: 8px; font-size: 13px; }
+.takeaways-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px; padding-top: 10px; }
 .takeaways-footer a { display: inline-flex; align-items: baseline; gap: 5px; padding-block: 5px; color: var(--muted); font-size: 12px; line-height: 1.5; transition: color .15s; }
 .takeaways-footer a:last-child { color: var(--gold); }
 .takeaways-footer a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
@@ -105,7 +105,7 @@
 
 @media (max-width: 960px) {
   .scene-examples { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .takeaway-feature { grid-template-columns: minmax(0, 1fr) 240px; gap: 24px; padding: 26px; }
+  .takeaway-feature { grid-template-columns: minmax(0, 1fr) 200px; gap: 20px; padding: 20px; }
   .takeaway-evidence { padding-left: 24px; }
   .takeaway-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
@@ -115,16 +115,17 @@
   .benchmark-tldr p { font-size: 16px; }
   .benchmark-section { margin-top: 40px; }
   .benchmark-section-head { gap: 7px; margin-bottom: 18px; }
-  .takeaways-head { align-items: start; flex-direction: column; }
-  .takeaway-feature { grid-template-columns: 1fr; gap: 22px; padding: 24px; }
-  .takeaway-feature h3 { max-width: 26ch; }
-  .takeaway-evidence { padding: 18px 0 0; border-left: 0; border-top: 1px solid rgba(223, 189, 125, .2); }
-  .takeaway-evidence-value { font-size: 48px; }
+  .takeaways-head { align-items: start; flex-direction: column; gap: 4px; margin-bottom: 12px; }
+  .takeaway-feature { grid-template-columns: 1fr; gap: 16px; padding: 18px; }
+  .takeaway-feature h3 { max-width: none; }
+  .takeaway-evidence { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 3px 14px; align-items: center; padding: 12px 0 0; border-left: 0; border-top: 1px solid rgba(223, 189, 125, .2); }
+  .takeaway-evidence-value { grid-row: 1 / span 2; font-size: 42px; }
+  .takeaway-evidence-label, .takeaway-evidence p { margin-top: 0; }
   .takeaway-evidence p br { display: none; }
-  .takeaway-grid { grid-template-columns: 1fr; gap: 12px; margin-top: 12px; }
-  .takeaway-card { padding: 22px 24px; }
-  .takeaway-card h3 { min-height: 0; margin-top: 12px; }
-  .takeaways-footer { gap: 8px 16px; padding-top: 14px; }
+  .takeaway-grid { grid-template-columns: 1fr; gap: 9px; margin-top: 9px; }
+  .takeaway-card { padding: 16px 18px; }
+  .takeaway-card h3 { margin-top: 8px; }
+  .takeaways-footer { gap: 6px 16px; padding-top: 10px; }
   .benchmark-input-head { align-items: stretch; flex-direction: column; gap: 16px; }
   .structural-example-picker select { width: 100%; }
   .benchmark-page .representation-grid { grid-template-columns: 1fr; gap: 20px; }
