@@ -50,12 +50,14 @@
 .benchmark-section-head h2 { font: 500 clamp(27px, 3vw, 32px)/1.2 var(--serif); letter-spacing: -.025em; }
 .benchmark-section-head p { color: var(--faint); font-size: 13px; line-height: 1.5; }
 
-/* Paper takeaways: one complete sentence per row. */
-.takeaways-head { margin-bottom: 14px; }
-.takeaways-list { margin: 0; padding: 0; list-style: none; counter-reset: takeaway; border-top: 1px solid var(--line); }
-.takeaways-list li { counter-increment: takeaway; display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--line); color: var(--muted); font-size: 15px; line-height: 1.65; }
-.takeaways-list li::before { content: counter(takeaway, decimal-leading-zero); color: var(--gold); font: 500 12px/2.05 var(--sans); font-variant-numeric: tabular-nums; }
+/* Paper takeaways: one sentence per row with quiet inline emphasis. */
+.takeaways-head { margin-bottom: 16px; }
+.takeaways-list { margin: 0; padding: 4px 20px; list-style: none; border: 1px solid rgba(223, 189, 125, .16); border-radius: 10px; background: linear-gradient(115deg, rgba(223, 189, 125, .035), rgba(243, 240, 233, .008)); }
+.takeaways-list li { display: grid; grid-template-columns: 28px minmax(0, 1fr); align-items: center; gap: 18px; padding: 12px 0; color: var(--muted); font-size: 15px; line-height: 1.65; }
+.takeaways-list li + li { border-top: 1px solid rgba(243, 240, 233, .075); }
+.takeaways-list .takeaway-index { display: grid; place-items: center; width: 28px; height: 28px; border: 1px solid rgba(223, 189, 125, .22); border-radius: 50%; background: rgba(223, 189, 125, .045); color: var(--gold); font: 500 11px/1 var(--sans); letter-spacing: .02em; font-variant-numeric: tabular-nums; }
 .takeaways-list li > span { min-width: 0; }
+.takeaways-list strong { color: var(--ink); font-weight: 500; }
 
 .benchmark-section-intro { max-width: 95ch; margin: -4px 0 20px; color: var(--muted); font-size: 14px; line-height: 1.7; }
 
@@ -95,8 +97,9 @@
   .benchmark-section { margin-top: 40px; }
   .benchmark-section-head { gap: 7px; margin-bottom: 18px; }
   .takeaways-head { margin-bottom: 12px; }
-  .takeaways-list li { gap: 10px; padding-block: 10px; font-size: 14px; line-height: 1.6; }
-  .takeaways-list li::before { line-height: 1.87; }
+  .takeaways-list { padding: 2px 12px; border-radius: 8px; }
+  .takeaways-list li { grid-template-columns: 24px minmax(0, 1fr); align-items: start; gap: 12px; padding-block: 11px; font-size: 14px; line-height: 1.6; }
+  .takeaways-list .takeaway-index { width: 24px; height: 24px; font-size: 10px; }
   .benchmark-input-head { align-items: stretch; flex-direction: column; gap: 16px; }
   .structural-example-picker select { width: 100%; }
   .benchmark-page .representation-grid { grid-template-columns: 1fr; gap: 20px; }
