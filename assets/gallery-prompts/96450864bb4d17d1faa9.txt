@@ -1,0 +1,365 @@
+Scene: long30-017-home-camera__follow
+Method: MiniMax-H3
+Camera: follow
+
+Window 1
+Reference interval: [0, 5.166666667) s
+New frames in delivered video: [0, 5.166666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. This is the opening window.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Graphic non-photorealistic rendering, coloured pencil sketch look: layered pencil hatching in muted colours over a white paper ground, visible paper grain, hand-drawn contour lines, drawn over the full 3D world so every recorded shape stays readable; soft coloured-pencil hues of teal, peach and warm brown on cream paper; cosy window light from one side of the room; visible paper tooth under the pencil strokes; layered scribbled tone; background fading out to blank paper at the edges; character design: figures in quick gesture lines; the whole frame must read as a flat hand-made drawing or print on paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The wheeled handcart is a low horizontal steel platform utility cart with a flat bed and rubber wheels, sketched in slate grey with subtle shading to indicate its metallic surface. The independently moving adult participant 1 is an office worker with neat short chestnut hair, wearing an ivory shirt with a plum tie, charcoal suit trousers, and polished oxford shoes. The independently moving adult participant 2 is a chef with dark hair under a cap, wearing an ivory double-breasted chef jacket, houndstooth trousers, and black kitchen clogs. The person pushing the wheeled handcart is a mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots. Every described entity retains this appearance only while visible in the reference.
+
+
+
+Opening identity, scale and orientation binding (only at the stated initial time; subsequent motion follows <Video 1>):
+At the opening, a wheeled handcart is number 3 from screen-left, centred about 56% across and 36% down the image, about 6% of image height, farthest in the background, seen from the rear, with its rear end visible and its front pointing deeper into the scene.
+At the opening, the protagonist is number 2 from screen-left, centred about 50% across and 55% down the image, about 39% of image height, nearest in the foreground, seen from behind, with the back of the head and the back of the clothing visible.
+At the opening, the independently moving adult participant 1 is leftmost, centred about 42% across and 37% down the image, about 13% of image height, at an intermediate depth, seen from behind, with the back of the head and the back of the clothing visible.
+At the opening, the person pushing the wheeled handcart is number 4 from screen-left, centred about 57% across and 34% down the image, about 10% of image height, at an intermediate depth, seen from behind, with the back of the head and the back of the clothing visible.
+At the opening, the independently moving adult participant 2 is rightmost, centred about 60% across and 38% down the image, about 15% of image height, at an intermediate depth, seen from behind, with the back of the head and the back of the clothing visible.
+
+Exact current reference visibility (local half-open intervals):
+a wheeled handcart: visible only during [0.000000,5.166667)s.
+the protagonist: visible only during [0.000000,5.166667)s.
+the independently moving adult participant 1: visible only during [0.000000,5.166667)s.
+the person pushing the wheeled handcart: visible only during [0.000000,5.166667)s.
+the independently moving adult participant 2: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+The cart has a low horizontal platform and a small upright handle. It is the small distant object beside its pusher, at the recorded position and scale. The mechanic holds the handle and pushes it; their motion stays physically connected.
+
+Spatial fidelity: the positions and sizes are constraints on the whole visible body, from head to feet, not suggestions for a new composition. Preserve each entity's horizontal and vertical extent at every frame. Preserve the reference depth order, ground-contact position and partial occlusions as the sequence progresses.
+
+During [4.625,5.167)s, the protagonist walks with alternating left and right steps, visible knee and ankle articulation, lifting each advancing foot and planting each supporting foot on the ground. The supporting foot stays planted during contact; body translation is produced by these steps. Keep the orientation and path from the reference.
+
+During [0.000,5.167)s, the independently moving adult participant 1 walks with alternating left and right steps, visible knee and ankle articulation, lifting each advancing foot and planting each supporting foot on the ground. The supporting foot stays planted during contact; body translation is produced by these steps. Keep the orientation and path from the reference.
+
+During [0.000,5.167)s, the person pushing the wheeled handcart walks with alternating left and right steps, visible knee and ankle articulation, lifting each advancing foot and planting each supporting foot on the ground. The supporting foot stays planted during contact; body translation is produced by these steps. Keep the orientation and path from the reference.
+
+During [0.000,5.167)s, the independently moving adult participant 2 walks with alternating left and right steps, visible knee and ankle articulation, lifting each advancing foot and planting each supporting foot on the ground. The supporting foot stays planted during contact; body translation is produced by these steps. Keep the orientation and path from the reference.
+
+When a person is stationary in the reference, keep the body stationary instead of continuing the walking cycle.
+
+Opening screen-space anatomy landmarks (vertical percentages measured from the TOP edge; horizontal from LEFT):
+a wheeled handcart: upper edge at 33.0% of image height, lower edge at 39.0% of image height, body centre at 56.0% of image width. Preserve this full upper-to-lower extent; do not enlarge distant objects for readability.
+the protagonist: head-top at 35.5% of image height, feet at 74.5% of image height, body centre at 50.0% of image width. Preserve this full head-to-feet extent; do not enlarge distant people for readability.
+the independently moving adult participant 1: head-top at 30.5% of image height, feet at 43.5% of image height, body centre at 42.0% of image width. Preserve this full head-to-feet extent; do not enlarge distant people for readability.
+the person pushing the wheeled handcart: upper edge at 29.0% of image height, lower edge at 39.0% of image height, body centre at 57.0% of image width. Preserve this full upper-to-lower extent; do not enlarge distant objects for readability.
+the independently moving adult participant 2: head-top at 30.5% of image height, feet at 45.5% of image height, body centre at 60.0% of image width. Preserve this full head-to-feet extent; do not enlarge distant people for readability.
+The reference ground-contact locations and occlusions take priority over decorative scenery.
+
+Current-window correction:
+Show exactly four people, with only one mechanic pushing the cart and facing away. Keep the maroon-hoodie protagonist centred at the specified size, and keep the other three people and cart at their specified distant positions and sizes.
+Current-window correction:
+Keep the mechanic facing away and holding the low cart's handle. Restore the protagonist's specified height and keep the office worker, mechanic, chef and cart at their specified distant sizes and positions within the existing room.
+Current-window correction:
+Keep the mechanic facing away while holding the low cart's handle. Restore all four people's specified heights and positions, keeping the office worker, mechanic, chef and cart small and distant.
+
+Window 2
+Reference interval: [3.75, 8.916666667) s
+New frames in delivered video: [5.166666667, 8.916666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Graphic non-photorealistic rendering, coloured pencil sketch look: layered pencil hatching in muted colours over a white paper ground, visible paper grain, hand-drawn contour lines, drawn over the full 3D world so every recorded shape stays readable; soft coloured-pencil hues of teal, peach and warm brown on cream paper; cosy window light from one side of the room; visible paper tooth under the pencil strokes; layered scribbled tone; background fading out to blank paper at the edges; character design: figures in quick gesture lines; the whole frame must read as a flat hand-made drawing or print on paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels, sketched in slate grey with subtle shading to indicate its metallic surface. The independently moving adult participant 1 is an office worker with neat short chestnut hair, wearing an ivory shirt with a plum tie, charcoal suit trousers, and polished oxford shoes. The independently moving adult participant 2 is a chef with dark hair under a cap, wearing an ivory double-breasted chef jacket, houndstooth trousers, and black kitchen clogs. The person pushing the wheeled handcart is a mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. Warm tungsten lamps mixed with window daylight cast soft, directional light from the left, creating gentle shadows and highlighting dust motes floating in the air. The whole frame is one finished image in this look: Graphic non-photorealistic rendering, coloured pencil sketch look. There are no trees in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+a wheeled handcart: visible only during [0.000000,1.916667)s.
+the protagonist: visible only during [0.000000,5.166667)s.
+the independently moving adult participant 1: visible only during [0.000000,2.250000)s, [2.583333,3.291667)s.
+the person pushing the wheeled handcart: visible only during [0.000000,1.958333)s.
+the independently moving adult participant 2: visible only during [0.000000,1.916667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 3
+Reference interval: [7.5, 12.666666667) s
+New frames in delivered video: [8.916666667, 12.666666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Graphic non-photorealistic rendering, coloured pencil sketch look: layered pencil hatching in muted colours over a white paper ground, visible paper grain, hand-drawn contour lines, drawn over the full 3D world so every recorded shape stays readable; soft coloured-pencil hues of teal, peach and warm brown on cream paper; cosy window light from one side of the room; visible paper tooth under the pencil strokes; layered scribbled tone; background fading out to blank paper at the edges; character design: figures in quick gesture lines; the whole frame must read as a flat hand-made drawing or print on paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. Warm tungsten lamps mixed with window daylight cast soft, directional light from the left, creating gentle shadows and highlighting dust motes floating in the air. The whole frame is one finished image in this look: Graphic non-photorealistic rendering, coloured pencil sketch look. There are no trees in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+the protagonist: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 4
+Reference interval: [11.25, 16.416666667) s
+New frames in delivered video: [12.666666667, 16.416666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Graphic non-photorealistic rendering, coloured pencil sketch look: layered pencil hatching in muted colours over a white paper ground, visible paper grain, hand-drawn contour lines, drawn over the full 3D world so every recorded shape stays readable; soft coloured-pencil hues of teal, peach and warm brown on cream paper; cosy window light from one side of the room; visible paper tooth under the pencil strokes; layered scribbled tone; background fading out to blank paper at the edges; character design: figures in quick gesture lines; the whole frame must read as a flat hand-made drawing or print on paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels, sketched in slate grey with subtle shading to indicate its metallic surface. The independently moving adult participant 1 is an office worker with neat short chestnut hair, wearing an ivory shirt with a plum tie, charcoal suit trousers, and polished oxford shoes. The independently moving adult participant 2 is a chef with dark hair under a cap, wearing an ivory double-breasted chef jacket, houndstooth trousers, and black kitchen clogs. The person pushing the wheeled handcart is a mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. Warm tungsten lamps mixed with window daylight cast soft, directional light from the left, creating gentle shadows and highlighting dust motes floating in the air. The whole frame is one finished image in this look: Graphic non-photorealistic rendering, coloured pencil sketch look. There are no trees in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+the protagonist: visible only during [0.000000,5.166667)s.
+the independently moving adult participant 1: visible only during [3.833333,5.166667)s.
+the independently moving adult participant 2: visible only during [4.291667,5.166667)s.
+the person pushing the wheeled handcart: visible only during [4.333333,5.166667)s.
+a wheeled handcart: visible only during [4.375000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 5
+Reference interval: [15, 20.166666667) s
+New frames in delivered video: [16.416666667, 20.166666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Graphic non-photorealistic rendering, coloured pencil sketch look: layered pencil hatching in muted colours over a white paper ground, visible paper grain, hand-drawn contour lines, drawn over the full 3D world so every recorded shape stays readable; soft coloured-pencil hues of teal, peach and warm brown on cream paper; cosy window light from one side of the room; visible paper tooth under the pencil strokes; layered scribbled tone; background fading out to blank paper at the edges; character design: figures in quick gesture lines; the whole frame must read as a flat hand-made drawing or print on paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels, sketched in slate grey with subtle shading to indicate its metallic surface. The independently moving adult participant 1 is an office worker with neat short chestnut hair, wearing an ivory shirt with a plum tie, charcoal suit trousers, and polished oxford shoes. The independently moving adult participant 2 is a chef with dark hair under a cap, wearing an ivory double-breasted chef jacket, houndstooth trousers, and black kitchen clogs. The person pushing the wheeled handcart is a mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. Warm tungsten lamps mixed with window daylight cast soft, directional light from the left, creating gentle shadows and highlighting dust motes floating in the air. The whole frame is one finished image in this look: Graphic non-photorealistic rendering, coloured pencil sketch look. There are no trees in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+the protagonist: visible only during [0.000000,5.166667)s.
+the independently moving adult participant 1: visible only during [0.083333,2.500000)s.
+the independently moving adult participant 2: visible only during [0.541667,3.375000)s.
+the person pushing the wheeled handcart: visible only during [0.583333,2.791667)s.
+a wheeled handcart: visible only during [0.625000,2.750000)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 6
+Reference interval: [18.75, 23.916666667) s
+New frames in delivered video: [20.166666667, 23.916666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Graphic non-photorealistic rendering, coloured pencil sketch look: layered pencil hatching in muted colours over a white paper ground, visible paper grain, hand-drawn contour lines, drawn over the full 3D world so every recorded shape stays readable; soft coloured-pencil hues of teal, peach and warm brown on cream paper; cosy window light from one side of the room; visible paper tooth under the pencil strokes; layered scribbled tone; background fading out to blank paper at the edges; character design: figures in quick gesture lines; the whole frame must read as a flat hand-made drawing or print on paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. Warm tungsten lamps mixed with window daylight cast soft, directional light from the left, creating gentle shadows and highlighting dust motes floating in the air. The whole frame is one finished image in this look: Graphic non-photorealistic rendering, coloured pencil sketch look. There are no trees in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+the protagonist: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 7
+Reference interval: [22.5, 27.666666667) s
+New frames in delivered video: [23.916666667, 27.666666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Graphic non-photorealistic rendering, coloured pencil sketch look: layered pencil hatching in muted colours over a white paper ground, visible paper grain, hand-drawn contour lines, drawn over the full 3D world so every recorded shape stays readable; soft coloured-pencil hues of teal, peach and warm brown on cream paper; cosy window light from one side of the room; visible paper tooth under the pencil strokes; layered scribbled tone; background fading out to blank paper at the edges; character design: figures in quick gesture lines; the whole frame must read as a flat hand-made drawing or print on paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels, sketched in slate grey with subtle shading to indicate its metallic surface. The independently moving adult participant 1 is an office worker with neat short chestnut hair, wearing an ivory shirt with a plum tie, charcoal suit trousers, and polished oxford shoes. The independently moving adult participant 2 is a chef with dark hair under a cap, wearing an ivory double-breasted chef jacket, houndstooth trousers, and black kitchen clogs. The person pushing the wheeled handcart is a mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. Warm tungsten lamps mixed with window daylight cast soft, directional light from the left, creating gentle shadows and highlighting dust motes floating in the air. The whole frame is one finished image in this look: Graphic non-photorealistic rendering, coloured pencil sketch look. There are no trees in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+the protagonist: visible only during [0.000000,5.166667)s.
+the independently moving adult participant 2: visible only during [2.166667,5.166667)s.
+the person pushing the wheeled handcart: visible only during [3.041667,5.166667)s.
+a wheeled handcart: visible only during [3.083333,5.166667)s.
+the independently moving adult participant 1: visible only during [3.583333,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 8
+Reference interval: [26.25, 31.416666667) s
+New frames in delivered video: [27.666666667, 30) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Graphic non-photorealistic rendering, coloured pencil sketch look: layered pencil hatching in muted colours over a white paper ground, visible paper grain, hand-drawn contour lines, drawn over the full 3D world so every recorded shape stays readable; soft coloured-pencil hues of teal, peach and warm brown on cream paper; cosy window light from one side of the room; visible paper tooth under the pencil strokes; layered scribbled tone; background fading out to blank paper at the edges; character design: figures in quick gesture lines; the whole frame must read as a flat hand-made drawing or print on paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels, sketched in slate grey with subtle shading to indicate its metallic surface. The independently moving adult participant 1 is an office worker with neat short chestnut hair, wearing an ivory shirt with a plum tie, charcoal suit trousers, and polished oxford shoes. The independently moving adult participant 2 is a chef with dark hair under a cap, wearing an ivory double-breasted chef jacket, houndstooth trousers, and black kitchen clogs. The person pushing the wheeled handcart is a mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. Warm tungsten lamps mixed with window daylight cast soft, directional light from the left, creating gentle shadows and highlighting dust motes floating in the air. The whole frame is one finished image in this look: Graphic non-photorealistic rendering, coloured pencil sketch look. There are no trees in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+a wheeled handcart: visible only during [0.000000,5.166667)s.
+the protagonist: visible only during [0.000000,5.166667)s.
+the independently moving adult participant 1: visible only during [0.000000,5.166667)s.
+the person pushing the wheeled handcart: visible only during [0.000000,5.166667)s.
+the independently moving adult participant 2: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+Only the source ends at local 3.750000 seconds in this final window; the remaining 1.416667 seconds are tail padding and will not be delivered.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Shared prompts
+
+System prompt 1
+Render the world in <Video 1>. The reference is authoritative for geometry, scale, visibility, count, orientation and motion timing. The user supplies appearance and style. Bind each named entity to its specified opening position and keep that identity throughout the clip; the opening layout is not a command to freeze later motion. Follow subsequent reference changes without inventing entities or actions.
+
+Colored structural placeholders are identity controls, not clothing or materials. The white face marks the entity's front. Its outward normal gives the forward direction. Transparency may expose the far-side white face; infer orientation from the complete 3D shape, never from white pixels or travel direction alone. Render the described real entities in place of the controls. No proxy markings, colored slabs, enclosing panels or wireframes appear in the output.
+
+Keep each entity's appearance consistent. Render only the entities visible in the reference at the stated times. No external first-frame image is supplied. Generate the opening directly from the structural reference and the stated appearance.

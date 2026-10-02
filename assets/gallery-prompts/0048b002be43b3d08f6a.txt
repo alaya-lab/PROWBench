@@ -1,0 +1,346 @@
+Scene: long30-016-urban-park-revisit__first-person
+Method: MiniMax-H3
+Camera: first-person
+
+Window 1
+Reference interval: [0, 5.166666667) s
+New frames in delivered video: [0, 5.166666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. This is the opening window.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: A realistic city park in soft daylight: mown lawn, gravel paths, benches, clipped hedges, mature trees and low railings, with natural human anatomy, believable scale and detailed physical materials.
+
+The wheeled handcart is a steel utility cart with a flat bed and rubber wheels. The independently moving adult participant 1 is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The independently moving adult participant 2 is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The person pushing the wheeled handcart is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference.
+
+
+
+Opening identity, scale and orientation binding (only at the stated initial time; subsequent motion follows <Video 1>):
+At the opening, the person pushing the wheeled handcart is number 3 from screen-left, centred about 36% across and 57% down the image, about 17% of image height, farthest in the background, seen from the front, with face and chest visible.
+At the opening, a wheeled handcart is number 2 from screen-left, centred about 34% across and 62% down the image, about 13% of image height, at an intermediate depth, seen from the front, with its front end visible.
+At the opening, the independently moving adult participant 1 is leftmost, centred about 27% across and 63% down the image, about 31% of image height, nearest in the foreground, seen from the front, with face and chest visible.
+At the opening, the independently moving adult participant 2 is rightmost, centred about 71% across and 60% down the image, about 24% of image height, at an intermediate depth, seen from behind, with the back of the head and the back of the clothing visible.
+
+Exact current reference visibility (local half-open intervals):
+the person pushing the wheeled handcart: visible only during [0.000000,4.041667)s.
+a wheeled handcart: visible only during [0.000000,4.041667)s.
+the independently moving adult participant 1: visible only during [0.000000,3.958333)s.
+the independently moving adult participant 2: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Opening screen-space anatomy landmarks (vertical percentages measured from the TOP edge; horizontal from LEFT):
+the person pushing the wheeled handcart: upper edge at 48.5% of image height, lower edge at 65.5% of image height, body centre at 36.0% of image width. Preserve this full upper-to-lower extent; do not enlarge distant objects for readability.
+a wheeled handcart: upper edge at 55.5% of image height, lower edge at 68.5% of image height, body centre at 34.0% of image width. Preserve this full upper-to-lower extent; do not enlarge distant objects for readability.
+the independently moving adult participant 1: head-top at 47.5% of image height, feet at 78.5% of image height, body centre at 27.0% of image width. Preserve this full head-to-feet extent; do not enlarge distant people for readability.
+the independently moving adult participant 2: head-top at 48.0% of image height, feet at 72.0% of image height, body centre at 71.0% of image width. Preserve this full head-to-feet extent; do not enlarge distant people for readability.
+The reference ground-contact locations and occlusions take priority over decorative scenery.
+
+The person holding and pushing the cart is the security guard with a shaved head, slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Preserve the stated distant size and keep the cart beside its pusher.
+
+During intervals where a person walks in the reference, show alternating stepping feet and bent knees, with each supporting foot planted on the ground during contact. Preserve stationary pauses.
+
+Current-window correction:
+Keep the tourist and security guard at their specified sizes and positions. The student leaves visibility by 3.958333 seconds, and the security guard and cart leave visibility by 4.041667 seconds.
+Current-window correction:
+Show only the student, tourist and one security guard. Keep the guard physically connected to the cart handle at the specified distant scale. Remove the student from visibility by 3.958333 seconds and the guard and cart by 4.041667 seconds; retain the tourist's specified size.
+Current-window correction:
+Restore the tourist's specified size and position and preserve the existing large right-side obstruction. Keep the security guard connected to the cart handle, with both leaving visibility by 4.041667 seconds.
+
+Window 2
+Reference interval: [3.75, 8.916666667) s
+New frames in delivered video: [5.166666667, 8.916666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: A realistic city park in soft daylight: mown lawn, gravel paths, benches, clipped hedges, mature trees and low railings, with natural human anatomy, believable scale and detailed physical materials.
+
+The wheeled handcart is a steel utility cart with a flat bed and rubber wheels. The independently moving adult participant 1 is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The independently moving adult participant 2 is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The person pushing the wheeled handcart is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a landscaped public park with branching paths, benches, trees and a paved plaza. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. The overcast sky provides diffuse, shadowless illumination with a cool colour temperature, creating a calm and muted atmosphere. Trees stand only where the conditioning reference shows them. 
+
+Exact current reference visibility (local half-open intervals):
+the person pushing the wheeled handcart: visible only during [0.000000,0.291667)s, [2.375000,5.166667)s.
+a wheeled handcart: visible only during [0.000000,0.291667)s, [2.583333,5.166667)s.
+the independently moving adult participant 1: visible only during [0.000000,0.208333)s.
+the independently moving adult participant 2: visible only during [0.000000,4.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 3
+Reference interval: [7.5, 12.666666667) s
+New frames in delivered video: [8.916666667, 12.666666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: A realistic city park in soft daylight: mown lawn, gravel paths, benches, clipped hedges, mature trees and low railings, with natural human anatomy, believable scale and detailed physical materials.
+
+The wheeled handcart is a steel utility cart with a flat bed and rubber wheels. The independently moving adult participant 2 is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The person pushing the wheeled handcart is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a landscaped public park with branching paths, benches, trees and a paved plaza. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. The overcast sky provides diffuse, shadowless illumination with a cool colour temperature, creating a calm and muted atmosphere. Trees stand only where the conditioning reference shows them. 
+
+Exact current reference visibility (local half-open intervals):
+the person pushing the wheeled handcart: visible only during [0.000000,2.125000)s.
+a wheeled handcart: visible only during [0.000000,1.916667)s.
+the independently moving adult participant 2: visible only during [0.000000,0.416667)s, [1.583333,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 4
+Reference interval: [11.25, 16.416666667) s
+New frames in delivered video: [12.666666667, 16.416666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: A realistic city park in soft daylight: mown lawn, gravel paths, benches, clipped hedges, mature trees and low railings, with natural human anatomy, believable scale and detailed physical materials.
+
+The independently moving adult participant 2 is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a landscaped public park with branching paths, benches, trees and a paved plaza. Preserve the reference spacing, masses and open routes. The overcast sky provides diffuse, shadowless illumination with a cool colour temperature, creating a calm and muted atmosphere. Trees stand only where the conditioning reference shows them. 
+
+Exact current reference visibility (local half-open intervals):
+the independently moving adult participant 2: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 5
+Reference interval: [15, 20.166666667) s
+New frames in delivered video: [16.416666667, 20.166666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: A realistic city park in soft daylight: mown lawn, gravel paths, benches, clipped hedges, mature trees and low railings, with natural human anatomy, believable scale and detailed physical materials.
+
+The wheeled handcart is a steel utility cart with a flat bed and rubber wheels. The independently moving adult participant 1 is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The independently moving adult participant 2 is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The person pushing the wheeled handcart is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a landscaped public park with branching paths, benches, trees and a paved plaza. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. The overcast sky provides diffuse, shadowless illumination with a cool colour temperature, creating a calm and muted atmosphere. Trees stand only where the conditioning reference shows them. 
+
+Exact current reference visibility (local half-open intervals):
+the independently moving adult participant 2: visible only during [0.000000,2.000000)s.
+the independently moving adult participant 1: visible only during [2.250000,5.166667)s.
+a wheeled handcart: visible only during [2.333333,5.166667)s.
+the person pushing the wheeled handcart: visible only during [2.375000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 6
+Reference interval: [18.75, 23.916666667) s
+New frames in delivered video: [20.166666667, 23.916666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: A realistic city park in soft daylight: mown lawn, gravel paths, benches, clipped hedges, mature trees and low railings, with natural human anatomy, believable scale and detailed physical materials.
+
+The wheeled handcart is a steel utility cart with a flat bed and rubber wheels. The independently moving adult participant 1 is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The person pushing the wheeled handcart is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a landscaped public park with branching paths, benches, trees and a paved plaza. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. The overcast sky provides diffuse, shadowless illumination with a cool colour temperature, creating a calm and muted atmosphere. Trees stand only where the conditioning reference shows them. 
+
+Exact current reference visibility (local half-open intervals):
+the person pushing the wheeled handcart: visible only during [0.000000,2.333333)s, [3.916667,5.166667)s.
+a wheeled handcart: visible only during [0.000000,2.500000)s, [3.666667,5.166667)s.
+the independently moving adult participant 1: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 7
+Reference interval: [22.5, 27.666666667) s
+New frames in delivered video: [23.916666667, 27.666666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: A realistic city park in soft daylight: mown lawn, gravel paths, benches, clipped hedges, mature trees and low railings, with natural human anatomy, believable scale and detailed physical materials.
+
+The wheeled handcart is a steel utility cart with a flat bed and rubber wheels. The independently moving adult participant 1 is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The person pushing the wheeled handcart is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a landscaped public park with branching paths, benches, trees and a paved plaza. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. The overcast sky provides diffuse, shadowless illumination with a cool colour temperature, creating a calm and muted atmosphere. Trees stand only where the conditioning reference shows them. 
+
+Exact current reference visibility (local half-open intervals):
+a wheeled handcart: visible only during [0.000000,5.166667)s.
+the independently moving adult participant 1: visible only during [0.000000,5.166667)s.
+the person pushing the wheeled handcart: visible only during [0.166667,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 8
+Reference interval: [26.25, 31.416666667) s
+New frames in delivered video: [27.666666667, 30) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: A realistic city park in soft daylight: mown lawn, gravel paths, benches, clipped hedges, mature trees and low railings, with natural human anatomy, believable scale and detailed physical materials.
+
+The wheeled handcart is a steel utility cart with a flat bed and rubber wheels. The independently moving adult participant 1 is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The person pushing the wheeled handcart is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a landscaped public park with branching paths, benches, trees and a paved plaza. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. The overcast sky provides diffuse, shadowless illumination with a cool colour temperature, creating a calm and muted atmosphere. Trees stand only where the conditioning reference shows them. 
+
+Exact current reference visibility (local half-open intervals):
+the person pushing the wheeled handcart: visible only during [0.000000,5.166667)s.
+a wheeled handcart: visible only during [0.000000,5.166667)s.
+the independently moving adult participant 1: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+Only the source ends at local 3.750000 seconds in this final window; the remaining 1.416667 seconds are tail padding and will not be delivered.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Shared prompts
+
+System prompt 1
+Render the world in <Video 1>. The reference is authoritative for geometry, scale, visibility, count, orientation and motion timing. The user supplies appearance and style. Bind each named entity to its specified opening position and keep that identity throughout the clip; the opening layout is not a command to freeze later motion. Follow subsequent reference changes without inventing entities or actions.
+
+Colored structural placeholders are identity controls, not clothing or materials. The white face marks the entity's front. Its outward normal gives the forward direction. Transparency may expose the far-side white face; infer orientation from the complete 3D shape, never from white pixels or travel direction alone. Render the described real entities in place of the controls. No proxy markings, colored slabs, enclosing panels or wireframes appear in the output.
+
+Keep each entity's appearance consistent. Render only the entities visible in the reference at the stated times. No external first-frame image is supplied. Generate the opening directly from the structural reference and the stated appearance.

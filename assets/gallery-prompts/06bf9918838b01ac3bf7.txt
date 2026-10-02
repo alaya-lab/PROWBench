@@ -1,0 +1,341 @@
+Scene: long30-004-mountain-long-return__first-person
+Method: MiniMax-H3
+Camera: first-person
+
+Window 1
+Reference interval: [0, 5.166666667) s
+New frames in delivered video: [0, 5.166666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. This is the opening window.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, figures at exactly the recorded scale, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: preserve the specified figure sizes; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The independent participant B is a park ranger with short grey hair under a wide-brim hat, wearing an olive ranger shirt, tan trousers, and brown boots. The independent participant C is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference.
+
+
+
+Opening identity, scale and orientation binding (only at the stated initial time; subsequent motion follows <Video 1>):
+At the opening, independent participant C is rightmost, centred about 59% across and 51% down the image, about 20% of image height, at an intermediate depth, seen from behind, with the back of the head and the back of the clothing visible.
+At the opening, independent participant B is leftmost, centred about 24% across and 58% down the image, about 40% of image height, nearest in the foreground, seen from behind, with the back of the head and the back of the clothing visible.
+At the opening, independent participant D is number 2 from screen-left, centred about 47% across and 47% down the image, about 12% of image height, farthest in the background, seen from behind, with the back of the head and the back of the clothing visible.
+
+Exact current reference visibility (local half-open intervals):
+independent participant C: visible only during [0.000000,5.166667)s.
+independent participant B: visible only during [0.000000,5.166667)s.
+independent participant D: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Spatial fidelity: the positions and sizes are constraints on the whole visible body, from head to feet, not suggestions for a new composition. Preserve each entity's horizontal and vertical extent at every frame. Preserve the reference depth order, ground-contact position and partial occlusions as the sequence progresses.
+
+During [0.000,5.167)s, independent participant C walks with alternating left and right steps, visible knee and ankle articulation, lifting each advancing foot and planting each supporting foot on the ground. The supporting foot stays planted during contact; body translation is produced by these steps. Keep the orientation and path from the reference.
+
+During [0.000,5.167)s, independent participant B walks with alternating left and right steps, visible knee and ankle articulation, lifting each advancing foot and planting each supporting foot on the ground. The supporting foot stays planted during contact; body translation is produced by these steps. Keep the orientation and path from the reference.
+
+During [0.000,5.167)s, independent participant D walks with alternating left and right steps, visible knee and ankle articulation, lifting each advancing foot and planting each supporting foot on the ground. The supporting foot stays planted during contact; body translation is produced by these steps. Keep the orientation and path from the reference.
+
+When a person is stationary in the reference, keep the body stationary instead of continuing the walking cycle.
+
+Opening screen-space anatomy landmarks (vertical percentages measured from the TOP edge; horizontal from LEFT):
+independent participant C: head-top at 41.0% of image height, feet at 61.0% of image height, body centre at 59.0% of image width. Preserve this full head-to-feet extent; do not enlarge distant people for readability.
+independent participant B: head-top at 38.0% of image height, feet at 78.0% of image height, body centre at 24.0% of image width. Preserve this full head-to-feet extent; do not enlarge distant people for readability.
+independent participant D: head-top at 41.0% of image height, feet at 53.0% of image height, body centre at 47.0% of image width. Preserve this full head-to-feet extent; do not enlarge distant people for readability.
+The reference ground-contact locations and occlusions take priority over decorative scenery.
+
+Current-window correction:
+Reduce the ranger and hiker to their specified full-body heights and restore the specified foot positions while retaining the three-person depth order.
+Current-window correction:
+Keep the ranger and hiker within their specified full-body heights and foot positions, retaining the small distant guard and the original depth separation.
+Current-window correction:
+Reduce the ranger and hiker to their specified full-body heights and restore their head-top and foot positions while preserving the distant guard's depth.
+
+Window 2
+Reference interval: [3.75, 8.916666667) s
+New frames in delivered video: [5.166666667, 8.916666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The independent participant B is a park ranger with short grey hair under a wide-brim hat, wearing an olive ranger shirt, tan trousers, and brown boots. The independent participant C is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes. Diffuse, shadowless overcast light washes over the scene, creating a flat, even illumination that emphasizes the texture of the ink washes and the separation of the misty depth planes. The whole frame is one finished image in this look: Painterly rendering, long-scroll ink look. There are no buildings or ruins in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+independent participant C: visible only during [0.000000,5.166667)s.
+independent participant B: visible only during [0.000000,5.166667)s.
+independent participant D: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 3
+Reference interval: [7.5, 12.666666667) s
+New frames in delivered video: [8.916666667, 12.666666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The independent participant B is a park ranger with short grey hair under a wide-brim hat, wearing an olive ranger shirt, tan trousers, and brown boots. The independent participant C is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes. Diffuse, shadowless overcast light washes over the scene, creating a flat, even illumination that emphasizes the texture of the ink washes and the separation of the misty depth planes. The whole frame is one finished image in this look: Painterly rendering, long-scroll ink look. There are no buildings or ruins in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+independent participant C: visible only during [0.000000,5.166667)s.
+independent participant B: visible only during [0.000000,5.166667)s.
+independent participant D: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 4
+Reference interval: [11.25, 16.416666667) s
+New frames in delivered video: [12.666666667, 16.416666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The independent participant B is a park ranger with short grey hair under a wide-brim hat, wearing an olive ranger shirt, tan trousers, and brown boots. The independent participant C is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes. Diffuse, shadowless overcast light washes over the scene, creating a flat, even illumination that emphasizes the texture of the ink washes and the separation of the misty depth planes. The whole frame is one finished image in this look: Painterly rendering, long-scroll ink look. There are no buildings or ruins in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+independent participant C: visible only during [0.000000,3.500000)s.
+independent participant B: visible only during [0.000000,2.166667)s.
+independent participant D: visible only during [0.000000,3.083333)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 5
+Reference interval: [15, 20.166666667) s
+New frames in delivered video: [16.416666667, 20.166666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+No described person or object is visible in this window. Do not add any.
+
+The setting is a rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes. Diffuse, shadowless overcast light washes over the scene, creating a flat, even illumination that emphasizes the texture of the ink washes and the separation of the misty depth planes. The whole frame is one finished image in this look: Painterly rendering, long-scroll ink look. There are no trees in this clip. There are no buildings or ruins in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 6
+Reference interval: [18.75, 23.916666667) s
+New frames in delivered video: [20.166666667, 23.916666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+No described person or object is visible in this window. Do not add any.
+
+The setting is a rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes. Diffuse, shadowless overcast light washes over the scene, creating a flat, even illumination that emphasizes the texture of the ink washes and the separation of the misty depth planes. The whole frame is one finished image in this look: Painterly rendering, long-scroll ink look. There are no trees in this clip. There are no buildings or ruins in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 7
+Reference interval: [22.5, 27.666666667) s
+New frames in delivered video: [23.916666667, 27.666666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+No described person or object is visible in this window. Do not add any.
+
+The setting is a rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes. Diffuse, shadowless overcast light washes over the scene, creating a flat, even illumination that emphasizes the texture of the ink washes and the separation of the misty depth planes. The whole frame is one finished image in this look: Painterly rendering, long-scroll ink look. There are no trees in this clip. There are no buildings or ruins in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Window 8
+Reference interval: [26.25, 31.416666667) s
+New frames in delivered video: [27.666666667, 30) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+No described person or object is visible in this window. Do not add any.
+
+The setting is a rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes. Diffuse, shadowless overcast light washes over the scene, creating a flat, even illumination that emphasizes the texture of the ink washes and the separation of the misty depth planes. The whole frame is one finished image in this look: Painterly rendering, long-scroll ink look. There are no trees in this clip. There are no buildings or ruins in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+Only the source ends at local 3.750000 seconds in this final window; the remaining 1.416667 seconds are tail padding and will not be delivered.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+When the reference shows walking, show alternating steps with knee and ankle articulation and each support foot planted during contact. Keep stationary pauses stationary.
+
+Shared prompts
+
+System prompt 1
+Render the world in <Video 1>. The reference is authoritative for geometry, scale, visibility, count, orientation and motion timing. The user supplies appearance and style. Bind each named entity to its specified opening position and keep that identity throughout the clip; the opening layout is not a command to freeze later motion. Follow subsequent reference changes without inventing entities or actions.
+
+Colored structural placeholders are identity controls, not clothing or materials. The white face marks the entity's front. Its outward normal gives the forward direction. Transparency may expose the far-side white face; infer orientation from the complete 3D shape, never from white pixels or travel direction alone. Render the described real entities in place of the controls. No proxy markings, colored slabs, enclosing panels or wireframes appear in the output.
+
+Keep each entity's appearance consistent. Render only the entities visible in the reference at the stated times. No external first-frame image is supplied. Generate the opening directly from the structural reference and the stated appearance.
