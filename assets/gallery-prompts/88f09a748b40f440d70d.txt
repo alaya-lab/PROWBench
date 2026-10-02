@@ -1,0 +1,332 @@
+Scene: long30-004-mountain-long-return__first-person
+Method: LynnReal-Omni
+Camera: first-person
+
+Window 1
+Reference interval: [0, 5.166666667) s
+New frames in delivered video: [0, 5.166666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. This is the opening window.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The independent participant B is a park ranger with short grey hair under a wide-brim hat, wearing an olive ranger shirt, tan trousers, and brown boots. The independent participant C is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes. The camera is the protagonist's own first-person view, carried at the protagonist's eye height, and it follows the recorded camera path of the conditioning reference with its fixed 75-degree vertical field of view. Diffuse, shadowless overcast light washes over the scene, creating a flat, even illumination that emphasizes the texture of the ink washes and the separation of the misty depth planes. The whole frame is one finished image in this look: Painterly rendering, long-scroll ink look. There are no buildings or ruins in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–2.500000s: The protagonist walks forward along the route; the protagonist moves about 3 metres along its route, rises about half a metre.; 2.500000–5.000000s: The protagonist keeps going through the same traverse stretch; the protagonist moves about 3 metres along its route, rises about half a metre.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+independent participant C (participant-c, identity tag #f736df): visible only during [0.000000,5.166667)s.
+independent participant B (participant-b, identity tag #a7f736): visible only during [0.000000,5.166667)s.
+independent participant D (participant-d, identity tag #36f7d6): visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 2
+Reference interval: [3.75, 8.916666667) s
+New frames in delivered video: [5.166666667, 8.916666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The independent participant B is a park ranger with short grey hair under a wide-brim hat, wearing an olive ranger shirt, tan trousers, and brown boots. The independent participant C is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes. The camera is the protagonist's own first-person view, carried at the protagonist's eye height, and it follows the recorded camera path of the conditioning reference with its fixed 75-degree vertical field of view. Diffuse, shadowless overcast light washes over the scene, creating a flat, even illumination that emphasizes the texture of the ink washes and the separation of the misty depth planes. The whole frame is one finished image in this look: Painterly rendering, long-scroll ink look. There are no buildings or ruins in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–2.500000s: The protagonist walks forward along the route; the protagonist moves about 3 metres along its route, rises about half a metre.; 2.500000–5.000000s: The protagonist keeps going through the same traverse stretch; the protagonist moves about 3 metres along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+independent participant C (participant-c, identity tag #f736df): visible only during [0.000000,5.166667)s.
+independent participant B (participant-b, identity tag #a7f736): visible only during [0.000000,5.166667)s.
+independent participant D (participant-d, identity tag #36f7d6): visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 3
+Reference interval: [7.5, 12.666666667) s
+New frames in delivered video: [8.916666667, 12.666666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The independent participant B is a park ranger with short grey hair under a wide-brim hat, wearing an olive ranger shirt, tan trousers, and brown boots. The independent participant C is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes. The camera is the protagonist's own first-person view, carried at the protagonist's eye height, and it follows the recorded camera path of the conditioning reference with its fixed 75-degree vertical field of view. Diffuse, shadowless overcast light washes over the scene, creating a flat, even illumination that emphasizes the texture of the ink washes and the separation of the misty depth planes. The whole frame is one finished image in this look: Painterly rendering, long-scroll ink look. There are no buildings or ruins in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–2.470000s: The protagonist walks forward along the route; the protagonist moves about 3 metres along its route.; 2.470000–5.000000s: The protagonist turns round and walks back along the route; the protagonist moves about one and a half metres along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+independent participant C (participant-c, identity tag #f736df): visible only during [0.000000,5.166667)s.
+independent participant B (participant-b, identity tag #a7f736): visible only during [0.000000,5.166667)s.
+independent participant D (participant-d, identity tag #36f7d6): visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 4
+Reference interval: [11.25, 16.416666667) s
+New frames in delivered video: [12.666666667, 16.416666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The independent participant B is a park ranger with short grey hair under a wide-brim hat, wearing an olive ranger shirt, tan trousers, and brown boots. The independent participant C is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes. The camera is the protagonist's own first-person view, carried at the protagonist's eye height, and it follows the recorded camera path of the conditioning reference with its fixed 75-degree vertical field of view. Diffuse, shadowless overcast light washes over the scene, creating a flat, even illumination that emphasizes the texture of the ink washes and the separation of the misty depth planes. The whole frame is one finished image in this look: Painterly rendering, long-scroll ink look. There are no buildings or ruins in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–2.500000s: The protagonist turns round and walks back along the route; the protagonist moves about a metre along its route.; 2.500000–5.000000s: The protagonist keeps going through the same turn and return stretch; the protagonist moves about half a metre along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+independent participant C (participant-c, identity tag #f736df): visible only during [0.000000,3.500000)s.
+independent participant B (participant-b, identity tag #a7f736): visible only during [0.000000,2.166667)s.
+independent participant D (participant-d, identity tag #36f7d6): visible only during [0.000000,3.083333)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 5
+Reference interval: [15, 20.166666667) s
+New frames in delivered video: [16.416666667, 20.166666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+No described person or object is visible in this window. Do not add any.
+
+The setting is a rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes. The camera is the protagonist's own first-person view, carried at the protagonist's eye height, and it follows the recorded camera path of the conditioning reference with its fixed 75-degree vertical field of view. Diffuse, shadowless overcast light washes over the scene, creating a flat, even illumination that emphasizes the texture of the ink washes and the separation of the misty depth planes. The whole frame is one finished image in this look: Painterly rendering, long-scroll ink look. There are no trees in this clip. There are no buildings or ruins in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–2.500000s: The protagonist turns round and walks back along the route; the protagonist moves about a metre along its route.; 2.500000–5.000000s: The protagonist keeps going through the same turn and return stretch; the protagonist moves about one and a half metres along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 6
+Reference interval: [18.75, 23.916666667) s
+New frames in delivered video: [20.166666667, 23.916666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+No described person or object is visible in this window. Do not add any.
+
+The setting is a rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes. The camera is the protagonist's own first-person view, carried at the protagonist's eye height, and it follows the recorded camera path of the conditioning reference with its fixed 75-degree vertical field of view. Diffuse, shadowless overcast light washes over the scene, creating a flat, even illumination that emphasizes the texture of the ink washes and the separation of the misty depth planes. The whole frame is one finished image in this look: Painterly rendering, long-scroll ink look. There are no trees in this clip. There are no buildings or ruins in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–1.200000s: The protagonist turns round and walks back along the route; the protagonist moves about a metre along its route.; 1.200000–5.000000s: The protagonist walks forward along the route; the protagonist moves about 4 metres along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 7
+Reference interval: [22.5, 27.666666667) s
+New frames in delivered video: [23.916666667, 27.666666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+No described person or object is visible in this window. Do not add any.
+
+The setting is a rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes. The camera is the protagonist's own first-person view, carried at the protagonist's eye height, and it follows the recorded camera path of the conditioning reference with its fixed 75-degree vertical field of view. Diffuse, shadowless overcast light washes over the scene, creating a flat, even illumination that emphasizes the texture of the ink washes and the separation of the misty depth planes. The whole frame is one finished image in this look: Painterly rendering, long-scroll ink look. There are no trees in this clip. There are no buildings or ruins in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–2.500000s: The protagonist walks forward along the route; the protagonist moves about 3 metres along its route.; 2.500000–5.000000s: The protagonist keeps going through the same traverse stretch; the protagonist moves about 3 metres along its route, drops a short distance.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 8
+Reference interval: [26.25, 31.416666667) s
+New frames in delivered video: [27.666666667, 30) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+No described person or object is visible in this window. Do not add any.
+
+The setting is a rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes. The camera is the protagonist's own first-person view, carried at the protagonist's eye height, and it follows the recorded camera path of the conditioning reference with its fixed 75-degree vertical field of view. Diffuse, shadowless overcast light washes over the scene, creating a flat, even illumination that emphasizes the texture of the ink washes and the separation of the misty depth planes. The whole frame is one finished image in this look: Painterly rendering, long-scroll ink look. There are no trees in this clip. There are no buildings or ruins in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 1.420000–3.750000s: The protagonist carries on with the recorded movement of the conditioning reference; 3.750000–5.166667s: The recording has ended: everyone holds the final pose and position and the camera holds its final pose.
+
+Exact current reference visibility (local half-open intervals):
+
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+Only the source ends at local 3.750000 seconds in this final window; the remaining 1.416667 seconds are tail padding and will not be delivered.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A

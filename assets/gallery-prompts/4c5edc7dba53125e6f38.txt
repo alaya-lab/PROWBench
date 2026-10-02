@@ -1,0 +1,313 @@
+Scene: long30-019-warehouse-combat__first-person
+Method: MiniMax-H3
+Camera: first-person
+
+Window 1
+Reference interval: [0, 5.166666667) s
+New frames in delivered video: [0, 5.166666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. This is the opening window.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Anime-style rendering: a 2D anime look with hand-drawn character design and painted backgrounds over the full 3D world — dark gritty anime look: heavy black ink shadows, thick contour lines, muted desaturated colours with harsh highlights, grainy textured backgrounds; a desaturated olive-and-rust palette; cold overhead strip lights with deep pools of shadow; dust hanging in the light shafts; slightly wobbly hand-inked outlines; detailed line-drawn backgrounds with light washes; character design: compact stocky figures with thick outlines; strictly a flat hand-drawn 2D anime frame with line art - not a 3D render, not a game screenshot.
+
+The training rifle with stock, receiver, barrel and magazine is a matte black training rifle with a stock, receiver, barrel, and magazine, held in the foreground. The training opponent moving laterally and returning fire is a stocky adult mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots, holding a matte black training firearm. The second training opponent returning fire from the opposite side is a stocky adult field explorer with long braided dark hair, wearing a khaki field shirt with rolled sleeves, olive cargo trousers, and brown leather boots, holding a matte black training firearm. Every described entity retains this appearance only while visible in the reference.
+
+
+
+Opening identity, scale and orientation binding (only at the stated initial time; subsequent motion follows <Video 1>):
+At the opening, a second training opponent returning fire from the opposite side is rightmost, centred about 62% across and 56% down the image, about 14% of image height, farthest in the background, seen from the front, with face and chest visible.
+At the opening, a training opponent moving laterally and returning fire is leftmost, centred about 43% across and 57% down the image, about 17% of image height, nearest in the foreground, seen from the front, with face and chest visible.
+
+Exact current reference visibility (local half-open intervals):
+a second training opponent returning fire from the opposite side: visible only during [0.000000,5.166667)s.
+a training opponent moving laterally and returning fire: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Opening screen-space anatomy landmarks (vertical percentages measured from the TOP edge; horizontal from LEFT):
+a second training opponent returning fire from the opposite side: head-top at 49.0% of image height, feet at 63.0% of image height, body centre at 62.0% of image width. Preserve this full head-to-feet extent; do not enlarge distant people for readability.
+a training opponent moving laterally and returning fire: head-top at 48.5% of image height, feet at 65.5% of image height, body centre at 43.0% of image width. Preserve this full head-to-feet extent; do not enlarge distant people for readability.
+The reference ground-contact locations and occlusions take priority over decorative scenery.
+
+Current-window correction:
+Show exactly two human opponents at the specified sizes and positions, without rectangular backing panels or duplicate people. Preserve their prescribed lateral movement and individual clothing.
+Current-window correction:
+Render the entire scene as flat hand-drawn 2D anime with visible ink contours and painted shading, avoiding smooth 3D surfaces. Preserve the existing large lower-right obstruction and its occlusions.
+
+Window 2
+Reference interval: [3.75, 8.916666667) s
+New frames in delivered video: [5.166666667, 8.916666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Anime-style rendering: a 2D anime look with hand-drawn character design and painted backgrounds over the full 3D world — dark gritty anime look: heavy black ink shadows, thick contour lines, muted desaturated colours with harsh highlights, grainy textured backgrounds; a desaturated olive-and-rust palette; cold overhead strip lights with deep pools of shadow; dust hanging in the light shafts; slightly wobbly hand-inked outlines; detailed line-drawn backgrounds with light washes; character design: compact stocky figures with thick outlines; strictly a flat hand-drawn 2D anime frame with line art - not a 3D render, not a game screenshot.
+
+The training rifle with stock, receiver, barrel and magazine is a matte black training rifle with a stock, receiver, barrel, and magazine, held in the foreground. The training opponent moving laterally and returning fire is a stocky adult mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots, holding a matte black training firearm. The second training opponent returning fire from the opposite side is a stocky adult field explorer with long braided dark hair, wearing a khaki field shirt with rolled sleeves, olive cargo trousers, and brown leather boots, holding a matte black training firearm. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a roofed warehouse with tall stocked racks, wide cross aisles and crates. Preserve the reference spacing, masses and open routes. Cold overhead strip lights cast harsh highlights and deep pools of shadow, with visible dust motes hanging in the light shafts. The whole frame is one finished image in this look: Anime-style rendering. There are no trees in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+a second training opponent returning fire from the opposite side: visible only during [0.000000,5.166667)s.
+a training opponent moving laterally and returning fire: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+Window 3
+Reference interval: [7.5, 12.666666667) s
+New frames in delivered video: [8.916666667, 12.666666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Anime-style rendering: a 2D anime look with hand-drawn character design and painted backgrounds over the full 3D world — dark gritty anime look: heavy black ink shadows, thick contour lines, muted desaturated colours with harsh highlights, grainy textured backgrounds; a desaturated olive-and-rust palette; cold overhead strip lights with deep pools of shadow; dust hanging in the light shafts; slightly wobbly hand-inked outlines; detailed line-drawn backgrounds with light washes; character design: compact stocky figures with thick outlines; strictly a flat hand-drawn 2D anime frame with line art - not a 3D render, not a game screenshot.
+
+The training rifle with stock, receiver, barrel and magazine is a matte black training rifle with a stock, receiver, barrel, and magazine, held in the foreground. The training opponent moving laterally and returning fire is a stocky adult mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots, holding a matte black training firearm. The second training opponent returning fire from the opposite side is a stocky adult field explorer with long braided dark hair, wearing a khaki field shirt with rolled sleeves, olive cargo trousers, and brown leather boots, holding a matte black training firearm. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a roofed warehouse with tall stocked racks, wide cross aisles and crates. Preserve the reference spacing, masses and open routes. Cold overhead strip lights cast harsh highlights and deep pools of shadow, with visible dust motes hanging in the light shafts. The whole frame is one finished image in this look: Anime-style rendering. There are no trees in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+a second training opponent returning fire from the opposite side: visible only during [0.000000,5.166667)s.
+a training opponent moving laterally and returning fire: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+Window 4
+Reference interval: [11.25, 16.416666667) s
+New frames in delivered video: [12.666666667, 16.416666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Anime-style rendering: a 2D anime look with hand-drawn character design and painted backgrounds over the full 3D world — dark gritty anime look: heavy black ink shadows, thick contour lines, muted desaturated colours with harsh highlights, grainy textured backgrounds; a desaturated olive-and-rust palette; cold overhead strip lights with deep pools of shadow; dust hanging in the light shafts; slightly wobbly hand-inked outlines; detailed line-drawn backgrounds with light washes; character design: compact stocky figures with thick outlines; strictly a flat hand-drawn 2D anime frame with line art - not a 3D render, not a game screenshot.
+
+The training rifle with stock, receiver, barrel and magazine is a matte black training rifle with a stock, receiver, barrel, and magazine, held in the foreground. The training opponent moving laterally and returning fire is a stocky adult mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots, holding a matte black training firearm. The second training opponent returning fire from the opposite side is a stocky adult field explorer with long braided dark hair, wearing a khaki field shirt with rolled sleeves, olive cargo trousers, and brown leather boots, holding a matte black training firearm. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a roofed warehouse with tall stocked racks, wide cross aisles and crates. Preserve the reference spacing, masses and open routes. Cold overhead strip lights cast harsh highlights and deep pools of shadow, with visible dust motes hanging in the light shafts. The whole frame is one finished image in this look: Anime-style rendering. There are no trees in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+a second training opponent returning fire from the opposite side: visible only during [0.000000,5.166667)s.
+a training opponent moving laterally and returning fire: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+Window 5
+Reference interval: [15, 20.166666667) s
+New frames in delivered video: [16.416666667, 20.166666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Anime-style rendering: a 2D anime look with hand-drawn character design and painted backgrounds over the full 3D world — dark gritty anime look: heavy black ink shadows, thick contour lines, muted desaturated colours with harsh highlights, grainy textured backgrounds; a desaturated olive-and-rust palette; cold overhead strip lights with deep pools of shadow; dust hanging in the light shafts; slightly wobbly hand-inked outlines; detailed line-drawn backgrounds with light washes; character design: compact stocky figures with thick outlines; strictly a flat hand-drawn 2D anime frame with line art - not a 3D render, not a game screenshot.
+
+The training rifle with stock, receiver, barrel and magazine is a matte black training rifle with a stock, receiver, barrel, and magazine, held in the foreground. The training opponent moving laterally and returning fire is a stocky adult mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots, holding a matte black training firearm. The second training opponent returning fire from the opposite side is a stocky adult field explorer with long braided dark hair, wearing a khaki field shirt with rolled sleeves, olive cargo trousers, and brown leather boots, holding a matte black training firearm. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a roofed warehouse with tall stocked racks, wide cross aisles and crates. Preserve the reference spacing, masses and open routes. Cold overhead strip lights cast harsh highlights and deep pools of shadow, with visible dust motes hanging in the light shafts. The whole frame is one finished image in this look: Anime-style rendering. There are no trees in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+a second training opponent returning fire from the opposite side: visible only during [0.000000,5.166667)s.
+a training opponent moving laterally and returning fire: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+Window 6
+Reference interval: [18.75, 23.916666667) s
+New frames in delivered video: [20.166666667, 23.916666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Anime-style rendering: a 2D anime look with hand-drawn character design and painted backgrounds over the full 3D world — dark gritty anime look: heavy black ink shadows, thick contour lines, muted desaturated colours with harsh highlights, grainy textured backgrounds; a desaturated olive-and-rust palette; cold overhead strip lights with deep pools of shadow; dust hanging in the light shafts; slightly wobbly hand-inked outlines; detailed line-drawn backgrounds with light washes; character design: compact stocky figures with thick outlines; strictly a flat hand-drawn 2D anime frame with line art - not a 3D render, not a game screenshot.
+
+The training rifle with stock, receiver, barrel and magazine is a matte black training rifle with a stock, receiver, barrel, and magazine, held in the foreground. The training opponent moving laterally and returning fire is a stocky adult mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots, holding a matte black training firearm. The second training opponent returning fire from the opposite side is a stocky adult field explorer with long braided dark hair, wearing a khaki field shirt with rolled sleeves, olive cargo trousers, and brown leather boots, holding a matte black training firearm. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a roofed warehouse with tall stocked racks, wide cross aisles and crates. Preserve the reference spacing, masses and open routes. Cold overhead strip lights cast harsh highlights and deep pools of shadow, with visible dust motes hanging in the light shafts. The whole frame is one finished image in this look: Anime-style rendering. There are no trees in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+a second training opponent returning fire from the opposite side: visible only during [0.000000,5.166667)s.
+a training opponent moving laterally and returning fire: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+Window 7
+Reference interval: [22.5, 27.666666667) s
+New frames in delivered video: [23.916666667, 27.666666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Anime-style rendering: a 2D anime look with hand-drawn character design and painted backgrounds over the full 3D world — dark gritty anime look: heavy black ink shadows, thick contour lines, muted desaturated colours with harsh highlights, grainy textured backgrounds; a desaturated olive-and-rust palette; cold overhead strip lights with deep pools of shadow; dust hanging in the light shafts; slightly wobbly hand-inked outlines; detailed line-drawn backgrounds with light washes; character design: compact stocky figures with thick outlines; strictly a flat hand-drawn 2D anime frame with line art - not a 3D render, not a game screenshot.
+
+The training rifle with stock, receiver, barrel and magazine is a matte black training rifle with a stock, receiver, barrel, and magazine, held in the foreground. The training opponent moving laterally and returning fire is a stocky adult mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots, holding a matte black training firearm. The second training opponent returning fire from the opposite side is a stocky adult field explorer with long braided dark hair, wearing a khaki field shirt with rolled sleeves, olive cargo trousers, and brown leather boots, holding a matte black training firearm. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a roofed warehouse with tall stocked racks, wide cross aisles and crates. Preserve the reference spacing, masses and open routes. Cold overhead strip lights cast harsh highlights and deep pools of shadow, with visible dust motes hanging in the light shafts. The whole frame is one finished image in this look: Anime-style rendering. There are no trees in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+a second training opponent returning fire from the opposite side: visible only during [0.000000,5.166667)s.
+a training opponent moving laterally and returning fire: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+Window 8
+Reference interval: [26.25, 31.416666667) s
+New frames in delivered video: [27.666666667, 30) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: Anime-style rendering: a 2D anime look with hand-drawn character design and painted backgrounds over the full 3D world — dark gritty anime look: heavy black ink shadows, thick contour lines, muted desaturated colours with harsh highlights, grainy textured backgrounds; a desaturated olive-and-rust palette; cold overhead strip lights with deep pools of shadow; dust hanging in the light shafts; slightly wobbly hand-inked outlines; detailed line-drawn backgrounds with light washes; character design: compact stocky figures with thick outlines; strictly a flat hand-drawn 2D anime frame with line art - not a 3D render, not a game screenshot.
+
+The training rifle with stock, receiver, barrel and magazine is a matte black training rifle with a stock, receiver, barrel, and magazine, held in the foreground. The training opponent moving laterally and returning fire is a stocky adult mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots, holding a matte black training firearm. The second training opponent returning fire from the opposite side is a stocky adult field explorer with long braided dark hair, wearing a khaki field shirt with rolled sleeves, olive cargo trousers, and brown leather boots, holding a matte black training firearm. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a roofed warehouse with tall stocked racks, wide cross aisles and crates. Preserve the reference spacing, masses and open routes. Cold overhead strip lights cast harsh highlights and deep pools of shadow, with visible dust motes hanging in the light shafts. The whole frame is one finished image in this look: Anime-style rendering. There are no trees in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+a second training opponent returning fire from the opposite side: visible only during [0.000000,5.166667)s.
+a training opponent moving laterally and returning fire: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+Only the source ends at local 3.750000 seconds in this final window; the remaining 1.416667 seconds are tail padding and will not be delivered.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+Shared prompts
+
+System prompt 1
+Render the world in <Video 1>. The reference is authoritative for geometry, scale, visibility, count, orientation and motion timing. The user supplies appearance and style. Bind each named entity to its specified opening position and keep that identity throughout the clip; the opening layout is not a command to freeze later motion. Follow subsequent reference changes without inventing entities or actions.
+
+Colored structural placeholders are identity controls, not clothing or materials. The white face marks the entity's front. Its outward normal gives the forward direction. Transparency may expose the far-side white face; infer orientation from the complete 3D shape, never from white pixels or travel direction alone. Render the described real entities in place of the controls. No proxy markings, colored slabs, enclosing panels or wireframes appear in the output.
+
+Keep each entity's appearance consistent. Render only the entities visible in the reference at the stated times. No external first-frame image is supplied. Generate the opening directly from the structural reference and the stated appearance.

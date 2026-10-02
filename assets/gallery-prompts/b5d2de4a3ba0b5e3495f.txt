@@ -1,0 +1,70 @@
+Scene: multi4-003-grassland-crossroads
+Grid layout: A B / C D
+
+
+View A (follow-a)
+
+Method: Coarse2Real
+Camera: follow-a
+
+Window 1
+Reference interval: [0, 5) s
+Negative prompt: Negative prompt 1
+Positive prompt:
+A realistic, high-quality video of a person walking across open grassland where the participants' routes cross from four directions. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The setting is open, level grassland with fenced paddocks: long wooden rail fences run across the pasture, a large barn stands to one side, scattered trees dot the rolling ground and the grass stretches away to the horizon under an open sky. There are 4 persons in this video. The protagonist is participant A, a stocky adult with short sandy hair, wearing a plaid flannel shirt in royal blue and white, faded grey jeans and brown work boots. The people walk on the open grass between the fences. The other participants of the same recording are participant B, a slim adult with a long dark braid, wearing a knitted cardigan in bright lime green, a white T-shirt, beige trousers and tan ankle boots; participant C, a tall adult with short wavy auburn hair, wearing a quilted gilet in vivid magenta pink over a grey shirt, black trousers and dark rubber boots and participant D, an adult of medium build with closely cropped grey hair, wearing a cotton work shirt in bright turquoise, khaki trousers and brown leather boots; only those named here appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. Participant B is a slim adult with a long dark braid, wearing a knitted cardigan in bright lime green, a white T-shirt, beige trousers and tan ankle boots, and keeps exactly this appearance. Over the five seconds, the participants walk toward an open patch of pasture along offset straight routes from different directions - participant A heading north, B south, C east and D west - so their routes converge on the crossing, and then they cross through the middle with clearance, A passing closest to D and B passing closest to C, and each keeps walking straight on along their own direction, moving apart.
+
+Shared prompts
+
+Negative prompt 1
+色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走
+
+
+View B (follow-b)
+
+Method: Coarse2Real
+Camera: follow-b
+
+Window 1
+Reference interval: [0, 5) s
+Negative prompt: Negative prompt 1
+Positive prompt:
+A realistic, high-quality video of a person walking across open grassland where the participants' routes cross from four directions. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The setting is open, level grassland with fenced paddocks: long wooden rail fences run across the pasture, a large barn stands to one side, scattered trees dot the rolling ground and the grass stretches away to the horizon under an open sky. There are 4 persons in this video. The protagonist is participant B, a slim adult with a long dark braid, wearing a knitted cardigan in bright lime green, a white T-shirt, beige trousers and tan ankle boots. The people walk on the open grass between the fences. The other participants of the same recording are participant A, a stocky adult with short sandy hair, wearing a plaid flannel shirt in royal blue and white, faded grey jeans and brown work boots; participant C, a tall adult with short wavy auburn hair, wearing a quilted gilet in vivid magenta pink over a grey shirt, black trousers and dark rubber boots and participant D, an adult of medium build with closely cropped grey hair, wearing a cotton work shirt in bright turquoise, khaki trousers and brown leather boots; only those named here appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. Participant A is a stocky adult with short sandy hair, wearing a plaid flannel shirt in royal blue and white, faded grey jeans and brown work boots, and keeps exactly this appearance. Over the five seconds, the participants walk toward an open patch of pasture along offset straight routes from different directions - participant A heading north, B south, C east and D west - so their routes converge on the crossing, and then they cross through the middle with clearance, A passing closest to D and B passing closest to C, and each keeps walking straight on along their own direction, moving apart.
+
+Shared prompts
+
+Negative prompt 1
+色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走
+
+
+View C (follow-c)
+
+Method: Coarse2Real
+Camera: follow-c
+
+Window 1
+Reference interval: [0, 5) s
+Negative prompt: Negative prompt 1
+Positive prompt:
+A realistic, high-quality video of a person walking across open grassland. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The setting is open, level grassland with fenced paddocks: long wooden rail fences run across the pasture, a large barn stands to one side, scattered trees dot the rolling ground and the grass stretches away to the horizon under an open sky. There are 3 persons in this video. The protagonist is participant C, a tall adult with short wavy auburn hair, wearing a quilted gilet in vivid magenta pink over a grey shirt, black trousers and dark rubber boots. The other people in this view are participant B, a slim adult with a long dark braid, wearing a knitted cardigan in bright lime green, a white T-shirt, beige trousers and tan ankle boots and participant D, an adult of medium build with closely cropped grey hair, wearing a cotton work shirt in bright turquoise, khaki trousers and brown leather boots; only those named here appear in this view. The people walk on the open grass between the fences. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. Participant B is a slim adult with a long dark braid, wearing a knitted cardigan in bright lime green, a white T-shirt, beige trousers and tan ankle boots, and keeps exactly this appearance. Participant D is an adult of medium build with closely cropped grey hair, wearing a cotton work shirt in bright turquoise, khaki trousers and brown leather boots, and keeps exactly this appearance. Over the five seconds, everyone shown moves steadily along their own route exactly as recorded in the control video, and then everyone shown keeps moving along their own route exactly as recorded in the control video. Human motion is natural and continuous, presented in a cinematic, photorealistic style with sharp details, clean textures, and no blur or visual artifacts.
+
+Shared prompts
+
+Negative prompt 1
+色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走
+
+
+View D (follow-d)
+
+Method: Coarse2Real
+Camera: follow-d
+
+Window 1
+Reference interval: [0, 5) s
+Negative prompt: Negative prompt 1
+Positive prompt:
+A realistic, high-quality video of a person walking across open grassland. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The setting is open, level grassland with fenced paddocks: long wooden rail fences run across the pasture, a large barn stands to one side, scattered trees dot the rolling ground and the grass stretches away to the horizon under an open sky. There are 3 persons in this video. The protagonist is participant D, an adult of medium build with closely cropped grey hair, wearing a cotton work shirt in bright turquoise, khaki trousers and brown leather boots. The other people in this view are participant A, a stocky adult with short sandy hair, wearing a plaid flannel shirt in royal blue and white, faded grey jeans and brown work boots and participant C, a tall adult with short wavy auburn hair, wearing a quilted gilet in vivid magenta pink over a grey shirt, black trousers and dark rubber boots; only those named here appear in this view. The people walk on the open grass between the fences. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. Participant A is a stocky adult with short sandy hair, wearing a plaid flannel shirt in royal blue and white, faded grey jeans and brown work boots, and keeps exactly this appearance. Participant C is a tall adult with short wavy auburn hair, wearing a quilted gilet in vivid magenta pink over a grey shirt, black trousers and dark rubber boots, and keeps exactly this appearance. Over the five seconds, everyone shown moves steadily along their own route exactly as recorded in the control video, and then everyone shown keeps moving along their own route exactly as recorded in the control video. Human motion is natural and continuous, presented in a cinematic, photorealistic style with sharp details, clean textures, and no blur or visual artifacts.
+
+Shared prompts
+
+Negative prompt 1
+色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走

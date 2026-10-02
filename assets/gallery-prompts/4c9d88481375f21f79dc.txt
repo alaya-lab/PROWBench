@@ -1,0 +1,348 @@
+Scene: long30-017-home-camera__follow
+Method: LynnReal-Omni
+Camera: follow
+
+Window 1
+Reference interval: [0, 5.166666667) s
+New frames in delivered video: [0, 5.166666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. This is the opening window.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: Graphic non-photorealistic rendering, coloured pencil sketch look: layered pencil hatching in muted colours over a white paper ground, visible paper grain, hand-drawn contour lines, drawn over the full 3D world so every recorded shape stays readable; soft coloured-pencil hues of teal, peach and warm brown on cream paper; cosy window light from one side of the room; visible paper tooth under the pencil strokes; layered scribbled tone; background fading out to blank paper at the edges; character design: figures in quick gesture lines; the whole frame must read as a flat hand-made drawing or print on paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels, sketched in slate grey with subtle shading to indicate its metallic surface. The independently moving adult participant 1 is an office worker with neat short chestnut hair, wearing an ivory shirt with a plum tie, charcoal suit trousers, and polished oxford shoes. The independently moving adult participant 2 is a chef with dark hair under a cap, wearing an ivory double-breasted chef jacket, houndstooth trousers, and black kitchen clogs. The person pushing the wheeled handcart is a mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. The camera follows the recorded third-person path of the conditioning reference with its fixed 53-degree vertical field of view. Warm tungsten lamps mixed with window daylight cast soft, directional light from the left, creating gentle shadows and highlighting dust motes floating in the air. The whole frame is one finished image in this look: Graphic non-photorealistic rendering, coloured pencil sketch look. There are no trees in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–3.870000s: The protagonist stands on the route and takes in the surroundings; the person pushing the wheeled handcart moves about half a metre along its route; the cart moves about half a metre along its route.; 3.870000–5.000000s: The protagonist walks along the route while looking around at the surroundings.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+a wheeled handcart (ambient-cart, identity tag #f79e36): visible only during [0.000000,5.166667)s.
+the protagonist (player, identity tag #366ef7): visible only during [0.000000,5.166667)s.
+an independently moving adult participant (npc-01, identity tag #a7f736): visible only during [0.000000,5.166667)s.
+an independently moving adult participant (npc-03, identity tag #36f7d6): visible only during [0.000000,5.166667)s.
+an independently moving adult participant (npc-02, identity tag #f736df): visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 2
+Reference interval: [3.75, 8.916666667) s
+New frames in delivered video: [5.166666667, 8.916666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: Graphic non-photorealistic rendering, coloured pencil sketch look: layered pencil hatching in muted colours over a white paper ground, visible paper grain, hand-drawn contour lines, drawn over the full 3D world so every recorded shape stays readable; soft coloured-pencil hues of teal, peach and warm brown on cream paper; cosy window light from one side of the room; visible paper tooth under the pencil strokes; layered scribbled tone; background fading out to blank paper at the edges; character design: figures in quick gesture lines; the whole frame must read as a flat hand-made drawing or print on paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels, sketched in slate grey with subtle shading to indicate its metallic surface. The independently moving adult participant 1 is an office worker with neat short chestnut hair, wearing an ivory shirt with a plum tie, charcoal suit trousers, and polished oxford shoes. The independently moving adult participant 2 is a chef with dark hair under a cap, wearing an ivory double-breasted chef jacket, houndstooth trousers, and black kitchen clogs. The person pushing the wheeled handcart is a mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. The camera follows the recorded third-person path of the conditioning reference with its fixed 53-degree vertical field of view. Warm tungsten lamps mixed with window daylight cast soft, directional light from the left, creating gentle shadows and highlighting dust motes floating in the air. The whole frame is one finished image in this look: Graphic non-photorealistic rendering, coloured pencil sketch look. There are no trees in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–0.100000s: The protagonist stands on the route and takes in the surroundings.; 0.100000–5.000000s: The protagonist walks along the route while looking around at the surroundings; the protagonist moves about a metre along its route; the person pushing the wheeled handcart moves about a metre along its route; the cart moves about a metre along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+a wheeled handcart (ambient-cart, identity tag #f79e36): visible only during [0.000000,1.916667)s.
+the protagonist (player, identity tag #366ef7): visible only during [0.000000,5.166667)s.
+an independently moving adult participant (npc-01, identity tag #a7f736): visible only during [0.000000,2.250000)s, [2.583333,3.291667)s.
+an independently moving adult participant (npc-03, identity tag #36f7d6): visible only during [0.000000,1.958333)s.
+an independently moving adult participant (npc-02, identity tag #f736df): visible only during [0.000000,1.916667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 3
+Reference interval: [7.5, 12.666666667) s
+New frames in delivered video: [8.916666667, 12.666666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: Graphic non-photorealistic rendering, coloured pencil sketch look: layered pencil hatching in muted colours over a white paper ground, visible paper grain, hand-drawn contour lines, drawn over the full 3D world so every recorded shape stays readable; soft coloured-pencil hues of teal, peach and warm brown on cream paper; cosy window light from one side of the room; visible paper tooth under the pencil strokes; layered scribbled tone; background fading out to blank paper at the edges; character design: figures in quick gesture lines; the whole frame must read as a flat hand-made drawing or print on paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. The camera follows the recorded third-person path of the conditioning reference with its fixed 53-degree vertical field of view. Warm tungsten lamps mixed with window daylight cast soft, directional light from the left, creating gentle shadows and highlighting dust motes floating in the air. The whole frame is one finished image in this look: Graphic non-photorealistic rendering, coloured pencil sketch look. There are no trees in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–2.500000s: The protagonist walks along the route while looking around at the surroundings; the protagonist moves about a metre along its route.; 2.500000–5.000000s: The protagonist keeps going through the same camera exploration stretch; the protagonist moves about a metre along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+the protagonist (player, identity tag #366ef7): visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 4
+Reference interval: [11.25, 16.416666667) s
+New frames in delivered video: [12.666666667, 16.416666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: Graphic non-photorealistic rendering, coloured pencil sketch look: layered pencil hatching in muted colours over a white paper ground, visible paper grain, hand-drawn contour lines, drawn over the full 3D world so every recorded shape stays readable; soft coloured-pencil hues of teal, peach and warm brown on cream paper; cosy window light from one side of the room; visible paper tooth under the pencil strokes; layered scribbled tone; background fading out to blank paper at the edges; character design: figures in quick gesture lines; the whole frame must read as a flat hand-made drawing or print on paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels, sketched in slate grey with subtle shading to indicate its metallic surface. The independently moving adult participant 1 is an office worker with neat short chestnut hair, wearing an ivory shirt with a plum tie, charcoal suit trousers, and polished oxford shoes. The independently moving adult participant 2 is a chef with dark hair under a cap, wearing an ivory double-breasted chef jacket, houndstooth trousers, and black kitchen clogs. The person pushing the wheeled handcart is a mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. The camera follows the recorded third-person path of the conditioning reference with its fixed 53-degree vertical field of view. Warm tungsten lamps mixed with window daylight cast soft, directional light from the left, creating gentle shadows and highlighting dust motes floating in the air. The whole frame is one finished image in this look: Graphic non-photorealistic rendering, coloured pencil sketch look. There are no trees in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–2.500000s: The protagonist walks along the route while looking around at the surroundings; the protagonist moves about a metre along its route; 2.500000–5.000000s: The protagonist keeps going through the same camera exploration stretch; the protagonist moves about a metre along its route; the person pushing the wheeled handcart moves about half a metre along its route; the cart moves about half a metre along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+the protagonist (player, identity tag #366ef7): visible only during [0.000000,5.166667)s.
+an independently moving adult participant (npc-01, identity tag #a7f736): visible only during [3.833333,5.166667)s.
+an independently moving adult participant (npc-02, identity tag #f736df): visible only during [4.291667,5.166667)s.
+an independently moving adult participant (npc-03, identity tag #36f7d6): visible only during [4.333333,5.166667)s.
+a wheeled handcart (ambient-cart, identity tag #f79e36): visible only during [4.375000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 5
+Reference interval: [15, 20.166666667) s
+New frames in delivered video: [16.416666667, 20.166666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: Graphic non-photorealistic rendering, coloured pencil sketch look: layered pencil hatching in muted colours over a white paper ground, visible paper grain, hand-drawn contour lines, drawn over the full 3D world so every recorded shape stays readable; soft coloured-pencil hues of teal, peach and warm brown on cream paper; cosy window light from one side of the room; visible paper tooth under the pencil strokes; layered scribbled tone; background fading out to blank paper at the edges; character design: figures in quick gesture lines; the whole frame must read as a flat hand-made drawing or print on paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels, sketched in slate grey with subtle shading to indicate its metallic surface. The independently moving adult participant 1 is an office worker with neat short chestnut hair, wearing an ivory shirt with a plum tie, charcoal suit trousers, and polished oxford shoes. The independently moving adult participant 2 is a chef with dark hair under a cap, wearing an ivory double-breasted chef jacket, houndstooth trousers, and black kitchen clogs. The person pushing the wheeled handcart is a mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. The camera follows the recorded third-person path of the conditioning reference with its fixed 53-degree vertical field of view. Warm tungsten lamps mixed with window daylight cast soft, directional light from the left, creating gentle shadows and highlighting dust motes floating in the air. The whole frame is one finished image in this look: Graphic non-photorealistic rendering, coloured pencil sketch look. There are no trees in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–2.500000s: The protagonist walks along the route while looking around at the surroundings; the protagonist moves about a metre along its route; the person pushing the wheeled handcart moves about half a metre along its route; the cart moves about half a metre along its route.; 2.500000–5.000000s: The protagonist keeps going through the same camera exploration stretch; the protagonist moves about a metre along its route; the person pushing the wheeled handcart moves about half a metre along its route; the cart moves about half a metre along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+the protagonist (player, identity tag #366ef7): visible only during [0.000000,5.166667)s.
+an independently moving adult participant (npc-01, identity tag #a7f736): visible only during [0.083333,2.500000)s.
+an independently moving adult participant (npc-02, identity tag #f736df): visible only during [0.541667,3.375000)s.
+an independently moving adult participant (npc-03, identity tag #36f7d6): visible only during [0.583333,2.791667)s.
+a wheeled handcart (ambient-cart, identity tag #f79e36): visible only during [0.625000,2.750000)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 6
+Reference interval: [18.75, 23.916666667) s
+New frames in delivered video: [20.166666667, 23.916666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: Graphic non-photorealistic rendering, coloured pencil sketch look: layered pencil hatching in muted colours over a white paper ground, visible paper grain, hand-drawn contour lines, drawn over the full 3D world so every recorded shape stays readable; soft coloured-pencil hues of teal, peach and warm brown on cream paper; cosy window light from one side of the room; visible paper tooth under the pencil strokes; layered scribbled tone; background fading out to blank paper at the edges; character design: figures in quick gesture lines; the whole frame must read as a flat hand-made drawing or print on paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. The camera follows the recorded third-person path of the conditioning reference with its fixed 53-degree vertical field of view. Warm tungsten lamps mixed with window daylight cast soft, directional light from the left, creating gentle shadows and highlighting dust motes floating in the air. The whole frame is one finished image in this look: Graphic non-photorealistic rendering, coloured pencil sketch look. There are no trees in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–2.500000s: The protagonist walks along the route while looking around at the surroundings; the protagonist moves about a metre along its route.; 2.500000–5.000000s: The protagonist keeps going through the same camera exploration stretch; the protagonist moves about half a metre along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+the protagonist (player, identity tag #366ef7): visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 7
+Reference interval: [22.5, 27.666666667) s
+New frames in delivered video: [23.916666667, 27.666666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: Graphic non-photorealistic rendering, coloured pencil sketch look: layered pencil hatching in muted colours over a white paper ground, visible paper grain, hand-drawn contour lines, drawn over the full 3D world so every recorded shape stays readable; soft coloured-pencil hues of teal, peach and warm brown on cream paper; cosy window light from one side of the room; visible paper tooth under the pencil strokes; layered scribbled tone; background fading out to blank paper at the edges; character design: figures in quick gesture lines; the whole frame must read as a flat hand-made drawing or print on paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels, sketched in slate grey with subtle shading to indicate its metallic surface. The independently moving adult participant 1 is an office worker with neat short chestnut hair, wearing an ivory shirt with a plum tie, charcoal suit trousers, and polished oxford shoes. The independently moving adult participant 2 is a chef with dark hair under a cap, wearing an ivory double-breasted chef jacket, houndstooth trousers, and black kitchen clogs. The person pushing the wheeled handcart is a mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. The camera follows the recorded third-person path of the conditioning reference with its fixed 53-degree vertical field of view. Warm tungsten lamps mixed with window daylight cast soft, directional light from the left, creating gentle shadows and highlighting dust motes floating in the air. The whole frame is one finished image in this look: Graphic non-photorealistic rendering, coloured pencil sketch look. There are no trees in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–1.470000s: The protagonist walks along the route while looking around at the surroundings; the protagonist moves about half a metre along its route; 1.470000–5.000000s: The protagonist turns back to face forward along the route; the protagonist moves about half a metre along its route; the person pushing the wheeled handcart moves about half a metre along its route; the cart moves about half a metre along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+the protagonist (player, identity tag #366ef7): visible only during [0.000000,5.166667)s.
+an independently moving adult participant (npc-02, identity tag #f736df): visible only during [2.166667,5.166667)s.
+an independently moving adult participant (npc-03, identity tag #36f7d6): visible only during [3.041667,5.166667)s.
+a wheeled handcart (ambient-cart, identity tag #f79e36): visible only during [3.083333,5.166667)s.
+an independently moving adult participant (npc-01, identity tag #a7f736): visible only during [3.583333,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 8
+Reference interval: [26.25, 31.416666667) s
+New frames in delivered video: [27.666666667, 30) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: Graphic non-photorealistic rendering, coloured pencil sketch look: layered pencil hatching in muted colours over a white paper ground, visible paper grain, hand-drawn contour lines, drawn over the full 3D world so every recorded shape stays readable; soft coloured-pencil hues of teal, peach and warm brown on cream paper; cosy window light from one side of the room; visible paper tooth under the pencil strokes; layered scribbled tone; background fading out to blank paper at the edges; character design: figures in quick gesture lines; the whole frame must read as a flat hand-made drawing or print on paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters.
+
+The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels, sketched in slate grey with subtle shading to indicate its metallic surface. The independently moving adult participant 1 is an office worker with neat short chestnut hair, wearing an ivory shirt with a plum tie, charcoal suit trousers, and polished oxford shoes. The independently moving adult participant 2 is a chef with dark hair under a cap, wearing an ivory double-breasted chef jacket, houndstooth trousers, and black kitchen clogs. The person pushing the wheeled handcart is a mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots. Every described entity retains this appearance only while visible in the reference.
+
+The setting is a fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels. The camera follows the recorded third-person path of the conditioning reference with its fixed 53-degree vertical field of view. Warm tungsten lamps mixed with window daylight cast soft, directional light from the left, creating gentle shadows and highlighting dust motes floating in the air. The whole frame is one finished image in this look: Graphic non-photorealistic rendering, coloured pencil sketch look. There are no trees in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 1.420000–3.750000s: The protagonist carries on with the recorded movement of the conditioning reference; 3.750000–5.166667s: The recording has ended: everyone holds the final pose and position and the camera holds its final pose.
+
+Exact current reference visibility (local half-open intervals):
+a wheeled handcart (ambient-cart, identity tag #f79e36): visible only during [0.000000,5.166667)s.
+the protagonist (player, identity tag #366ef7): visible only during [0.000000,5.166667)s.
+an independently moving adult participant (npc-01, identity tag #a7f736): visible only during [0.000000,5.166667)s.
+an independently moving adult participant (npc-03, identity tag #36f7d6): visible only during [0.000000,5.166667)s.
+an independently moving adult participant (npc-02, identity tag #f736df): visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+Only the source ends at local 3.750000 seconds in this final window; the remaining 1.416667 seconds are tail padding and will not be delivered.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A

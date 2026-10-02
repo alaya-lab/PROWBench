@@ -1,0 +1,50 @@
+Scene: long30-004-mountain-long-return__first-person
+Method: Coarse2Real
+Camera: first-person
+
+Window 1
+Reference interval: [0, 5) s
+New frames in delivered video: [0, 5) s
+Negative prompt: Negative prompt 1
+Positive prompt:
+Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters. The independent participant B is a park ranger with short grey hair under a wide-brim hat, wearing an olive ranger shirt, tan trousers, and brown boots. The independent participant C is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist walks forward along the route. Only people visible in the control appear. Drivers remain inside their vehicles.
+
+Window 2
+Reference interval: [5, 10) s
+New frames in delivered video: [5, 10) s
+Negative prompt: Negative prompt 1
+Positive prompt:
+Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters. The independent participant B is a park ranger with short grey hair under a wide-brim hat, wearing an olive ranger shirt, tan trousers, and brown boots. The independent participant C is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist walks forward along the route. The protagonist turns round and walks back along the route. Only people visible in the control appear. Drivers remain inside their vehicles.
+
+Window 3
+Reference interval: [10, 15) s
+New frames in delivered video: [10, 15) s
+Negative prompt: Negative prompt 1
+Positive prompt:
+Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters. The independent participant B is a park ranger with short grey hair under a wide-brim hat, wearing an olive ranger shirt, tan trousers, and brown boots. The independent participant C is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist turns round and walks back along the route. Only people visible in the control appear. Drivers remain inside their vehicles.
+
+Window 4
+Reference interval: [15, 20) s
+New frames in delivered video: [15, 20) s
+Negative prompt: Negative prompt 1
+Positive prompt:
+Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters. The independent participant B is a park ranger with short grey hair under a wide-brim hat, wearing an olive ranger shirt, tan trousers, and brown boots. The independent participant C is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist turns round and walks back along the route. The protagonist walks forward along the route. Only people visible in the control appear. Drivers remain inside their vehicles.
+
+Window 5
+Reference interval: [20, 25) s
+New frames in delivered video: [20, 25) s
+Negative prompt: Negative prompt 1
+Positive prompt:
+Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters. The independent participant B is a park ranger with short grey hair under a wide-brim hat, wearing an olive ranger shirt, tan trousers, and brown boots. The independent participant C is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist walks forward along the route. Only people visible in the control appear. Drivers remain inside their vehicles.
+
+Window 6
+Reference interval: [25, 30) s
+New frames in delivered video: [25, 30) s
+Negative prompt: Negative prompt 1
+Positive prompt:
+Painterly rendering, long-scroll ink look: stacked receding planes of hills, water and mist, tiny figures scaled against a vast landscape, graded grey washes with a few dark accents, hand-drawn edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; monochrome black ink with a faint blue-green mineral tint on the peaks; diffuse overcast light; mist separating the ridges into layered depth planes; long sweeping wet brush strokes; most of the background left as empty paper; character design: small figures dwarfed by the surroundings; the whole frame must read as a flat hand-made painting on canvas or paper with visible medium texture - not a smooth 3D render, not a game screenshot, no cel-shaded 3D characters. The independent participant B is a park ranger with short grey hair under a wide-brim hat, wearing an olive ranger shirt, tan trousers, and brown boots. The independent participant C is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist walks forward along the route. Only people visible in the control appear. Drivers remain inside their vehicles.
+
+Shared prompts
+
+Negative prompt 1
+色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走

@@ -1,0 +1,352 @@
+Scene: long30-021-desert-launch__follow
+Method: MiniMax-H3
+Camera: follow
+
+Window 1
+Reference interval: [0, 5.166666667) s
+New frames in delivered video: [0, 5.166666667) s
+System prompt: System prompt 1
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. This is the opening window.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials.
+
+The protagonist sits in the driver's seat inside the closed cabin of the racing sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The protagonist's racing sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. Each of rival racing sedan 1, rival racing sedan 3 is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The seated driver of rival racing car 1 sits in the driver's seat inside the closed cabin of rival racing sedan 1, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The seated driver of rival racing car 3 sits in the driver's seat inside the closed cabin of rival racing sedan 3, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. Every described entity retains this appearance only while visible in the reference.
+
+The setting is sand dunes, angular desert rocks and cactus plants. Preserve the reference spacing, masses and open routes. The player sedan, a complete graphite-grey racing sedan with a seated driver; a complete racing sedan with a seated driver. A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials. The dawn-low-sun lighting creates a warm, golden hue with long, soft shadows stretching across the sand, emphasizing the textures of the rocks and the ripples in the sand. An asphalt road with white lane markings and low metal roadside barriers runs through the scene exactly where the conditioning reference shows it; keep it a real paved road for the whole clip. There are no trees in this clip. There are no buildings or ruins in this clip. 
+
+Opening identity, scale and orientation binding (only at the stated initial time; subsequent motion follows <Video 1>):
+At the opening, the seated driver of rival racing car 1 remains seated inside rival racing sedan 1, within its cabin; this is not a separate standing figure.
+At the opening, the protagonist remains seated inside the protagonist's racing sedan with a seated driver, within its cabin; this is not a separate standing figure.
+At the opening, the protagonist's racing sedan with a seated driver is number 2 from screen-left, centred about 50% across and 66% down the image, about 35% of image height, nearest in the foreground, seen from the rear, with its rear end visible and its front pointing deeper into the scene.
+At the opening, rival racing sedan 1 is rightmost, centred about 88% across and 50% down the image, about 22% of image height, at an intermediate depth, seen from the rear, with its rear end visible and its front pointing deeper into the scene.
+At the opening, rival racing sedan 3 is leftmost, centred about 50% across and 39% down the image, about 15% of image height, farthest in the background, seen from the rear, with its rear end visible and its front pointing deeper into the scene.
+At the opening, the seated driver of rival racing car 3 remains seated inside rival racing sedan 3, within its cabin; this is not a separate standing figure.
+
+Exact current reference visibility (local half-open intervals):
+the seated driver of rival racing car 1: visible only during [0.000000,5.166667)s.
+the protagonist: visible only during [0.000000,5.166667)s.
+the protagonist's racing sedan with a seated driver: visible only during [0.000000,5.166667)s.
+rival racing sedan 1: visible only during [0.000000,5.166667)s.
+rival racing sedan 3: visible only during [0.000000,5.166667)s.
+the seated driver of rival racing car 3: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 2
+Reference interval: [3.75, 8.916666667) s
+New frames in delivered video: [5.166666667, 8.916666667) s
+System prompt: System prompt 2
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials.
+
+The protagonist sits in the driver's seat inside the closed cabin of the racing sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The protagonist's racing sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. Each of rival racing sedan 1, rival racing sedan 3 is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The seated driver of rival racing car 1 sits in the driver's seat inside the closed cabin of rival racing sedan 1, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The seated driver of rival racing car 3 sits in the driver's seat inside the closed cabin of rival racing sedan 3, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. Every described entity retains this appearance only while visible in the reference.
+
+The setting is sand dunes, angular desert rocks and cactus plants. Preserve the reference spacing, masses and open routes. The player sedan, a complete graphite-grey racing sedan with a seated driver; a complete racing sedan with a seated driver. A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials. The dawn-low-sun lighting creates a warm, golden hue with long, soft shadows stretching across the sand, emphasizing the textures of the rocks and the ripples in the sand. An asphalt road with white lane markings and low metal roadside barriers runs through the scene exactly where the conditioning reference shows it; keep it a real paved road for the whole clip. There are no trees in this clip. There are no buildings or ruins in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+the seated driver of rival racing car 1: visible only during [0.000000,5.166667)s.
+the protagonist: visible only during [0.000000,5.166667)s.
+the protagonist's racing sedan with a seated driver: visible only during [0.000000,5.166667)s.
+rival racing sedan 1: visible only during [0.000000,5.166667)s.
+rival racing sedan 3: visible only during [0.000000,5.166667)s.
+the seated driver of rival racing car 3: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Spatial fidelity: the positions and sizes are constraints on the whole visible body, from head to feet, not suggestions for a new composition. Preserve each entity's horizontal and vertical extent at every frame. Preserve the reference depth order, ground-contact position and partial occlusions as the sequence progresses.
+
+When a person is stationary in the reference, keep the body stationary instead of continuing the walking cycle.
+
+Window 3
+Reference interval: [7.5, 12.666666667) s
+New frames in delivered video: [8.916666667, 12.666666667) s
+System prompt: System prompt 2
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials.
+
+The protagonist sits in the driver's seat inside the closed cabin of the racing sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The protagonist's racing sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. Each of rival racing sedan 1, rival racing sedan 3 is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The seated driver of rival racing car 1 sits in the driver's seat inside the closed cabin of rival racing sedan 1, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The seated driver of rival racing car 3 sits in the driver's seat inside the closed cabin of rival racing sedan 3, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. Every described entity retains this appearance only while visible in the reference.
+
+The setting is sand dunes, angular desert rocks and cactus plants. Preserve the reference spacing, masses and open routes. The player sedan, a complete graphite-grey racing sedan with a seated driver; a complete racing sedan with a seated driver. A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials. The dawn-low-sun lighting creates a warm, golden hue with long, soft shadows stretching across the sand, emphasizing the textures of the rocks and the ripples in the sand. An asphalt road with white lane markings and low metal roadside barriers runs through the scene exactly where the conditioning reference shows it; keep it a real paved road for the whole clip. There are no trees in this clip. There are no buildings or ruins in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+the seated driver of rival racing car 1: visible only during [0.000000,5.166667)s.
+the protagonist: visible only during [0.000000,5.166667)s.
+the protagonist's racing sedan with a seated driver: visible only during [0.000000,5.166667)s.
+rival racing sedan 1: visible only during [0.000000,5.166667)s.
+rival racing sedan 3: visible only during [0.000000,5.166667)s.
+the seated driver of rival racing car 3: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 4
+Reference interval: [11.25, 16.416666667) s
+New frames in delivered video: [12.666666667, 16.416666667) s
+System prompt: System prompt 2
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials.
+
+The protagonist sits in the driver's seat inside the closed cabin of the racing sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The protagonist's racing sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. Each of rival racing sedan 1, rival racing sedan 3 is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The seated driver of rival racing car 1 sits in the driver's seat inside the closed cabin of rival racing sedan 1, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The seated driver of rival racing car 3 sits in the driver's seat inside the closed cabin of rival racing sedan 3, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. Every described entity retains this appearance only while visible in the reference.
+
+The setting is sand dunes, angular desert rocks and cactus plants. Preserve the reference spacing, masses and open routes. The player sedan, a complete graphite-grey racing sedan with a seated driver; a complete racing sedan with a seated driver. A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials. The dawn-low-sun lighting creates a warm, golden hue with long, soft shadows stretching across the sand, emphasizing the textures of the rocks and the ripples in the sand. An asphalt road with white lane markings and low metal roadside barriers runs through the scene exactly where the conditioning reference shows it; keep it a real paved road for the whole clip. There are no trees in this clip. There are no buildings or ruins in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+the seated driver of rival racing car 1: visible only during [0.000000,5.166667)s.
+the protagonist: visible only during [0.000000,5.166667)s.
+the protagonist's racing sedan with a seated driver: visible only during [0.000000,5.166667)s.
+rival racing sedan 1: visible only during [0.000000,5.166667)s.
+rival racing sedan 3: visible only during [0.000000,5.166667)s.
+the seated driver of rival racing car 3: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+Current-window correction:
+Maintain the continuous paved asphalt road, lane markings and roadside barriers at the reference positions throughout the interval. Keep all three sedans at their recorded sizes, positions and orientations.
+Current-window correction:
+Maintain continuous paved asphalt, lane markings and roadside barriers throughout the remaining interval. Keep all three sedans at their reference sizes, positions and orientations.
+Current-window correction:
+Keep all three sedans at their reference sizes, positions and orientations throughout the remaining interval. Keep the protagonist sedan small and centred with its rear visible, without enlarging it or turning it side-on.
+
+Window 5
+Reference interval: [15, 20.166666667) s
+New frames in delivered video: [16.416666667, 20.166666667) s
+System prompt: System prompt 2
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials.
+
+The protagonist sits in the driver's seat inside the closed cabin of the racing sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The protagonist's racing sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. Each of rival racing sedan 1, rival racing sedan 3 is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The seated driver of rival racing car 1 sits in the driver's seat inside the closed cabin of rival racing sedan 1, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The seated driver of rival racing car 3 sits in the driver's seat inside the closed cabin of rival racing sedan 3, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. Every described entity retains this appearance only while visible in the reference.
+
+The setting is sand dunes, angular desert rocks and cactus plants. Preserve the reference spacing, masses and open routes. The player sedan, a complete graphite-grey racing sedan with a seated driver; a complete racing sedan with a seated driver. A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials. The dawn-low-sun lighting creates a warm, golden hue with long, soft shadows stretching across the sand, emphasizing the textures of the rocks and the ripples in the sand. An asphalt road with white lane markings and low metal roadside barriers runs through the scene exactly where the conditioning reference shows it; keep it a real paved road for the whole clip. There are no trees in this clip. There are no buildings or ruins in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+the seated driver of rival racing car 1: visible only during [0.000000,5.166667)s.
+the protagonist: visible only during [0.000000,5.166667)s.
+the protagonist's racing sedan with a seated driver: visible only during [0.000000,5.166667)s.
+rival racing sedan 1: visible only during [0.000000,5.166667)s.
+rival racing sedan 3: visible only during [0.000000,5.166667)s.
+the seated driver of rival racing car 3: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+Window 6
+Reference interval: [18.75, 23.916666667) s
+New frames in delivered video: [20.166666667, 23.916666667) s
+System prompt: System prompt 2
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials.
+
+The protagonist sits in the driver's seat inside the closed cabin of the racing sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The protagonist's racing sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. Each of rival racing sedan 1, rival racing sedan 3 is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The seated driver of rival racing car 1 sits in the driver's seat inside the closed cabin of rival racing sedan 1, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The seated driver of rival racing car 3 sits in the driver's seat inside the closed cabin of rival racing sedan 3, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. Every described entity retains this appearance only while visible in the reference.
+
+The setting is sand dunes, angular desert rocks and cactus plants. Preserve the reference spacing, masses and open routes. The player sedan, a complete graphite-grey racing sedan with a seated driver; a complete racing sedan with a seated driver. A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials. The dawn-low-sun lighting creates a warm, golden hue with long, soft shadows stretching across the sand, emphasizing the textures of the rocks and the ripples in the sand. An asphalt road with white lane markings and low metal roadside barriers runs through the scene exactly where the conditioning reference shows it; keep it a real paved road for the whole clip. There are no trees in this clip. There are no buildings or ruins in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+the seated driver of rival racing car 1: visible only during [0.000000,5.166667)s.
+the protagonist: visible only during [0.000000,5.166667)s.
+the protagonist's racing sedan with a seated driver: visible only during [0.000000,5.166667)s.
+rival racing sedan 1: visible only during [0.000000,5.166667)s.
+rival racing sedan 3: visible only during [0.000000,5.166667)s.
+the seated driver of rival racing car 3: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+Window 7
+Reference interval: [22.5, 27.666666667) s
+New frames in delivered video: [23.916666667, 27.666666667) s
+System prompt: System prompt 2
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials.
+
+The protagonist sits in the driver's seat inside the closed cabin of the racing sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The protagonist's racing sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. Each of rival racing sedan 1, rival racing sedan 3 is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The seated driver of rival racing car 1 sits in the driver's seat inside the closed cabin of rival racing sedan 1, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The seated driver of rival racing car 3 sits in the driver's seat inside the closed cabin of rival racing sedan 3, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. Every described entity retains this appearance only while visible in the reference.
+
+The setting is sand dunes, angular desert rocks and cactus plants. Preserve the reference spacing, masses and open routes. The player sedan, a complete graphite-grey racing sedan with a seated driver; a complete racing sedan with a seated driver. A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials. The dawn-low-sun lighting creates a warm, golden hue with long, soft shadows stretching across the sand, emphasizing the textures of the rocks and the ripples in the sand. An asphalt road with white lane markings and low metal roadside barriers runs through the scene exactly where the conditioning reference shows it; keep it a real paved road for the whole clip. There are no trees in this clip. There are no buildings or ruins in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+the seated driver of rival racing car 1: visible only during [0.000000,5.166667)s.
+the protagonist: visible only during [0.000000,5.166667)s.
+the protagonist's racing sedan with a seated driver: visible only during [0.000000,5.166667)s.
+rival racing sedan 1: visible only during [0.000000,5.166667)s.
+rival racing sedan 3: visible only during [0.000000,5.166667)s.
+the seated driver of rival racing car 3: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+Window 8
+Reference interval: [26.25, 31.416666667) s
+New frames in delivered video: [27.666666667, 30) s
+System prompt: System prompt 2
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+Appearance and scene:
+
+Rendering style of the whole frame: A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials.
+
+The protagonist sits in the driver's seat inside the closed cabin of the racing sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The protagonist's racing sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. Each of rival racing sedan 1, rival racing sedan 3 is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The seated driver of rival racing car 1 sits in the driver's seat inside the closed cabin of rival racing sedan 1, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The seated driver of rival racing car 3 sits in the driver's seat inside the closed cabin of rival racing sedan 3, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. Every described entity retains this appearance only while visible in the reference.
+
+The setting is sand dunes, angular desert rocks and cactus plants. Preserve the reference spacing, masses and open routes. The player sedan, a complete graphite-grey racing sedan with a seated driver; a complete racing sedan with a seated driver. A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials. The dawn-low-sun lighting creates a warm, golden hue with long, soft shadows stretching across the sand, emphasizing the textures of the rocks and the ripples in the sand. An asphalt road with white lane markings and low metal roadside barriers runs through the scene exactly where the conditioning reference shows it; keep it a real paved road for the whole clip. There are no trees in this clip. There are no buildings or ruins in this clip. 
+
+Exact current reference visibility (local half-open intervals):
+the seated driver of rival racing car 1: visible only during [0.000000,5.166667)s.
+the protagonist: visible only during [0.000000,5.166667)s.
+the protagonist's racing sedan with a seated driver: visible only during [0.000000,5.166667)s.
+rival racing sedan 1: visible only during [0.000000,5.166667)s.
+rival racing sedan 3: visible only during [0.000000,5.166667)s.
+the seated driver of rival racing car 3: visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep identities distinct and introduce no extra subjects.
+Only the source ends at local 3.750000 seconds in this final window; the remaining 1.416667 seconds are tail padding and will not be delivered.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Preserve the supplied overlap exactly. Throughout the remaining time, preserve the full-frame arrangement and the recorded subject sizes, positions, depth order, ground contacts and occlusions from the current structural reference. Preserve the recorded road vanishing point and route geometry where present. The reference controls each individual body orientation, including turns and pauses.
+
+Shared prompts
+
+System prompt 1
+Render the world in <Video 1>. The reference is authoritative for geometry, scale, visibility, count, orientation and motion timing. The user supplies appearance and style. Bind each named entity to its specified opening position and keep that identity throughout the clip; the opening layout is not a command to freeze later motion. Follow subsequent reference changes without inventing entities or actions.
+
+Colored structural placeholders are identity controls, not clothing or materials. The white face marks the entity's front. Its outward normal gives the forward direction. Transparency may expose the far-side white face; infer orientation from the complete 3D shape, never from white pixels or travel direction alone. Render the described real entities in place of the controls. No proxy markings, colored slabs, enclosing panels or wireframes appear in the output.
+
+Keep each entity's appearance consistent. Render only the entities visible in the reference at the stated times. No external first-frame image is supplied. Generate the opening directly from the structural reference and the stated appearance.
+
+System prompt 2
+Render the world in <Video 1>. The reference is authoritative for geometry, scale, visibility, count, orientation and motion timing. The user supplies appearance and style. Bind each named entity to its specified opening position and keep that identity throughout the clip; the opening layout is not a command to freeze later motion. Follow subsequent reference changes without inventing entities or actions.
+
+Colored structural placeholders are identity controls, not clothing or materials. The white face marks the entity's front. Its outward normal gives the forward direction. Transparency may expose the far-side white face; infer orientation from the complete 3D shape, never from white pixels or travel direction alone. Render the described real entities in place of the controls. No proxy markings, colored slabs, enclosing panels or wireframes appear in the output.
+
+Keep each entity's appearance consistent. Render only the entities visible in the reference at the stated times. No external first-frame image is supplied. Continue from the supplied generated prefix. Preserve its appearance and exact overlap. After the overlap the current reference controls changing positions, visibility and motion; do not freeze or extrapolate the preceding layout.

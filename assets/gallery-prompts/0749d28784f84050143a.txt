@@ -1,0 +1,326 @@
+Scene: multi4-013-old-town-staggered-follow
+Grid layout: A B / C D
+
+
+View A (follow-a)
+
+Method: Code World Model
+Camera: follow-a
+
+Window 1
+Reference interval: [0, 5) s
+System prompt: System prompt 1
+Positive prompt:
+Appearance and scene:
+
+The protagonist is participant A, an adult of medium build with short grey hair, wearing a cardigan in royal blue over a white shirt, dark brown trousers and brown shoes.
+
+Participant B is a young adult with short spiky black hair, wearing an oversized T-shirt in bright lime green, black cargo trousers and white trainers, and keeps exactly this appearance. Participant C is a tall slim adult with long straight dark hair, wearing a wrap blouse in vivid magenta pink, cream trousers and black flats, and keeps exactly this appearance. Participant D is a heavy-set adult with a bald head and a grey moustache, wearing a button-up shirt in bright turquoise, beige trousers and dark leather sandals, and keeps exactly this appearance. At the start of the clip the protagonist (participant A) (the protagonist) stands in the centre of the middle part of the frame, about a third to half of the frame height, nearest to the camera, seen from behind, facing away from the camera; participant B (participant B) stands on screen-right of the middle part of the frame, a small figure, behind the protagonist (participant A), to screen-right of the protagonist (participant A), seen from behind, facing away from the camera; participant C (participant C) stands in the centre of the middle part of the frame, a small figure in the middle distance, behind participant B, directly behind the protagonist (participant A), seen from behind, facing away from the camera; participant D (participant D) stands in the centre of the upper part of the frame, a small figure, in the far background, directly behind the protagonist (participant A), seen from behind, facing away from the camera. The other participants of the same recording are participant B, a young adult with short spiky black hair, wearing an oversized T-shirt in bright lime green, black cargo trousers and white trainers; participant C, a tall slim adult with long straight dark hair, wearing a wrap blouse in vivid magenta pink, cream trousers and black flats and participant D, a heavy-set adult with a bald head and a grey moustache, wearing a button-up shirt in bright turquoise, beige trousers and dark leather sandals; only those named above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. All people keep the same face, build and clothing throughout, with clothing folds responding naturally to movement. Rendering style, stated again because it governs every frame: Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI.
+
+The setting is a narrow old-town market street: old stone buildings stand close on both sides, wooden market stalls with fabric awnings and a few handcarts sit along the edges, and the paved lane runs on between more facades under an open sky. The people walk along the open middle of the lane. Preserve the reference spacing, building masses, stall positions and open walking routes. Use worn limestone, cobbles, weathered timber and faded canvas. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The camera follows the recorded third-person path of the conditioning reference with its fixed 60-degree vertical field of view.
+
+Protagonist action timeline:
+
+0.00–2.50s: Participants A and C walk one behind the other along one side of the market lane while participants B and D walk one behind the other along the other side, C ahead of A and D ahead of B, the two lines offset so that nobody moves directly abreast; everyone keeps the same steady pace; the protagonist (participant A) moves about 3 metres along its route.; 2.50–5.00s: Everyone keeps walking forward at the same steady pace, holding their places in the two offset lines with the spacing unchanged; the protagonist (participant A) moves about 3 metres along its route.; 5.00–5.17s: Everyone holds the final pose and position and the camera holds its final pose.
+
+Other visible actors:
+
+0.00–5.17s, participant B: Moves about 3 metres along its route from 0.00 to 2.50 s; moves about 3 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.; 0.00–5.17s, participant C: Moves about 3 metres along its route from 0.00 to 2.50 s; moves about 3 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.; 0.00–5.17s, participant D: Moves about 3 metres along its route from 0.00 to 2.50 s; moves about 3 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.
+
+Shared prompts
+
+System prompt 1
+AWM_PROXY_CONTROL. Two visual references accompany this text. <Video 1> is the conditioning
+proxy video: treat it as a coarse spatiotemporal reference, not an appearance template or
+literal target geometry. <Picture 1> is the global RGB anchor image: it defines identity and
+appearance, never motion. <Picture 1> is the ABSOLUTE standard for the worldview, art
+direction and overall style of the entire take: every clip of the take, no matter how far into the
+future, must align with it to a high degree, and on worldview, art direction and style it
+outranks even the current clip's caption. It provides NOTHING about any future frame's
+current camera, composition, motion or interactions. Each subject's position and motion come
+from <Video 1>. A subject's appearance follows <Picture 1> when that subject is visible in
+it; subjects not visible in <Picture 1> take their appearance from the timestamped text,
+rendered consistently in <Picture 1>'s worldview and art direction.
+
+Human proxies in <Video 1> provide only framewise root position, coarse occupied scale, and
+whole-body root orientation, which are reliable at roughly 80-100% and should be followed
+closely. They carry no information about character appearance and do not represent identity,
+face, hairstyle, clothing, materials, colors, visual effects, anatomy, bones, joints, limb
+articulation, detailed posture, torso or head pose, hand pose, action phase, or physical
+contact. Reconstruct each character's appearance from <Picture 1> and the timestamped text,
+and reconstruct articulated motion from the timestamped text. Never reproduce a human proxy
+as a skeleton, stick figure, mannequin, node-connected body, or exposed rig. Left and right
+refer to each person's own body unless explicitly stated as screen direction.
+
+Vehicle proxies in <Video 1> provide only framewise position, trajectory, body heading,
+rotation, and accurate overall length, width, height, and occupied scale; these anchors
+should be followed closely. They carry no information about vehicle appearance. Never
+reproduce a vehicle proxy as a wireframe vehicle, cage frame, tubular skeleton, exposed
+chassis, or low-poly proxy car. Vehicle identity, type, design details, materials, colors,
+and visual effects are defined by <Picture 1> and the text.
+
+Roads, terrain, buildings, relative depth, rough scale, and layout in <Video 1> provide
+denser but still approximate structural cues. The text may reinterpret these cues to create
+strongly out-of-distribution scenes while maintaining broad spatial and temporal coherence.
+Conditioning colors, proxy geometry, node markers, rigging structures, and other
+visualization artifacts must never appear in the final video.
+
+When sources conflict, resolve in this order: (1) geometry, camera, position and motion
+follow <Video 1>; (2) the worldview, art direction and overall style follow <Picture 1>
+absolutely — above the current clip's caption; identity, appearance and materials follow
+<Picture 1> for subjects visible in it, and follow the text for subjects not visible in it;
+(3) the timestamped text defines the concrete events, actions and rewrite targets within
+those constraints; (4) when the opening of this clip is fixed to already-given video frames,
+seamless continuity with that fixed opening overrides everything else — never restart the
+scene.
+
+Clip contract: this clip is the very beginning of the take — nothing
+precedes it. <Picture 1> is the global
+appearance anchor for the whole take, and the first frame of the target is locked to this
+exact image: the clip begins at precisely this visual state — identities, appearance,
+materials, art direction, lighting, camera framing and layout — and continues directly from
+it while performing the timestamped actions. Do not restart, redesign or re-interpret any
+identity.
+
+
+View B (follow-b)
+
+Method: Code World Model
+Camera: follow-b
+
+Window 1
+Reference interval: [0, 5) s
+System prompt: System prompt 1
+Positive prompt:
+Appearance and scene:
+
+The protagonist is participant B, a young adult with short spiky black hair, wearing an oversized T-shirt in bright lime green, black cargo trousers and white trainers. The other people in this view are participant C, a tall slim adult with long straight dark hair, wearing a wrap blouse in vivid magenta pink, cream trousers and black flats and participant D, a heavy-set adult with a bald head and a grey moustache, wearing a button-up shirt in bright turquoise, beige trousers and dark leather sandals; only those named above appear in this view.
+
+Participant C is a tall slim adult with long straight dark hair, wearing a wrap blouse in vivid magenta pink, cream trousers and black flats, and keeps exactly this appearance. Participant D is a heavy-set adult with a bald head and a grey moustache, wearing a button-up shirt in bright turquoise, beige trousers and dark leather sandals, and keeps exactly this appearance. At the start of the clip the protagonist (participant B) (the protagonist) stands in the centre of the middle part of the frame, about a third to half of the frame height, nearest to the camera, seen from behind, facing away from the camera; participant C (participant C) stands on screen-left of the middle part of the frame, a small figure, behind the protagonist (participant B), to screen-left of the protagonist (participant B), seen from behind, facing away from the camera; participant D (participant D) stands in the centre of the middle part of the frame, a small figure in the middle distance, behind participant C, directly behind the protagonist (participant B), seen from behind, facing away from the camera. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. All people keep the same face, build and clothing throughout, with clothing folds responding naturally to movement. Rendering style, stated again because it governs every frame: Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI.
+
+The setting is a narrow old-town market street: old stone buildings stand close on both sides, wooden market stalls with fabric awnings and a few handcarts sit along the edges, and the paved lane runs on between more facades under an open sky. The people walk along the open middle of the lane. Preserve the reference spacing, building masses, stall positions and open walking routes. Use worn limestone, cobbles, weathered timber and faded canvas. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The camera follows the recorded third-person path of the conditioning reference with its fixed 60-degree vertical field of view.
+
+Protagonist action timeline:
+
+0.00–2.50s: Everyone shown moves steadily along their own route exactly as recorded in the conditioning reference; the protagonist (participant B) moves about 3 metres along its route.; 2.50–5.00s: Everyone shown keeps moving along their own route exactly as recorded in the conditioning reference; the protagonist (participant B) moves about 3 metres along its route.; 5.00–5.17s: Everyone holds the final pose and position and the camera holds its final pose.
+
+Other visible actors:
+
+0.00–5.17s, participant C: Moves about 3 metres along its route from 0.00 to 2.50 s; moves about 3 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.; 0.00–5.17s, participant D: Moves about 3 metres along its route from 0.00 to 2.50 s; moves about 3 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.
+
+Shared prompts
+
+System prompt 1
+AWM_PROXY_CONTROL. Two visual references accompany this text. <Video 1> is the conditioning
+proxy video: treat it as a coarse spatiotemporal reference, not an appearance template or
+literal target geometry. <Picture 1> is the global RGB anchor image: it defines identity and
+appearance, never motion. <Picture 1> is the ABSOLUTE standard for the worldview, art
+direction and overall style of the entire take: every clip of the take, no matter how far into the
+future, must align with it to a high degree, and on worldview, art direction and style it
+outranks even the current clip's caption. It provides NOTHING about any future frame's
+current camera, composition, motion or interactions. Each subject's position and motion come
+from <Video 1>. A subject's appearance follows <Picture 1> when that subject is visible in
+it; subjects not visible in <Picture 1> take their appearance from the timestamped text,
+rendered consistently in <Picture 1>'s worldview and art direction.
+
+Human proxies in <Video 1> provide only framewise root position, coarse occupied scale, and
+whole-body root orientation, which are reliable at roughly 80-100% and should be followed
+closely. They carry no information about character appearance and do not represent identity,
+face, hairstyle, clothing, materials, colors, visual effects, anatomy, bones, joints, limb
+articulation, detailed posture, torso or head pose, hand pose, action phase, or physical
+contact. Reconstruct each character's appearance from <Picture 1> and the timestamped text,
+and reconstruct articulated motion from the timestamped text. Never reproduce a human proxy
+as a skeleton, stick figure, mannequin, node-connected body, or exposed rig. Left and right
+refer to each person's own body unless explicitly stated as screen direction.
+
+Vehicle proxies in <Video 1> provide only framewise position, trajectory, body heading,
+rotation, and accurate overall length, width, height, and occupied scale; these anchors
+should be followed closely. They carry no information about vehicle appearance. Never
+reproduce a vehicle proxy as a wireframe vehicle, cage frame, tubular skeleton, exposed
+chassis, or low-poly proxy car. Vehicle identity, type, design details, materials, colors,
+and visual effects are defined by <Picture 1> and the text.
+
+Roads, terrain, buildings, relative depth, rough scale, and layout in <Video 1> provide
+denser but still approximate structural cues. The text may reinterpret these cues to create
+strongly out-of-distribution scenes while maintaining broad spatial and temporal coherence.
+Conditioning colors, proxy geometry, node markers, rigging structures, and other
+visualization artifacts must never appear in the final video.
+
+When sources conflict, resolve in this order: (1) geometry, camera, position and motion
+follow <Video 1>; (2) the worldview, art direction and overall style follow <Picture 1>
+absolutely — above the current clip's caption; identity, appearance and materials follow
+<Picture 1> for subjects visible in it, and follow the text for subjects not visible in it;
+(3) the timestamped text defines the concrete events, actions and rewrite targets within
+those constraints; (4) when the opening of this clip is fixed to already-given video frames,
+seamless continuity with that fixed opening overrides everything else — never restart the
+scene.
+
+Clip contract: this clip is the very beginning of the take — nothing
+precedes it. <Picture 1> is the global
+appearance anchor for the whole take, and the first frame of the target is locked to this
+exact image: the clip begins at precisely this visual state — identities, appearance,
+materials, art direction, lighting, camera framing and layout — and continues directly from
+it while performing the timestamped actions. Do not restart, redesign or re-interpret any
+identity.
+
+
+View C (follow-c)
+
+Method: Code World Model
+Camera: follow-c
+
+Window 1
+Reference interval: [0, 5) s
+System prompt: System prompt 1
+Positive prompt:
+Appearance and scene:
+
+The protagonist is participant C, a tall slim adult with long straight dark hair, wearing a wrap blouse in vivid magenta pink, cream trousers and black flats. The other people in this view are participant D, a heavy-set adult with a bald head and a grey moustache, wearing a button-up shirt in bright turquoise, beige trousers and dark leather sandals; only those named above appear in this view.
+
+Participant D is a heavy-set adult with a bald head and a grey moustache, wearing a button-up shirt in bright turquoise, beige trousers and dark leather sandals, and keeps exactly this appearance. At the start of the clip the protagonist (participant C) (the protagonist) stands in the centre of the middle part of the frame, about a third to half of the frame height, nearest to the camera, seen from behind, facing away from the camera; participant D (participant D) stands on screen-right of the middle part of the frame, a small figure, behind the protagonist (participant C), to screen-right of the protagonist (participant C), seen from behind, facing away from the camera. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. All people keep the same face, build and clothing throughout, with clothing folds responding naturally to movement. Rendering style, stated again because it governs every frame: Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI.
+
+The setting is a narrow old-town market street: old stone buildings stand close on both sides, wooden market stalls with fabric awnings and a few handcarts sit along the edges, and the paved lane runs on between more facades under an open sky. The people walk along the open middle of the lane. Preserve the reference spacing, building masses, stall positions and open walking routes. Use worn limestone, cobbles, weathered timber and faded canvas. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The camera follows the recorded third-person path of the conditioning reference with its fixed 60-degree vertical field of view.
+
+Protagonist action timeline:
+
+0.00–2.50s: Everyone shown moves steadily along their own route exactly as recorded in the conditioning reference; the protagonist (participant C) moves about 3 metres along its route.; 2.50–5.00s: Everyone shown keeps moving along their own route exactly as recorded in the conditioning reference; the protagonist (participant C) moves about 3 metres along its route.; 5.00–5.17s: Everyone holds the final pose and position and the camera holds its final pose.
+
+Other visible actors:
+
+0.00–5.17s, participant D: Moves about 3 metres along its route from 0.00 to 2.50 s; moves about 3 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.
+
+Shared prompts
+
+System prompt 1
+AWM_PROXY_CONTROL. Two visual references accompany this text. <Video 1> is the conditioning
+proxy video: treat it as a coarse spatiotemporal reference, not an appearance template or
+literal target geometry. <Picture 1> is the global RGB anchor image: it defines identity and
+appearance, never motion. <Picture 1> is the ABSOLUTE standard for the worldview, art
+direction and overall style of the entire take: every clip of the take, no matter how far into the
+future, must align with it to a high degree, and on worldview, art direction and style it
+outranks even the current clip's caption. It provides NOTHING about any future frame's
+current camera, composition, motion or interactions. Each subject's position and motion come
+from <Video 1>. A subject's appearance follows <Picture 1> when that subject is visible in
+it; subjects not visible in <Picture 1> take their appearance from the timestamped text,
+rendered consistently in <Picture 1>'s worldview and art direction.
+
+Human proxies in <Video 1> provide only framewise root position, coarse occupied scale, and
+whole-body root orientation, which are reliable at roughly 80-100% and should be followed
+closely. They carry no information about character appearance and do not represent identity,
+face, hairstyle, clothing, materials, colors, visual effects, anatomy, bones, joints, limb
+articulation, detailed posture, torso or head pose, hand pose, action phase, or physical
+contact. Reconstruct each character's appearance from <Picture 1> and the timestamped text,
+and reconstruct articulated motion from the timestamped text. Never reproduce a human proxy
+as a skeleton, stick figure, mannequin, node-connected body, or exposed rig. Left and right
+refer to each person's own body unless explicitly stated as screen direction.
+
+Vehicle proxies in <Video 1> provide only framewise position, trajectory, body heading,
+rotation, and accurate overall length, width, height, and occupied scale; these anchors
+should be followed closely. They carry no information about vehicle appearance. Never
+reproduce a vehicle proxy as a wireframe vehicle, cage frame, tubular skeleton, exposed
+chassis, or low-poly proxy car. Vehicle identity, type, design details, materials, colors,
+and visual effects are defined by <Picture 1> and the text.
+
+Roads, terrain, buildings, relative depth, rough scale, and layout in <Video 1> provide
+denser but still approximate structural cues. The text may reinterpret these cues to create
+strongly out-of-distribution scenes while maintaining broad spatial and temporal coherence.
+Conditioning colors, proxy geometry, node markers, rigging structures, and other
+visualization artifacts must never appear in the final video.
+
+When sources conflict, resolve in this order: (1) geometry, camera, position and motion
+follow <Video 1>; (2) the worldview, art direction and overall style follow <Picture 1>
+absolutely — above the current clip's caption; identity, appearance and materials follow
+<Picture 1> for subjects visible in it, and follow the text for subjects not visible in it;
+(3) the timestamped text defines the concrete events, actions and rewrite targets within
+those constraints; (4) when the opening of this clip is fixed to already-given video frames,
+seamless continuity with that fixed opening overrides everything else — never restart the
+scene.
+
+Clip contract: this clip is the very beginning of the take — nothing
+precedes it. <Picture 1> is the global
+appearance anchor for the whole take, and the first frame of the target is locked to this
+exact image: the clip begins at precisely this visual state — identities, appearance,
+materials, art direction, lighting, camera framing and layout — and continues directly from
+it while performing the timestamped actions. Do not restart, redesign or re-interpret any
+identity.
+
+
+View D (follow-d)
+
+Method: Code World Model
+Camera: follow-d
+
+Window 1
+Reference interval: [0, 5) s
+System prompt: System prompt 1
+Positive prompt:
+Appearance and scene:
+
+The protagonist is participant D, a heavy-set adult with a bald head and a grey moustache, wearing a button-up shirt in bright turquoise, beige trousers and dark leather sandals. The protagonist keeps one consistent face, build and outfit for the whole clip and carries nothing. The protagonist keeps the same face, build and clothing throughout, with clothing folds responding naturally to movement. At the start of the clip the protagonist (participant D) (the protagonist) stands in the centre of the middle part of the frame, about a third to half of the frame height, the only subject in frame, seen from behind, facing away from the camera.
+
+No other person or independently moving identity is visible; the protagonist (participant D) remains the sole figure. Rendering style, stated again because it governs every frame: Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI.
+
+The setting is a narrow old-town market street: old stone buildings stand close on both sides, wooden market stalls with fabric awnings and a few handcarts sit along the edges, and the paved lane runs on between more facades under an open sky. The protagonist walks along the open middle of the lane. Preserve the reference spacing, building masses, stall positions and open walking routes. Use worn limestone, cobbles, weathered timber and faded canvas. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The camera follows the recorded third-person path of the conditioning reference with its fixed 60-degree vertical field of view.
+
+Protagonist action timeline:
+
+0.00–2.50s: The protagonist moves steadily along its route exactly as recorded in the conditioning reference; the protagonist (participant D) moves about 3 metres along its route.; 2.50–5.00s: The protagonist keeps moving along its route exactly as recorded in the conditioning reference; the protagonist (participant D) moves about 3 metres along its route.; 5.00–5.17s: Everyone holds the final pose and position and the camera holds its final pose.
+
+Other visible actors:
+
+0.00–5.17s, no other visible actors: The protagonist (participant D) remains alone throughout.
+
+Shared prompts
+
+System prompt 1
+AWM_PROXY_CONTROL. Two visual references accompany this text. <Video 1> is the conditioning
+proxy video: treat it as a coarse spatiotemporal reference, not an appearance template or
+literal target geometry. <Picture 1> is the global RGB anchor image: it defines identity and
+appearance, never motion. <Picture 1> is the ABSOLUTE standard for the worldview, art
+direction and overall style of the entire take: every clip of the take, no matter how far into the
+future, must align with it to a high degree, and on worldview, art direction and style it
+outranks even the current clip's caption. It provides NOTHING about any future frame's
+current camera, composition, motion or interactions. Each subject's position and motion come
+from <Video 1>. A subject's appearance follows <Picture 1> when that subject is visible in
+it; subjects not visible in <Picture 1> take their appearance from the timestamped text,
+rendered consistently in <Picture 1>'s worldview and art direction.
+
+Human proxies in <Video 1> provide only framewise root position, coarse occupied scale, and
+whole-body root orientation, which are reliable at roughly 80-100% and should be followed
+closely. They carry no information about character appearance and do not represent identity,
+face, hairstyle, clothing, materials, colors, visual effects, anatomy, bones, joints, limb
+articulation, detailed posture, torso or head pose, hand pose, action phase, or physical
+contact. Reconstruct each character's appearance from <Picture 1> and the timestamped text,
+and reconstruct articulated motion from the timestamped text. Never reproduce a human proxy
+as a skeleton, stick figure, mannequin, node-connected body, or exposed rig. Left and right
+refer to each person's own body unless explicitly stated as screen direction.
+
+Vehicle proxies in <Video 1> provide only framewise position, trajectory, body heading,
+rotation, and accurate overall length, width, height, and occupied scale; these anchors
+should be followed closely. They carry no information about vehicle appearance. Never
+reproduce a vehicle proxy as a wireframe vehicle, cage frame, tubular skeleton, exposed
+chassis, or low-poly proxy car. Vehicle identity, type, design details, materials, colors,
+and visual effects are defined by <Picture 1> and the text.
+
+Roads, terrain, buildings, relative depth, rough scale, and layout in <Video 1> provide
+denser but still approximate structural cues. The text may reinterpret these cues to create
+strongly out-of-distribution scenes while maintaining broad spatial and temporal coherence.
+Conditioning colors, proxy geometry, node markers, rigging structures, and other
+visualization artifacts must never appear in the final video.
+
+When sources conflict, resolve in this order: (1) geometry, camera, position and motion
+follow <Video 1>; (2) the worldview, art direction and overall style follow <Picture 1>
+absolutely — above the current clip's caption; identity, appearance and materials follow
+<Picture 1> for subjects visible in it, and follow the text for subjects not visible in it;
+(3) the timestamped text defines the concrete events, actions and rewrite targets within
+those constraints; (4) when the opening of this clip is fixed to already-given video frames,
+seamless continuity with that fixed opening overrides everything else — never restart the
+scene.
+
+Clip contract: this clip is the very beginning of the take — nothing
+precedes it. <Picture 1> is the global
+appearance anchor for the whole take, and the first frame of the target is locked to this
+exact image: the clip begins at precisely this visual state — identities, appearance,
+materials, art direction, lighting, camera framing and layout — and continues directly from
+it while performing the timestamped actions. Do not restart, redesign or re-interpret any
+identity.

@@ -1,0 +1,364 @@
+Scene: long30-021-desert-launch__follow
+Method: LynnReal-Omni
+Camera: follow
+
+Window 1
+Reference interval: [0, 5.166666667) s
+New frames in delivered video: [0, 5.166666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. This is the opening window.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials.
+
+The protagonist sits in the driver's seat inside the closed cabin of the racing sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The camera-owner racing sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The AI-driven rival sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The seated driver of rival racing car 1 sits in the driver's seat inside the closed cabin of the nearer rival sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The seated driver of rival racing car 3 sits in the driver's seat inside the closed cabin of the farther rival sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. Every described entity retains this appearance only while visible in the reference.
+
+The setting is sand dunes, angular desert rocks and cactus plants. Preserve the reference spacing, masses and open routes. The player sedan, a complete graphite-grey racing sedan with a seated driver; a complete racing sedan with a seated driver. A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials. The camera follows the recorded third-person path of the conditioning reference. The dawn-low-sun lighting creates a warm, golden hue with long, soft shadows stretching across the sand, emphasizing the textures of the rocks and the ripples in the sand. An asphalt road with white lane markings and low metal roadside barriers runs through the scene exactly where the conditioning reference shows it; keep it a real paved road for the whole clip. There are no trees in this clip. There are no buildings or ruins in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–0.900000s: The protagonist's sedan cruises along the track at steady speed while the rival sedans keep racing on their own lines; the protagonist moves about 3 metres along its route; the vehicle moves about 3 metres along its route; the vehicle moves about 2 metres along its route; the vehicle moves about a metre along its route.; 0.900000–5.000000s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line; the protagonist moves about 62 metres along its route; the vehicle moves about 62 metres along its route; the vehicle moves about 66 metres along its route; the vehicle moves about 71 metres along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+the seated driver of rival racing car 1 (driver-1, identity tag #3ef736): visible only during [0.000000,5.166667)s.
+the protagonist (player, identity tag #a7f736): visible only during [0.000000,5.166667)s.
+the camera-owner racing sedan with a seated driver (car, identity tag #f736df): visible only during [0.000000,5.166667)s.
+an AI-driven rival sedan with a seated driver (rival-1, identity tag #36f7d6): visible only during [0.000000,5.166667)s.
+an AI-driven rival sedan with a seated driver (rival-3, identity tag #6636f7): visible only during [0.000000,5.166667)s.
+the seated driver of rival racing car 3 (driver-3, identity tag #36aff7): visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 2
+Reference interval: [3.75, 8.916666667) s
+New frames in delivered video: [5.166666667, 8.916666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials.
+
+The protagonist sits in the driver's seat inside the closed cabin of the racing sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The camera-owner racing sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The AI-driven rival sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The seated driver of rival racing car 1 sits in the driver's seat inside the closed cabin of the nearer rival sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The seated driver of rival racing car 3 sits in the driver's seat inside the closed cabin of the farther rival sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. Every described entity retains this appearance only while visible in the reference.
+
+The setting is sand dunes, angular desert rocks and cactus plants. Preserve the reference spacing, masses and open routes. The player sedan, a complete graphite-grey racing sedan with a seated driver; a complete racing sedan with a seated driver. A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials. The camera follows the recorded third-person path of the conditioning reference. The dawn-low-sun lighting creates a warm, golden hue with long, soft shadows stretching across the sand, emphasizing the textures of the rocks and the ripples in the sand. An asphalt road with white lane markings and low metal roadside barriers runs through the scene exactly where the conditioning reference shows it; keep it a real paved road for the whole clip. There are no trees in this clip. There are no buildings or ruins in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–1.500000s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line; the protagonist moves about 32 metres along its route; the vehicle moves about 32 metres along its route; the vehicle moves about 37 metres along its route; the vehicle moves about 40 metres along its route.; 1.500000–2.770000s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line; the protagonist moves about 35 metres along its route; the vehicle moves about 35 metres along its route; the vehicle moves about 40 metres along its route; the vehicle moves about 40 metres along its route.; 2.770000–5.000000s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line; the protagonist moves about 70 metres along its route; the vehicle moves about 70 metres along its route; the vehicle moves about 83 metres along its route; the vehicle moves about 73 metres along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+the seated driver of rival racing car 1 (driver-1, identity tag #3ef736): visible only during [0.000000,5.166667)s.
+the protagonist (player, identity tag #a7f736): visible only during [0.000000,5.166667)s.
+the camera-owner racing sedan with a seated driver (car, identity tag #f736df): visible only during [0.000000,5.166667)s.
+an AI-driven rival sedan with a seated driver (rival-1, identity tag #36f7d6): visible only during [0.000000,5.166667)s.
+an AI-driven rival sedan with a seated driver (rival-3, identity tag #6636f7): visible only during [0.000000,5.166667)s.
+the seated driver of rival racing car 3 (driver-3, identity tag #36aff7): visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 3
+Reference interval: [7.5, 12.666666667) s
+New frames in delivered video: [8.916666667, 12.666666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials.
+
+The protagonist sits in the driver's seat inside the closed cabin of the racing sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The camera-owner racing sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The AI-driven rival sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The seated driver of rival racing car 1 sits in the driver's seat inside the closed cabin of the nearer rival sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The seated driver of rival racing car 3 sits in the driver's seat inside the closed cabin of the farther rival sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. Every described entity retains this appearance only while visible in the reference.
+
+The setting is sand dunes, angular desert rocks and cactus plants. Preserve the reference spacing, masses and open routes. The player sedan, a complete graphite-grey racing sedan with a seated driver; a complete racing sedan with a seated driver. A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials. The camera follows the recorded third-person path of the conditioning reference. The dawn-low-sun lighting creates a warm, golden hue with long, soft shadows stretching across the sand, emphasizing the textures of the rocks and the ripples in the sand. An asphalt road with white lane markings and low metal roadside barriers runs through the scene exactly where the conditioning reference shows it; keep it a real paved road for the whole clip. There are no trees in this clip. There are no buildings or ruins in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–2.500000s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line; the protagonist moves about 83 metres along its route; the vehicle moves about 83 metres along its route; the vehicle moves about 94 metres along its route; the vehicle moves about 82 metres along its route.; 2.500000–5.000000s: The protagonist keeps going through the same follow stretch; the protagonist moves about 88 metres along its route; the vehicle moves about 88 metres along its route; the vehicle moves about 93 metres along its route; the vehicle moves about 82 metres along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+the seated driver of rival racing car 1 (driver-1, identity tag #3ef736): visible only during [0.000000,5.166667)s.
+the protagonist (player, identity tag #a7f736): visible only during [0.000000,5.166667)s.
+the camera-owner racing sedan with a seated driver (car, identity tag #f736df): visible only during [0.000000,5.166667)s.
+an AI-driven rival sedan with a seated driver (rival-1, identity tag #36f7d6): visible only during [0.000000,5.166667)s.
+an AI-driven rival sedan with a seated driver (rival-3, identity tag #6636f7): visible only during [0.000000,5.166667)s.
+the seated driver of rival racing car 3 (driver-3, identity tag #36aff7): visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 4
+Reference interval: [11.25, 16.416666667) s
+New frames in delivered video: [12.666666667, 16.416666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials.
+
+The protagonist sits in the driver's seat inside the closed cabin of the racing sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The camera-owner racing sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The AI-driven rival sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The seated driver of rival racing car 1 sits in the driver's seat inside the closed cabin of the nearer rival sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The seated driver of rival racing car 3 sits in the driver's seat inside the closed cabin of the farther rival sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. Every described entity retains this appearance only while visible in the reference.
+
+The setting is sand dunes, angular desert rocks and cactus plants. Preserve the reference spacing, masses and open routes. The player sedan, a complete graphite-grey racing sedan with a seated driver; a complete racing sedan with a seated driver. A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials. The camera follows the recorded third-person path of the conditioning reference. The dawn-low-sun lighting creates a warm, golden hue with long, soft shadows stretching across the sand, emphasizing the textures of the rocks and the ripples in the sand. An asphalt road with white lane markings and low metal roadside barriers runs through the scene exactly where the conditioning reference shows it; keep it a real paved road for the whole clip. There are no trees in this clip. There are no buildings or ruins in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–2.500000s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line; the protagonist moves about 89 metres along its route; the vehicle moves about 89 metres along its route; the vehicle moves about 93 metres along its route; the vehicle moves about 83 metres along its route.; 2.500000–5.000000s: The protagonist keeps going through the same follow stretch; the protagonist moves about 90 metres along its route; the vehicle moves about 90 metres along its route; the vehicle moves about 93 metres along its route; the vehicle moves about 85 metres along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+the seated driver of rival racing car 1 (driver-1, identity tag #3ef736): visible only during [0.000000,5.166667)s.
+the protagonist (player, identity tag #a7f736): visible only during [0.000000,5.166667)s.
+the camera-owner racing sedan with a seated driver (car, identity tag #f736df): visible only during [0.000000,5.166667)s.
+an AI-driven rival sedan with a seated driver (rival-1, identity tag #36f7d6): visible only during [0.000000,5.166667)s.
+an AI-driven rival sedan with a seated driver (rival-3, identity tag #6636f7): visible only during [0.000000,5.166667)s.
+the seated driver of rival racing car 3 (driver-3, identity tag #36aff7): visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 5
+Reference interval: [15, 20.166666667) s
+New frames in delivered video: [16.416666667, 20.166666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials.
+
+The protagonist sits in the driver's seat inside the closed cabin of the racing sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The camera-owner racing sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The AI-driven rival sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The seated driver of rival racing car 1 sits in the driver's seat inside the closed cabin of the nearer rival sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The seated driver of rival racing car 3 sits in the driver's seat inside the closed cabin of the farther rival sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. Every described entity retains this appearance only while visible in the reference.
+
+The setting is sand dunes, angular desert rocks and cactus plants. Preserve the reference spacing, masses and open routes. The player sedan, a complete graphite-grey racing sedan with a seated driver; a complete racing sedan with a seated driver. A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials. The camera follows the recorded third-person path of the conditioning reference. The dawn-low-sun lighting creates a warm, golden hue with long, soft shadows stretching across the sand, emphasizing the textures of the rocks and the ripples in the sand. An asphalt road with white lane markings and low metal roadside barriers runs through the scene exactly where the conditioning reference shows it; keep it a real paved road for the whole clip. There are no trees in this clip. There are no buildings or ruins in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–2.500000s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line; the protagonist moves about 91 metres along its route; the vehicle moves about 91 metres along its route; the vehicle moves about 93 metres along its route; the vehicle moves about 86 metres along its route.; 2.500000–5.000000s: The protagonist keeps going through the same follow stretch; the protagonist moves about 92 metres along its route; the vehicle moves about 92 metres along its route; the vehicle moves about 93 metres along its route; the vehicle moves about 87 metres along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+the seated driver of rival racing car 1 (driver-1, identity tag #3ef736): visible only during [0.000000,5.166667)s.
+the protagonist (player, identity tag #a7f736): visible only during [0.000000,5.166667)s.
+the camera-owner racing sedan with a seated driver (car, identity tag #f736df): visible only during [0.000000,5.166667)s.
+an AI-driven rival sedan with a seated driver (rival-1, identity tag #36f7d6): visible only during [0.000000,5.166667)s.
+an AI-driven rival sedan with a seated driver (rival-3, identity tag #6636f7): visible only during [0.000000,5.166667)s.
+the seated driver of rival racing car 3 (driver-3, identity tag #36aff7): visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 6
+Reference interval: [18.75, 23.916666667) s
+New frames in delivered video: [20.166666667, 23.916666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials.
+
+The protagonist sits in the driver's seat inside the closed cabin of the racing sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The camera-owner racing sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The AI-driven rival sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The seated driver of rival racing car 1 sits in the driver's seat inside the closed cabin of the nearer rival sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The seated driver of rival racing car 3 sits in the driver's seat inside the closed cabin of the farther rival sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. Every described entity retains this appearance only while visible in the reference.
+
+The setting is sand dunes, angular desert rocks and cactus plants. Preserve the reference spacing, masses and open routes. The player sedan, a complete graphite-grey racing sedan with a seated driver; a complete racing sedan with a seated driver. A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials. The camera follows the recorded third-person path of the conditioning reference. The dawn-low-sun lighting creates a warm, golden hue with long, soft shadows stretching across the sand, emphasizing the textures of the rocks and the ripples in the sand. An asphalt road with white lane markings and low metal roadside barriers runs through the scene exactly where the conditioning reference shows it; keep it a real paved road for the whole clip. There are no trees in this clip. There are no buildings or ruins in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–2.500000s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line; the protagonist moves about 92 metres along its route; the vehicle moves about 92 metres along its route; the vehicle moves about 93 metres along its route; the vehicle moves about 87 metres along its route.; 2.500000–5.000000s: The protagonist keeps going through the same follow stretch; the protagonist moves about 92 metres along its route; the vehicle moves about 92 metres along its route; the vehicle moves about 93 metres along its route; the vehicle moves about 88 metres along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+the seated driver of rival racing car 1 (driver-1, identity tag #3ef736): visible only during [0.000000,5.166667)s.
+the protagonist (player, identity tag #a7f736): visible only during [0.000000,5.166667)s.
+the camera-owner racing sedan with a seated driver (car, identity tag #f736df): visible only during [0.000000,5.166667)s.
+an AI-driven rival sedan with a seated driver (rival-1, identity tag #36f7d6): visible only during [0.000000,5.166667)s.
+an AI-driven rival sedan with a seated driver (rival-3, identity tag #6636f7): visible only during [0.000000,5.166667)s.
+the seated driver of rival racing car 3 (driver-3, identity tag #36aff7): visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 7
+Reference interval: [22.5, 27.666666667) s
+New frames in delivered video: [23.916666667, 27.666666667) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials.
+
+The protagonist sits in the driver's seat inside the closed cabin of the racing sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The camera-owner racing sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The AI-driven rival sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The seated driver of rival racing car 1 sits in the driver's seat inside the closed cabin of the nearer rival sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The seated driver of rival racing car 3 sits in the driver's seat inside the closed cabin of the farther rival sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. Every described entity retains this appearance only while visible in the reference.
+
+The setting is sand dunes, angular desert rocks and cactus plants. Preserve the reference spacing, masses and open routes. The player sedan, a complete graphite-grey racing sedan with a seated driver; a complete racing sedan with a seated driver. A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials. The camera follows the recorded third-person path of the conditioning reference. The dawn-low-sun lighting creates a warm, golden hue with long, soft shadows stretching across the sand, emphasizing the textures of the rocks and the ripples in the sand. An asphalt road with white lane markings and low metal roadside barriers runs through the scene exactly where the conditioning reference shows it; keep it a real paved road for the whole clip. There are no trees in this clip. There are no buildings or ruins in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 0.000000–2.500000s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line; the protagonist moves about 92 metres along its route; the vehicle moves about 92 metres along its route; the vehicle moves about 93 metres along its route; the vehicle moves about 88 metres along its route.; 2.500000–5.000000s: The protagonist keeps going through the same follow stretch; the protagonist moves about 92 metres along its route; the vehicle moves about 92 metres along its route; the vehicle moves about 93 metres along its route; the vehicle moves about 89 metres along its route.; 5.000000–5.166667s: Everyone and the camera simply keep moving as before.
+
+Exact current reference visibility (local half-open intervals):
+the seated driver of rival racing car 1 (driver-1, identity tag #3ef736): visible only during [0.000000,5.166667)s.
+the protagonist (player, identity tag #a7f736): visible only during [0.000000,5.166667)s.
+the camera-owner racing sedan with a seated driver (car, identity tag #f736df): visible only during [0.000000,5.166667)s.
+an AI-driven rival sedan with a seated driver (rival-1, identity tag #36f7d6): visible only during [0.000000,5.166667)s.
+an AI-driven rival sedan with a seated driver (rival-3, identity tag #6636f7): visible only during [0.000000,5.166667)s.
+the seated driver of rival racing car 3 (driver-3, identity tag #36aff7): visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
+
+Window 8
+Reference interval: [26.25, 31.416666667) s
+New frames in delivered video: [27.666666667, 30) s
+Positive prompt:
+subject_definitions:
+<Video 1> is the structural spatial and temporal reference for the current window.
+
+Facing-direction legend for the structural reference:
+The WHITE FACE of each colored 3D bounding box marks that entity's FRONT, as defined by the source color-map. Match the entity's forward direction to the outward normal of that white face in 3D. For a person, this is the direction of the face and chest; the back of the head and back of the torso belong on the opposite side. For a vehicle, this is its front end, not its rear. Preserve front, back and side views as the reference rotates; never turn a rear view into a face looking at the camera. Do not infer body orientation from travel direction or camera position: an entity may move sideways or backward. Translucent boxes can reveal a far face through the volume, so merely seeing white pixels does not mean the entity faces the camera; interpret the complete 3D box and its occlusion. Use the white face only to infer direction, then remove the box and markings from the final appearance.
+
+
+summary:
+[reference generation] Render a continuous 5.166667-second window in the stated target style. Continue the ongoing take from its already given first 34 frames; do not restart.
+
+retention_analysis:
+<Video 1>: partially_preserved — retain geometry, camera, visible count, position, scale, facing and action timing; render the target appearance and materials.
+
+detailed_description:
+[Shot 1] Appearance and scene:
+
+Rendering style of the whole frame: A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials.
+
+The protagonist sits in the driver's seat inside the closed cabin of the racing sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The camera-owner racing sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The AI-driven rival sedan with a seated driver is a complete graphite-grey racing sedan with a rear wing, featuring doors, windows, and wheels, with a seated driver. The seated driver of rival racing car 1 sits in the driver's seat inside the closed cabin of the nearer rival sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. The seated driver of rival racing car 3 sits in the driver's seat inside the closed cabin of the farther rival sedan, entirely within its bodywork, out of sight behind dark reflective glazing, and is never drawn as a separate figure outside the vehicle. Every described entity retains this appearance only while visible in the reference.
+
+The setting is sand dunes, angular desert rocks and cactus plants. Preserve the reference spacing, masses and open routes. The player sedan, a complete graphite-grey racing sedan with a seated driver; a complete racing sedan with a seated driver. A realistic sun-baked desert in strong daylight: rippled sand, pale rock, dry scrub and heat-softened horizons, with natural human anatomy, believable scale and detailed physical materials. The camera follows the recorded third-person path of the conditioning reference. The dawn-low-sun lighting creates a warm, golden hue with long, soft shadows stretching across the sand, emphasizing the textures of the rocks and the ripples in the sand. An asphalt road with white lane markings and low metal roadside barriers runs through the scene exactly where the conditioning reference shows it; keep it a real paved road for the whole clip. There are no trees in this clip. There are no buildings or ruins in this clip. There is no box, frame, glass panel, outline or coloured slab around or in front of any person, animal or object in the output; every figure stands directly in the scene.
+
+Protagonist action timeline:
+
+0.000000–1.420000s: the already-given end of the previous clip; the action carries on from it without any restart; 1.420000–3.750000s: The protagonist carries on with the recorded movement of the conditioning reference; 3.750000–5.166667s: The recording has ended: everyone holds the final pose and position and the camera holds its final pose.
+
+Exact current reference visibility (local half-open intervals):
+the seated driver of rival racing car 1 (driver-1, identity tag #3ef736): visible only during [0.000000,5.166667)s.
+the protagonist (player, identity tag #a7f736): visible only during [0.000000,5.166667)s.
+the camera-owner racing sedan with a seated driver (car, identity tag #f736df): visible only during [0.000000,5.166667)s.
+an AI-driven rival sedan with a seated driver (rival-1, identity tag #36f7d6): visible only during [0.000000,5.166667)s.
+an AI-driven rival sedan with a seated driver (rival-3, identity tag #6636f7): visible only during [0.000000,5.166667)s.
+the seated driver of rival racing car 3 (driver-3, identity tag #36aff7): visible only during [0.000000,5.166667)s.
+The reference alone determines whether each person or object is on screen. Appearance descriptions do not add invisible subjects. Keep people seated inside their vehicles whenever the reference does so; do not render an additional person outside. Identity-tag colors and white facing marks are controls, not target clothes or surfaces. Never render boxes, wireframes, proxy colors, front marks, interface overlays or duplicate subjects.
+Only the source ends at local 3.750000 seconds in this final window; the remaining 1.416667 seconds are tail padding and will not be delivered.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A

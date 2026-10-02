@@ -1,0 +1,70 @@
+Scene: multi4-001-forest-staggered-follow
+Grid layout: A B / C D
+
+
+View A (follow-a)
+
+Method: Coarse2Real
+Camera: follow-a
+
+Window 1
+Reference interval: [0, 5) s
+Negative prompt: Negative prompt 1
+Positive prompt:
+A realistic, high-quality video of a person walking along a temperate forest trail in two offset lines. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The setting is a wide, level earth trail through temperate woodland: tall broad-leaved trees with large trunks stand scattered on both sides, with fallen timber among them, and more trees recede along the trail under an open sky. There are 4 persons in this video. The protagonist is participant A, an adult of medium build with short dark hair, wearing a zip-up hiking jacket in royal blue, grey hiking trousers and brown leather boots. The people walk along the open trail. The other participants of the same recording are participant B, a tall adult with cropped light-brown hair, wearing a hooded sweatshirt in bright lime green, khaki cargo trousers and grey trail shoes; participant C, a slim adult with long dark hair in a ponytail, wearing a fleece pullover in vivid magenta pink, black leggings and dark hiking boots and participant D, a stocky adult with short greying hair and a trimmed beard, wearing a windbreaker in bright turquoise, beige trousers and dark brown boots; only those named here appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. Participant B is a tall adult with cropped light-brown hair, wearing a hooded sweatshirt in bright lime green, khaki cargo trousers and grey trail shoes, and keeps exactly this appearance. Participant C is a slim adult with long dark hair in a ponytail, wearing a fleece pullover in vivid magenta pink, black leggings and dark hiking boots, and keeps exactly this appearance. Over the five seconds, participants A and C walk one behind the other along one side of the trail while participants B and D walk one behind the other along the other side, C ahead of A and D ahead of B, the two lines offset so that nobody moves directly abreast, and then everyone keeps walking forward at the same steady pace, holding their places in the two offset lines with the spacing unchanged.
+
+Shared prompts
+
+Negative prompt 1
+色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走
+
+
+View B (follow-b)
+
+Method: Coarse2Real
+Camera: follow-b
+
+Window 1
+Reference interval: [0, 5) s
+Negative prompt: Negative prompt 1
+Positive prompt:
+A realistic, high-quality video of a person walking along a temperate forest trail. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The setting is a wide, level earth trail through temperate woodland: tall broad-leaved trees with large trunks stand scattered on both sides, with fallen timber among them, and more trees recede along the trail under an open sky. There are 3 persons in this video. The protagonist is participant B, a tall adult with cropped light-brown hair, wearing a hooded sweatshirt in bright lime green, khaki cargo trousers and grey trail shoes. The other people in this view are participant C, a slim adult with long dark hair in a ponytail, wearing a fleece pullover in vivid magenta pink, black leggings and dark hiking boots and participant D, a stocky adult with short greying hair and a trimmed beard, wearing a windbreaker in bright turquoise, beige trousers and dark brown boots; only those named here appear in this view. The people walk along the open trail. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. Participant C is a slim adult with long dark hair in a ponytail, wearing a fleece pullover in vivid magenta pink, black leggings and dark hiking boots, and keeps exactly this appearance. Participant D is a stocky adult with short greying hair and a trimmed beard, wearing a windbreaker in bright turquoise, beige trousers and dark brown boots, and keeps exactly this appearance. Over the five seconds, everyone shown moves steadily along their own route exactly as recorded in the control video, and then everyone shown keeps moving along their own route exactly as recorded in the control video. Human motion is natural and continuous, presented in a cinematic, photorealistic style with sharp details, clean textures, and no blur or visual artifacts.
+
+Shared prompts
+
+Negative prompt 1
+色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走
+
+
+View C (follow-c)
+
+Method: Coarse2Real
+Camera: follow-c
+
+Window 1
+Reference interval: [0, 5) s
+Negative prompt: Negative prompt 1
+Positive prompt:
+A realistic, high-quality video of a person walking along a temperate forest trail. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The setting is a wide, level earth trail through temperate woodland: tall broad-leaved trees with large trunks stand scattered on both sides, with fallen timber among them, and more trees recede along the trail under an open sky. Preserve the reference spacing, tree positions and open walking routes. There are 2 persons in this video. The protagonist is participant C, a slim adult with long dark hair in a ponytail, wearing a fleece pullover in vivid magenta pink, black leggings and dark hiking boots. The other people in this view are participant D, a stocky adult with short greying hair and a trimmed beard, wearing a windbreaker in bright turquoise, beige trousers and dark brown boots; only those named here appear in this view. The people walk along the open trail. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. Participant D is a stocky adult with short greying hair and a trimmed beard, wearing a windbreaker in bright turquoise, beige trousers and dark brown boots, and keeps exactly this appearance. At the start of the clip the protagonist (participant C) (the protagonist) stands in the centre of the middle part of the frame, about a third to half of the frame height, nearest to the camera, seen from behind, facing away from the camera; participant D (participant D) stands on the screen-right of the middle part of the frame, a small figure, behind the protagonist (participant C), to the screen-right of the protagonist (participant C), seen from behind, facing away from the camera. Over the five seconds, everyone shown moves steadily along their own route exactly as recorded in the control video, and then everyone shown keeps moving along their own route exactly as recorded in the control video. Human motion is natural and continuous, presented in a cinematic, photorealistic style with sharp details, clean textures, and no blur or visual artifacts.
+
+Shared prompts
+
+Negative prompt 1
+色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走
+
+
+View D (follow-d)
+
+Method: Coarse2Real
+Camera: follow-d
+
+Window 1
+Reference interval: [0, 5) s
+Negative prompt: Negative prompt 1
+Positive prompt:
+A realistic, high-quality video of a person walking along a temperate forest trail. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The setting is a wide, level earth trail through temperate woodland: tall broad-leaved trees with large trunks stand scattered on both sides, with fallen timber among them, and more trees recede along the trail under an open sky. The protagonist walks along the open trail. Preserve the reference spacing, tree positions and open walking routes. Use packed earth, leaf litter, rough bark, moss and green foliage. There is 1 person in this video. The protagonist is participant D, a stocky adult with short greying hair and a trimmed beard, wearing a windbreaker in bright turquoise, beige trousers and dark brown boots. The protagonist keeps one consistent face, build and outfit for the whole clip and carries nothing. The protagonist keeps the same face, build and clothing throughout, with clothing folds responding naturally to movement. At the start of the clip the protagonist (participant D) (the protagonist) stands in the centre of the middle part of the frame, about a third to half of the frame height, the only subject in frame, seen from behind, facing away from the camera. Over the five seconds, the protagonist moves steadily along its route exactly as recorded in the control video, and then the protagonist keeps moving along its route exactly as recorded in the control video. Human motion is natural and continuous, presented in a cinematic, photorealistic style with sharp details, clean textures, and no blur or visual artifacts.
+
+Shared prompts
+
+Negative prompt 1
+色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走
