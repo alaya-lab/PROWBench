@@ -5,7 +5,7 @@
 <meta name="description" content="Do video models render what the program specifies? PROWBench evaluates generated videos against replayable world records across 170 cases, 200 selected views and 600 synchronized proxy videos.">
 <meta name="theme-color" content="#08090c"><meta property="og:type" content="website"><meta property="og:title" content="PROWBench · Do Video Models Render What the Program Specifies?"><meta property="og:description" content="A benchmark grounded in recorded world states and events, with Verified-FF and Unverified-FF settings, long-horizon memory, and independently generated synchronized views.">
 <title>PROWBench</title>
-<link rel="icon" href="favicon.svg?v=1050fdd87c29" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="styles.css?v=layout-20260928"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="playback-controls.css?v=aligned-20260928"><link rel="stylesheet" href="benchmark.css?v=demo-20261002">
+<link rel="icon" href="favicon.svg?v=1050fdd87c29" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="styles.css?v=layout-20260928"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="playback-controls.css?v=aligned-20260928"><link rel="stylesheet" href="benchmark.css?v=d26f4af696d5">
 <script src="assets/structural-inputs.js" defer></script><script src="gallery-player.js?v=quality-20260927" defer></script><script src="benchmark.js?v=paper-20261001" defer></script>
 </head>
 <body class="benchmark-page">
@@ -36,64 +36,62 @@
     <p id="evaluation">PROWBench checks whether generated videos faithfully realize <strong>program-specified entity trajectories, camera motion, and interactions</strong>, using replayable world states and timestamped events as the reference.</p>
   </section>
 
-  <section id="dataset" class="benchmark-section" aria-labelledby="dataset-title">
-    <div class="benchmark-section-head">
-      <h2 id="dataset-title">Benchmark contents</h2>
+  <section id="dataset" class="benchmark-section benchmark-takeaways" aria-labelledby="takeaways-title">
+    <div class="benchmark-section-head takeaways-head">
+      <h2 id="takeaways-title">Key takeaways</h2>
+      <p>Seven findings on faithful world rendering</p>
     </div>
-    <dl class="benchmark-stats" aria-label="Benchmark scale">
-      <div><dt>Evaluation cases</dt><dd>170</dd></div>
-      <div><dt>Selected views</dt><dd>200</dd></div>
-      <div><dt>Proxy videos</dt><dd>600</dd></div>
-    </dl>
-    <div class="benchmark-contents">
-      <section class="benchmark-data" aria-labelledby="data-group-title">
-        <h3 id="data-group-title" class="benchmark-group-label">Tracks and settings</h3>
-        <div class="subset-grid">
-          <article class="subset-card" aria-labelledby="title-verified">
-            <p class="subset-track">Main track</p>
-            <h4 id="title-verified">Verified-FF</h4>
-            <p class="subset-count">40 <span>pairs</span></p>
-            <p class="subset-meta">5 s · 1 view</p>
-            <p class="subset-description">A shared RGB first frame, checked against the recorded state.</p>
-          </article>
-          <article class="subset-card" aria-labelledby="title-unverified">
-            <p class="subset-track">Main track</p>
-            <h4 id="title-unverified">Unverified-FF</h4>
-            <p class="subset-count">90 <span>pairs</span></p>
-            <p class="subset-meta">5 s · 1 view</p>
-            <p class="subset-description">Appearance and identity binding from text and control signals.</p>
-          </article>
-          <article class="subset-card" aria-labelledby="title-long">
-            <p class="subset-track">Challenge track</p>
-            <h4 id="title-long">Long horizon</h4>
-            <p class="subset-count">10 <span>cases</span></p>
-            <p class="subset-meta">30 s · 1 view</p>
-            <p class="subset-description">Entity reappearance and state persistence across generation windows.</p>
-          </article>
-          <article class="subset-card" aria-labelledby="title-multi">
-            <p class="subset-track">Challenge track</p>
-            <h4 id="title-multi">Multi-view</h4>
-            <p class="subset-count">10 <span>cases</span></p>
-            <p class="subset-meta">5 s · 4 views</p>
-            <p class="subset-description">Four synchronized cameras, with each view generated independently.</p>
-          </article>
-        </div>
-        <p class="benchmark-records"><span><strong>Plus 20 Gunfight cases</strong> from 10 recordings for domain-specific evaluation.</span><span>7 domains · 30 environments · 47 semantic actions · 9 interaction categories.</span></p>
-      </section>
-      <section class="benchmark-evaluation" aria-labelledby="metrics-group-title">
-        <h3 id="metrics-group-title" class="benchmark-group-label">Metrics</h3>
-        <dl class="benchmark-metrics">
-          <div><dt>Interaction Success Rate</dt><dd>VLM-based evaluation of whether each recorded event shows both its prescribed action and expected end state.</dd></div>
-          <div><dt>Logic-Render Alignment</dt><dd>VLM-based evaluation of whether each prescribed action appears within its engine-annotated time segment.</dd></div>
-        </dl>
-        <p class="benchmark-metrics-note"><span><strong>gISR / gLRA</strong> multiply each sample’s behavioral score by its BBox IoU, then average across samples.</span><span>The suite also measures entity and camera control, visual and temporal quality, multi-view consistency, and long-horizon memory.</span></p>
-      </section>
+
+    <article class="takeaway-feature" aria-labelledby="takeaway-1-title">
+      <div class="takeaway-feature-copy">
+        <p class="takeaway-label"><span class="takeaway-number">01</span> Entity control</p>
+        <h3 id="takeaway-1-title">Explicit entity control makes the difference.</h3>
+        <p class="takeaway-description">Proxy-conditioned models follow entity trajectories more faithfully than models given camera control alone. Paired with a strong video prior, the proxy also helps realize the prescribed event timeline.</p>
+      </div>
+      <div class="takeaway-evidence">
+        <span class="takeaway-evidence-value">+0.14</span>
+        <span class="takeaway-evidence-label">Median BBox IoU gain</span>
+        <p>Over camera-conditioned models<br> in paired main-track scene comparisons</p>
+      </div>
+    </article>
+
+    <div class="takeaway-grid">
+      <article class="takeaway-card" aria-labelledby="takeaway-2-title">
+        <p class="takeaway-label"><span class="takeaway-number">02</span> Camera motion</p>
+        <h3 id="takeaway-2-title">The proxy already carries the camera.</h3>
+        <p class="takeaway-description">Rendered views encode the prescribed camera path. Proxy-only video models achieve camera control comparable to several models given explicit camera poses.</p>
+      </article>
+      <article class="takeaway-card" aria-labelledby="takeaway-3-title">
+        <p class="takeaway-label"><span class="takeaway-number">03</span> Video priors</p>
+        <h3 id="takeaway-3-title">Strong video priors go a long way.</h3>
+        <p class="takeaway-description">General-purpose video models are competitive with specialized renderers on short clips, across entity placement, camera control, and event alignment.</p>
+      </article>
+      <article class="takeaway-card" aria-labelledby="takeaway-4-title">
+        <p class="takeaway-label"><span class="takeaway-number">04</span> Targeted training</p>
+        <h3 id="takeaway-4-title">Fine-tuning needs a clear target.</h3>
+        <p class="takeaway-description">Fine-tuning brings mixed gains. Dedicated training still helps with domain-specific events, where correct placement alone does not ensure the prescribed outcome.</p>
+      </article>
+      <article class="takeaway-card" aria-labelledby="takeaway-5-title">
+        <p class="takeaway-label"><span class="takeaway-number">05</span> Proxy design</p>
+        <h3 id="takeaway-5-title">Identity needs more than a box.</h3>
+        <p class="takeaway-description">Boxes constrain where entities go, but appearance, facing direction, and articulation can remain ambiguous. Better proxies need to bind each identity to its intended appearance.</p>
+      </article>
+      <article class="takeaway-card" aria-labelledby="takeaway-6-title">
+        <p class="takeaway-label"><span class="takeaway-number">06</span> Memory &amp; multi-view</p>
+        <h3 id="takeaway-6-title">Memory and identity remain open.</h3>
+        <p class="takeaway-description">Entity control degrades over 30 seconds, especially after re-entry. Independently generated views can agree geometrically while depicting different participant appearances.</p>
+      </article>
+      <article class="takeaway-card" aria-labelledby="takeaway-7-title">
+        <p class="takeaway-label"><span class="takeaway-number">07</span> Faithful evaluation</p>
+        <h3 id="takeaway-7-title">Evaluate what the program specifies.</h3>
+        <p class="takeaway-description">Interaction Success and Logic-Render Alignment reveal errors that placement and visual-quality scores miss. Judge-based scores and small challenge sets still limit the conclusions.</p>
+      </article>
     </div>
-    <details class="benchmark-protocol-note">
-      <summary>What do Verified-FF and Unverified-FF mean?</summary>
-      <p>The main-track settings use disjoint scenes. Verified-FF supplies the same MiniMax-H3-generated first frame to every method that accepts one, after checking it against the recorded person count, positions, facing, and layout.</p>
-      <p>Unverified-FF supplies no prescribed appearance reference. Methods whose interface requires an RGB image use unchecked frame 0 of the MiniMax-H3 output for that scene and camera. This can transfer H3’s appearance assignments; the paper also notes potential curation bias from using H3 outputs to select this set.</p>
-    </details>
+
+    <div class="takeaways-footer">
+      <a href="assets/PROWBench.pdf?v=1c7070dad0c2#page=10" target="_blank" rel="noopener">Read the discussion <span aria-hidden="true">· §4.5 ↗</span></a>
+      <a href="gallery.html">Explore the Gallery <span aria-hidden="true">↗</span></a>
+    </div>
   </section>
 
   <section id="representations" class="benchmark-section" aria-labelledby="representations-title">
