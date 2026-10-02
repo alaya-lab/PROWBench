@@ -3,6 +3,7 @@
 .gallery-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 20px; margin-bottom: 18px; }
 .gallery-heading h1 { font: 450 32px/1.2 var(--serif); letter-spacing: -.025em; }
 .selection-summary { color: var(--faint); font-size: 14px; }
+.gallery-selection-note { flex-basis: 100%; margin: 0; color: var(--faint); font-size: 13px; line-height: 1.5; }
 .gallery-page [hidden] { display: none !important; }
 .gallery-page #results { scroll-margin-top: 20px; }
 .gallery-datasets { display: flex; flex-wrap: wrap; gap: 4px 24px; margin-bottom: 14px; border-bottom: 1px solid var(--line); }
