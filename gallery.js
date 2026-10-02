@@ -124,16 +124,9 @@
     const id = ++nextCardId;
     const article = document.createElement('article');
     article.className = 'compare-card output-card';
-    article.innerHTML = `<div class="compare-card-header"><h2></h2><label class="sr-only" for="method-${id}"></label><select id="method-${id}" aria-describedby="condition-${id}"></select><button class="remove-method" type="button"><span aria-hidden="true">×</span></button></div><div class="media-frame"><video muted playsinline preload="none"></video><p class="media-error" hidden>Video unavailable. Try another method or open its link.</p></div><p id="condition-${id}" class="conditioning"></p><div class="variant-control" hidden><label for="version-${id}">Version</label><select id="version-${id}"></select></div><div class="output-footer"><details class="prompt-details"><summary>Prompt</summary><div class="prompt-body"><p class="prompt-status" role="status"></p><pre hidden tabindex="0" aria-label="Generation prompt text"></pre><a class="prompt-link" target="_blank" rel="noopener" download>Download prompt ↗</a></div></details><span class="prompt-unavailable" hidden title="The supplied source bundle does not include this generation prompt.">Prompt not provided</span><a class="video-link" target="_blank" rel="noopener">Open video ↗</a></div>`;
+    article.innerHTML = `<div class="compare-card-header"><h2></h2><label class="sr-only" for="method-${id}"></label><select id="method-${id}" aria-describedby="condition-${id}"></select><button class="remove-method" type="button"><span aria-hidden="true">×</span></button></div><div class="media-frame"><video muted playsinline preload="none"></video><p class="media-error" hidden>Video unavailable. Try another method or open its link.</p></div><p id="condition-${id}" class="conditioning"></p><div class="output-footer"><details class="prompt-details"><summary>Prompt</summary><div class="prompt-body"><p class="prompt-status" role="status"></p><pre hidden tabindex="0" aria-label="Generation prompt text"></pre><a class="prompt-link" target="_blank" rel="noopener" download>Download prompt ↗</a></div></details><span class="prompt-unavailable" hidden title="The supplied source bundle does not include this generation prompt.">Prompt not provided</span><a class="video-link" target="_blank" rel="noopener">Open video ↗</a></div>`;
     board.append(article);
     const card = {article, modelId, heading: article.querySelector('h2'), label: article.querySelector('label'), remove: article.querySelector('.remove-method'), select: article.querySelector('select'), condition: article.querySelector('.conditioning'), video: article.querySelector('video'), error: article.querySelector('.media-error'), link: article.querySelector('.video-link'), details: article.querySelector('details'), promptUnavailable: article.querySelector('.prompt-unavailable'), promptStatus: article.querySelector('.prompt-status'), promptText: article.querySelector('pre'), promptLink: article.querySelector('.prompt-link'), promptUrl: '', promptController: null};
-    card.variantControl = article.querySelector('.variant-control');
-    card.variantSelect = card.variantControl.querySelector('select');
-    card.variantId = '';
-    card.variantSelect.addEventListener('change', () => {
-      card.variantId = card.variantSelect.value;
-      renderComparison();
-    });
     const groups = new Map();
     available.forEach((model) => {
       if (!groups.has(model.group)) {
@@ -153,7 +146,6 @@
         return;
       }
       card.modelId = card.select.value;
-      card.variantId = '';
       renderComparison();
     });
     card.remove.addEventListener('click', () => {
@@ -257,28 +249,14 @@
     cards.forEach((card) => {
       const model = models[card.modelId];
       const primary = current.outputs[model.id];
-      const variants = primary?.variants || [];
-      if (!variants.some((variant) => variant.id === card.variantId)) card.variantId = '';
-      card.variantControl.hidden = !variants.length;
-      card.variantSelect.setAttribute('aria-label', `${model.name} output version`);
-      card.variantSelect.replaceChildren();
-      if (variants.length) {
-        for (const variant of [{id: '', label: primary.variantLabel || 'Original'}, ...variants]) {
-          const option = document.createElement('option');
-          option.value = variant.id;
-          option.textContent = variant.label;
-          card.variantSelect.append(option);
-        }
-        card.variantSelect.value = card.variantId;
-      }
-      const sample = Player.selectRendition(variants.find((variant) => variant.id === card.variantId) || primary, quality);
+      const sample = Player.selectRendition(primary, quality);
       const nativeNote = sample?.height && sample.height < Number(quality) ? ` · Original ${sample.height}p` : '';
       card.condition.textContent = (sample?.condition || 'Result not available') + nativeNote;
       if (sample) {
         if (card.video.getAttribute('poster') !== sample.poster) card.video.poster = sample.poster;
       } else card.video.removeAttribute('poster');
       card.video.hidden = !sample;
-      card.video.setAttribute('aria-label', `${model.name}${card.variantId ? ` (${sample.label})` : ''}: ${currentScene.title}, ${current.label || scene().camera}`);
+      card.video.setAttribute('aria-label', `${model.name}: ${currentScene.title}, ${current.label || scene().camera}`);
       card.error.hidden = Boolean(sample);
       card.error.textContent = sample ? 'Video unavailable. Try another method or open its link.' : current.unavailable?.[model.id] || 'No result provided for this scene.';
       card.link.hidden = !sample;
@@ -321,7 +299,7 @@
     timeline.disabled = loading;
     referenceSelect.disabled = loading;
     qualitySelect.disabled = loading;
-    cards.forEach((card) => { card.select.disabled = card.variantSelect.disabled = loading; });
+    cards.forEach((card) => { card.select.disabled = loading; });
     updateMethodControls();
   }
   async function showScene(index) {
@@ -341,8 +319,6 @@
     $('#input-open').removeAttribute('href');
     cards.forEach((card) => {
       card.video.removeAttribute('poster');
-      card.variantId = '';
-      card.variantControl.hidden = true;
       card.error.hidden = true;
       card.condition.textContent = '';
       card.link.hidden = true;
