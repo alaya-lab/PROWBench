@@ -124,9 +124,9 @@
     const id = ++nextCardId;
     const article = document.createElement('article');
     article.className = 'compare-card output-card';
-    article.innerHTML = `<div class="compare-card-header"><h2></h2><label class="sr-only" for="method-${id}"></label><select id="method-${id}" aria-describedby="condition-${id}"></select><button class="remove-method" type="button"><span aria-hidden="true">×</span></button></div><div class="media-frame"><video muted playsinline preload="none"></video><p class="media-error" hidden>Video unavailable. Try another method or open its link.</p></div><p id="condition-${id}" class="conditioning"></p><div class="variant-control" hidden><label for="version-${id}">Version</label><select id="version-${id}"></select></div><div class="output-footer"><details class="prompt-details"><summary>Prompt</summary><div class="prompt-body"><p class="prompt-status" role="status"></p><pre hidden tabindex="0" aria-label="Generation prompt text"></pre><a class="prompt-link" target="_blank" rel="noopener" download>Download prompt ↗</a></div></details><a class="video-link" target="_blank" rel="noopener">Open video ↗</a></div>`;
+    article.innerHTML = `<div class="compare-card-header"><h2></h2><label class="sr-only" for="method-${id}"></label><select id="method-${id}" aria-describedby="condition-${id}"></select><button class="remove-method" type="button"><span aria-hidden="true">×</span></button></div><div class="media-frame"><video muted playsinline preload="none"></video><p class="media-error" hidden>Video unavailable. Try another method or open its link.</p></div><p id="condition-${id}" class="conditioning"></p><div class="variant-control" hidden><label for="version-${id}">Version</label><select id="version-${id}"></select></div><div class="output-footer"><details class="prompt-details"><summary>Prompt</summary><div class="prompt-body"><p class="prompt-status" role="status"></p><pre hidden tabindex="0" aria-label="Generation prompt text"></pre><a class="prompt-link" target="_blank" rel="noopener" download>Download prompt ↗</a></div></details><span class="prompt-unavailable" hidden title="The supplied source bundle does not include this generation prompt.">Prompt not provided</span><a class="video-link" target="_blank" rel="noopener">Open video ↗</a></div>`;
     board.append(article);
-    const card = {article, modelId, heading: article.querySelector('h2'), label: article.querySelector('label'), remove: article.querySelector('.remove-method'), select: article.querySelector('select'), condition: article.querySelector('.conditioning'), video: article.querySelector('video'), error: article.querySelector('.media-error'), link: article.querySelector('.video-link'), details: article.querySelector('details'), promptStatus: article.querySelector('.prompt-status'), promptText: article.querySelector('pre'), promptLink: article.querySelector('.prompt-link'), promptUrl: '', promptController: null};
+    const card = {article, modelId, heading: article.querySelector('h2'), label: article.querySelector('label'), remove: article.querySelector('.remove-method'), select: article.querySelector('select'), condition: article.querySelector('.conditioning'), video: article.querySelector('video'), error: article.querySelector('.media-error'), link: article.querySelector('.video-link'), details: article.querySelector('details'), promptUnavailable: article.querySelector('.prompt-unavailable'), promptStatus: article.querySelector('.prompt-status'), promptText: article.querySelector('pre'), promptLink: article.querySelector('.prompt-link'), promptUrl: '', promptController: null};
     card.variantControl = article.querySelector('.variant-control');
     card.variantSelect = card.variantControl.querySelector('select');
     card.variantId = '';
@@ -286,6 +286,7 @@
       else card.link.removeAttribute('href');
       card.link.setAttribute('aria-label', `Open ${model.name} output for ${currentScene.title}, ${current.label || scene().camera}`);
       card.details.hidden = !sample?.prompt;
+      card.promptUnavailable.hidden = !sample || Boolean(sample.prompt);
       if (card.promptUrl !== (sample?.prompt || '')) {
         card.promptController?.abort();
         card.details.open = false;
@@ -349,6 +350,7 @@
       card.promptController?.abort();
       card.details.open = false;
       card.details.hidden = true;
+      card.promptUnavailable.hidden = true;
       card.promptUrl = '';
       card.promptText.textContent = '';
     });

@@ -48,6 +48,7 @@
 .reference-footer a:hover, .output-footer a:hover { color: var(--gold); }
 .output-footer { display: grid; grid-template-columns: 1fr auto; align-items: start; }
 .output-footer > a { grid-column: 2; grid-row: 1; z-index: 1; }
+.prompt-unavailable { grid-column: 1; grid-row: 1; padding: 6px 0; }
 .prompt-details { grid-column: 1 / -1; grid-row: 1; min-width: 0; font-size: 14px; color: var(--muted); }
 .prompt-details summary { width: fit-content; max-width: calc(100% - 104px); cursor: pointer; padding: 6px 0; }
 .prompt-details summary:hover, .gallery-notes summary:hover { color: var(--gold); }
