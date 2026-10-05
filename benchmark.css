@@ -86,6 +86,7 @@
 .benchmark-authors sup { font-size: 10px; margin-left: 2px; }
 .benchmark-credits { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 18px; margin-top: 12px; color: var(--faint); font-size: 12px; line-height: 1.6; }
 .benchmark-credits a:hover { color: var(--gold); }
+.author-order-note svg { display: inline-block; width: 14px; height: 14px; margin-right: 5px; vertical-align: -2px; }
 
 @media (max-width: 960px) {
   .scene-examples { grid-template-columns: repeat(3, minmax(0, 1fr)); }

@@ -210,10 +210,9 @@
       }
       if (labels) labels.hidden = !multiview;
     });
-    const isProvided = protocol().id === 'with-first-frame';
     referenceSelect.replaceChildren();
     const choices = [['obb', 'Colored-OBB'], ['white', 'Coarse 3D'], ['mixed', 'CWM proxy']];
-    if (protocol().dataset !== 'long-video') choices.push(['frame', isProvided ? 'Verified first frame' : 'Unchecked H3 first frame']);
+    if (protocol().id !== 'with-first-frame' && protocol().dataset !== 'long-video') choices.push(['frame', 'Unchecked H3 first frame']);
     if (!choices.some(([value]) => value === reference)) reference = 'obb';
     choices.forEach(([value, label]) => {
       const option = document.createElement('option');
@@ -222,19 +221,19 @@
       referenceSelect.append(option);
     });
     referenceSelect.value = reference;
-    const descriptions = {obb: 'Positions, orientations, and motion.', white: 'Untextured geometry and pose.', mixed: 'Geometry and semantic colors.', frame: isProvided ? 'Shared appearance reference checked against the recorded state.' : 'Unchecked frame 0 of the MiniMax-H3 output.'};
+    const descriptions = {obb: 'Positions, orientations, and motion.', white: 'Untextured geometry and pose.', mixed: 'Geometry and semantic colors.', frame: 'Unchecked frame 0 of the MiniMax-H3 output.'};
     $('#input-description').textContent = descriptions[reference];
     inputError.hidden = true;
     inputVideo.hidden = reference === 'frame';
     inputImage.hidden = reference !== 'frame';
     let input = null;
     if (reference === 'frame') {
-      const src = isProvided ? current.firstFrame : current.outputs.h3.poster;
+      const src = current.outputs.h3.poster;
       inputImage.src = src;
-      inputImage.alt = `${isProvided ? 'Verified first-frame reference' : 'Unchecked MiniMax-H3 first frame'}: ${currentScene.title}, ${current.label || scene().camera}`;
+      inputImage.alt = `Unchecked MiniMax-H3 first frame: ${currentScene.title}, ${current.label || scene().camera}`;
       $('#input-open').href = src;
       $('#input-open').textContent = 'Open image ↗';
-      $('#input-kind').textContent = isProvided ? 'Verified appearance reference' : 'Unchecked generated reference';
+      $('#input-kind').textContent = 'Unchecked generated reference';
     } else {
       inputImage.removeAttribute('src');
       input = Player.selectRendition(current.inputs[reference], quality);
