@@ -1,0 +1,39 @@
+Scene: long30-016-urban-park-revisit__first-person
+Method: C2R
+Camera: first-person
+
+Window 1
+Reference interval: [0, 5) s
+New frames in delivered video: [0, 5) s
+Positive prompt:
+A realistic city park in soft daylight: mown lawn, gravel paths, benches, clipped hedges, mature trees and low railings, with natural human anatomy, believable scale and detailed physical materials. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels. The independently moving adult participant 1 is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The independently moving adult participant 2 is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The person pushing the wheeled handcart is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist stands and looks at the nearby landmark. The protagonist walks away from the landmark. Only people visible in the control appear. Drivers remain inside their vehicles.
+
+Window 2
+Reference interval: [5, 10) s
+New frames in delivered video: [5, 10) s
+Positive prompt:
+A realistic city park in soft daylight: mown lawn, gravel paths, benches, clipped hedges, mature trees and low railings, with natural human anatomy, believable scale and detailed physical materials. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels. The independently moving adult participant 1 is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The independently moving adult participant 2 is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The person pushing the wheeled handcart is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist walks away from the landmark. Only people visible in the control appear. Drivers remain inside their vehicles.
+
+Window 3
+Reference interval: [10, 15) s
+New frames in delivered video: [10, 15) s
+Positive prompt:
+A realistic city park in soft daylight: mown lawn, gravel paths, benches, clipped hedges, mature trees and low railings, with natural human anatomy, believable scale and detailed physical materials. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels. The independently moving adult participant 1 is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The independently moving adult participant 2 is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The person pushing the wheeled handcart is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist walks away from the landmark. The protagonist pauses at a distance and scans the surroundings. Only people visible in the control appear. Drivers remain inside their vehicles.
+
+Window 4
+Reference interval: [15, 20) s
+New frames in delivered video: [15, 20) s
+Positive prompt:
+A realistic city park in soft daylight: mown lawn, gravel paths, benches, clipped hedges, mature trees and low railings, with natural human anatomy, believable scale and detailed physical materials. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels. The independently moving adult participant 1 is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The independently moving adult participant 2 is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The person pushing the wheeled handcart is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist pauses at a distance and scans the surroundings. The protagonist walks back toward the landmark. Only people visible in the control appear. Drivers remain inside their vehicles.
+
+Window 5
+Reference interval: [20, 25) s
+New frames in delivered video: [20, 25) s
+Positive prompt:
+A realistic city park in soft daylight: mown lawn, gravel paths, benches, clipped hedges, mature trees and low railings, with natural human anatomy, believable scale and detailed physical materials. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels. The independently moving adult participant 1 is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The independently moving adult participant 2 is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The person pushing the wheeled handcart is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist walks back toward the landmark. Only people visible in the control appear. Drivers remain inside their vehicles.
+
+Window 6
+Reference interval: [25, 30) s
+New frames in delivered video: [25, 30) s
+Positive prompt:
+A realistic city park in soft daylight: mown lawn, gravel paths, benches, clipped hedges, mature trees and low railings, with natural human anatomy, believable scale and detailed physical materials. The wheeled handcart is a steel utility cart with a flat bed and rubber wheels. The independently moving adult participant 1 is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The independently moving adult participant 2 is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The person pushing the wheeled handcart is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist walks back toward the landmark. Only people visible in the control appear. Drivers remain inside their vehicles.

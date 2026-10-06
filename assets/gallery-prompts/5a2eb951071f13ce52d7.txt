@@ -1,0 +1,15 @@
+Appearance and scene:
+
+The protagonist, the camera wearer is the camera wearer and stays outside the frame: the whole shot is seen through this person's eyes, and whatever the timeline says this person does is experienced as camera motion, never shown as a figure.
+
+Independently moving adult participant 1 is a person with brown hair tied back, wearing a cream t-shirt under dark navy overalls and dark shoes, standing in the foreground facing forward. Independently moving adult participant 2 is a person with shoulder-length hair wearing a maroon hoodie and blue jeans, standing in the middle ground facing away from the camera. Independently moving adult participant 3 is a person with short hair wearing a salmon-coloured jacket, a straw hat, and beige shorts, standing in the middle ground facing forward. The ground is rendered in dark charcoal washes with rough textures, intersected by a glowing, pale stream of water. Large, angular rock pillars and overhangs frame the scene, painted with heavy black ink strokes and accented with faint gold speckles. In the distance, a circular ring structure stands at the end of the path, keeping the spacing and sizes of the conditioning reference. All people keep the same face, build and clothing throughout, with clothing folds responding naturally to movement. Brushstrokes and painted edges belong to the target style; they never trace a proxy box, proxy edge or proxy silhouette.
+
+The setting is a rocky cave with irregular walls, sloping ground, pillars, low ceilings and an entrance platform. Painterly rendering, dry-brush ink wash: rough scratchy brush textures, dark ink accents, warm aged-paper tone with faint gold speckle, calligraphic edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable; no proxy colours, wireframes, block figures or game UI. The camera is the protagonist's own first-person view, carried at the protagonist's eye height, and follows the recorded camera path of the conditioning reference with its fixed 75-degree vertical field of view.
+
+Protagonist action timeline:
+
+0.00–4.77s: The protagonist walks forward along the trail and around its bend; the protagonist moves about 9 metres along its route.; 4.77–5.00s: The protagonist continues walking slowly.; 5.00–5.17s: Everyone holds the final pose and position and the camera holds its final pose.
+
+Other visible actors:
+
+0.00–5.17s, independently moving adult participant 1: Moves about 5 metres along its route from 0.00 to 4.77 s; holds the final state from 5.00 to 5.17 s.; 0.00–5.17s, independently moving adult participant 2: Moves about 3 metres along its route from 0.00 to 4.77 s; holds the final state from 5.00 to 5.17 s.; 0.00–5.17s, independently moving adult participant 3: Moves about 4 metres along its route from 0.00 to 4.77 s; holds the final state from 5.00 to 5.17 s.

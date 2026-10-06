@@ -1,0 +1,17 @@
+Appearance and scene:
+
+The protagonist is a person wearing a full-body black wetsuit and large grey swim fins, swimming forward with arms extended.
+
+The small fish 1 is a fish with a white body and a bright yellow tail and dorsal fin, swimming to screen-right. The small fish 2 is a fish with a white body and a bright yellow tail and dorsal fin, swimming to screen-left. The protagonist observes and accompanies the small fish 1 from 0.00 s to 5.00 s; the protagonist observes and accompanies the small fish 2 from 0.00 s to 5.00 s; the small fish 2 follows the small fish 1 from 0.00 s to 5.00 s. the small fish 1 is one continuous object throughout and comes to rest about 2 metres from the protagonist. the small fish 2 is one continuous object throughout and ends the clip about 3 metres from the protagonist.
+
+In the foreground, there are scattered rocks and branching coral structures. In the background, a large, moss-covered shipwreck rests on the sand, partially obscured by the blue water and atmospheric haze. Sunlight rays penetrate the water surface from above, keeping the spacing and sizes of the conditioning reference. No other person or independently moving identity is visible; the protagonist remains the sole figure, and the small fish 1 and the small fish 2 are the only other thing that moves. The person keeps the same face, build and clothing throughout, with clothing folds responding naturally to movement.
+
+The setting is the scene is an underwater environment with a sandy seabed marked by ripples. Photorealistic rendering with real-camera optics: shallow depth of field that separates the sharp near subject from a softly blurred background, diffuse low-contrast light with soft glowing specular highlights and lifted shadows, cool desaturated blue-grey grading with muted warm amber accents, misty atmospheric perspective softening the distance, wet or glossy reflective surfaces where the setting allows and finely textured matte materials elsewhere, natural human anatomy; no proxy colours, wireframes, block figures or game UI. The camera follows the recorded third-person path of the conditioning reference with its fixed 60-degree vertical field of view.
+
+Protagonist action timeline:
+
+0.00–4.57s: The protagonist swims forward along the route while the fish swim alongside with beating tails; the protagonist moves about 3 metres along its route, raises the hands to chest height.; 4.57–5.00s: The protagonist slows down and watches the fish as the shoal turns together; the protagonist lowers the hands to the sides.; 5.00–5.17s: Everyone holds the final pose and position and the camera holds its final pose.
+
+Other visible actors:
+
+0.00–5.17s, the small fish 1: Moves about 3 metres along its route from 0.00 to 4.57 s; holds the final state from 5.00 to 5.17 s.; 0.00–5.17s, the small fish 2: Moves about 3 metres along its route, drops a short distance from 0.00 to 4.57 s; holds the final state from 5.00 to 5.17 s.

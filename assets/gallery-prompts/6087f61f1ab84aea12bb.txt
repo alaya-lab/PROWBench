@@ -1,0 +1,45 @@
+Scene: multi4-010-underwater-converge-turn
+Grid layout: A B / C D
+
+View A (follow-a)
+Scene: multi4-010-underwater-converge-turn
+Method: C2R
+Camera: follow-a
+
+Window 1
+Reference interval: [0, 5) s
+Positive prompt:
+A realistic, high-quality video of a person swimming underwater over a coral reef as two lines of divers angle toward each other. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The setting is an underwater reef seen below the surface: a sandy seabed with scattered dark rocks, clumps of branching coral and swaying sea plants, the rippling water surface overhead letting down soft light, and the blue water fading into haze in the distance. There are 4 persons in this video. The protagonist is participant A, a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins. The other participants of the same recording are participant B, a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins; participant C, a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins and participant D, a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins; only those named here appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. Participant B is a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins, and keeps exactly this appearance. Over the five seconds, participants A and C swim forward one behind the other on one side of the reef while participants B and D swim forward one behind the other on the other side, C ahead of A and D ahead of B, the two lines angling gently toward each other, and then a and C keep turning gently inward while B and D straighten out, so the two lines end closer together, still with clear space between them, everyone swimming at the same steady pace.
+
+
+View B (follow-b)
+Scene: multi4-010-underwater-converge-turn
+Method: C2R
+Camera: follow-b
+
+Window 1
+Reference interval: [0, 5) s
+Positive prompt:
+A realistic, high-quality video of a person swimming underwater over a coral reef as two lines of divers angle toward each other. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The setting is an underwater reef seen below the surface: a sandy seabed with scattered dark rocks, clumps of branching coral and swaying sea plants, the rippling water surface overhead letting down soft light, and the blue water fading into haze in the distance. There are 4 persons in this video. The protagonist is participant B, a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins. The other participants of the same recording are participant A, a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins; participant C, a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins and participant D, a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins; only those named here appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. Participant A is a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins, and keeps exactly this appearance. Over the five seconds, participants A and C swim forward one behind the other on one side of the reef while participants B and D swim forward one behind the other on the other side, C ahead of A and D ahead of B, the two lines angling gently toward each other, and then a and C keep turning gently inward while B and D straighten out, so the two lines end closer together, still with clear space between them, everyone swimming at the same steady pace.
+
+
+View C (follow-c)
+Scene: multi4-010-underwater-converge-turn
+Method: C2R
+Camera: follow-c
+
+Window 1
+Reference interval: [0, 5) s
+Positive prompt:
+A realistic, high-quality video of a person swimming underwater over a coral reef as two lines of divers angle toward each other. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The setting is an underwater reef seen below the surface: a sandy seabed with scattered dark rocks, clumps of branching coral and swaying sea plants, the rippling water surface overhead letting down soft light, and the blue water fading into haze in the distance. There are 4 persons in this video. The protagonist is participant C, a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins. The other participants of the same recording are participant A, a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins; participant B, a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins and participant D, a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins; only those named here appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. Participant A is a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins, and keeps exactly this appearance. Over the five seconds, participants A and C swim forward one behind the other on one side of the reef while participants B and D swim forward one behind the other on the other side, C ahead of A and D ahead of B, the two lines angling gently toward each other, and then a and C keep turning gently inward while B and D straighten out, so the two lines end closer together, still with clear space between them, everyone swimming at the same steady pace.
+
+
+View D (follow-d)
+Scene: multi4-010-underwater-converge-turn
+Method: C2R
+Camera: follow-d
+
+Window 1
+Reference interval: [0, 5) s
+Positive prompt:
+A realistic, high-quality video of a person swimming underwater over a coral reef as two lines of divers angle toward each other. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The setting is an underwater reef seen below the surface: a sandy seabed with scattered dark rocks, clumps of branching coral and swaying sea plants, the rippling water surface overhead letting down soft light, and the blue water fading into haze in the distance. There are 4 persons in this video. The protagonist is participant D, a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins. The other participants of the same recording are participant A, a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins; participant B, a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins and participant C, a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins; only those named here appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. Participant A is a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins, and keeps exactly this appearance. Over the five seconds, participants A and C swim forward one behind the other on one side of the reef while participants B and D swim forward one behind the other on the other side, C ahead of A and D ahead of B, the two lines angling gently toward each other, and then a and C keep turning gently inward while B and D straighten out, so the two lines end closer together, still with clear space between them, everyone swimming at the same steady pace.
