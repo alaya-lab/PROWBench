@@ -1,0 +1,16 @@
+The video begins exactly on the first frame and continues it as one continuous 5-second shot with no cuts, keeping the first frame's art style throughout: Painterly rendering, dry-brush ink wash: rough scratchy brush textures, dark ink accents, warm aged-paper tone with faint gold speckle, calligraphic edges instead of standard 3D shading, keeping the full 3D world and every recorded shape readable.
+
+@Video1 is a rough proxy animation of this same shot. Follow @Video1 closely for the camera path and for where every person, vehicle and object is, how large it is, which way it faces and how it moves at each moment. Do not copy how @Video1 looks: its people and objects are placeholder shapes and its scenery is flat semantic-colour geometry. Each box gives only position, size, facing and path (its white face marks the front of that person, animal or vehicle, never a white object or light); body movements come from the text. No placeholder shapes, boxes, mannequins, flat colour blocks, wireframes or proxy colours may appear in the result; draw the real people, vehicles and scenery of the first frame in their places.
+
+Camera: this is a first-person take seen through the protagonist's own eyes. The camera path of @Video1 is the protagonist's head motion; no proxy of the protagonist is drawn in @Video1 and the protagonist is never shown as a figure. Only the protagonist's own hands, forearms or a hand-held item may enter the lower edge of the frame when the timestamped text says they reach, hold, push or hand over something.
+
+Who is who in @Video1:
+- Participant 1 = the lime-green box (#a7f736) that starts on the left of the frame: a person with brown hair tied back, wearing a cream t-shirt under dark navy overalls and dark shoes, standing in the foreground facing forward.
+- Participant 2 = the magenta box (#f736df): a person with shoulder-length hair wearing a maroon hoodie and blue jeans, standing in the middle ground facing away from the camera.
+- Participant 3 = the turquoise box (#36f7d6): a person with short hair wearing a salmon-coloured jacket, a straw hat, and beige shorts, standing in the middle ground facing forward.
+
+Setting: a rocky cave with irregular walls, sloping ground, pillars, low ceilings and an entrance platform. The ground is rendered in dark charcoal washes with rough textures, intersected by a glowing, pale stream of water. Large, angular rock pillars and overhangs frame the scene, painted with heavy black ink strokes and accented with faint gold speckles. In the distance, a circular ring structure stands at the end of the path, laid out as in @Video1.
+
+Action: From 00:00.000 to 00:04.767, the protagonist walks forward along the trail and around its bend; the protagonist moves about 9 metres along its route; participant 1 moves about 5 metres along its route; participant 2 moves about 3 metres along its route; participant 3 moves about 4 metres along its route. From 00:04.767 to 00:05.000, the protagonist continues walking slowly.
+
+Everyone keeps the face, hair, build and clothing they have in the first frame; subjects that enter later match the first frame's style. No extra people or objects; keep the 75-degree vertical field of view of @Video1. No captions, text, watermarks or interface overlays.

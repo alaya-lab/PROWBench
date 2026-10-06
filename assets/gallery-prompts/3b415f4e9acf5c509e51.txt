@@ -1,0 +1,39 @@
+Scene: long30-001-forest-long-return__follow
+Method: C2R
+Camera: follow
+
+Window 1
+Reference interval: [0, 5) s
+New frames in delivered video: [0, 5) s
+Positive prompt:
+A realistic temperate woodland in soft daylight filtered through the canopy: rough bark, leaf litter, moss, packed earth trails and weathered timber, with natural human anatomy, believable scale and detailed physical materials. The protagonist is a field explorer with long braided dark hair, wearing a khaki field shirt with rolled sleeves, olive cargo trousers, and brown leather boots. The independent participant B is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant C is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist walks forward along the route. Only people visible in the control appear. Drivers remain inside their vehicles.
+
+Window 2
+Reference interval: [5, 10) s
+New frames in delivered video: [5, 10) s
+Positive prompt:
+A realistic temperate woodland in soft daylight filtered through the canopy: rough bark, leaf litter, moss, packed earth trails and weathered timber, with natural human anatomy, believable scale and detailed physical materials. The protagonist is a field explorer with long braided dark hair, wearing a khaki field shirt with rolled sleeves, olive cargo trousers, and brown leather boots. The independent participant B is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant C is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist walks forward along the route. The protagonist turns round and walks back along the route. Only people visible in the control appear. Drivers remain inside their vehicles.
+
+Window 3
+Reference interval: [10, 15) s
+New frames in delivered video: [10, 15) s
+Positive prompt:
+A realistic temperate woodland in soft daylight filtered through the canopy: rough bark, leaf litter, moss, packed earth trails and weathered timber, with natural human anatomy, believable scale and detailed physical materials. The protagonist is a field explorer with long braided dark hair, wearing a khaki field shirt with rolled sleeves, olive cargo trousers, and brown leather boots. The independent participant B is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant C is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist turns round and walks back along the route. Only people visible in the control appear. Drivers remain inside their vehicles.
+
+Window 4
+Reference interval: [15, 20) s
+New frames in delivered video: [15, 20) s
+Positive prompt:
+A realistic temperate woodland in soft daylight filtered through the canopy: rough bark, leaf litter, moss, packed earth trails and weathered timber, with natural human anatomy, believable scale and detailed physical materials. The protagonist is a field explorer with long braided dark hair, wearing a khaki field shirt with rolled sleeves, olive cargo trousers, and brown leather boots. The independent participant B is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant C is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist turns round and walks back along the route. The protagonist walks forward along the route. Only people visible in the control appear. Drivers remain inside their vehicles.
+
+Window 5
+Reference interval: [20, 25) s
+New frames in delivered video: [20, 25) s
+Positive prompt:
+A realistic temperate woodland in soft daylight filtered through the canopy: rough bark, leaf litter, moss, packed earth trails and weathered timber, with natural human anatomy, believable scale and detailed physical materials. The protagonist is a field explorer with long braided dark hair, wearing a khaki field shirt with rolled sleeves, olive cargo trousers, and brown leather boots. The independent participant B is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant C is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist walks forward along the route. Only people visible in the control appear. Drivers remain inside their vehicles.
+
+Window 6
+Reference interval: [25, 30) s
+New frames in delivered video: [25, 30) s
+Positive prompt:
+A realistic temperate woodland in soft daylight filtered through the canopy: rough bark, leaf litter, moss, packed earth trails and weathered timber, with natural human anatomy, believable scale and detailed physical materials. The protagonist is a field explorer with long braided dark hair, wearing a khaki field shirt with rolled sleeves, olive cargo trousers, and brown leather boots. The independent participant B is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant C is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots. Every described entity retains this appearance only while visible in the reference. The protagonist walks forward along the route. Only people visible in the control appear. Drivers remain inside their vehicles.

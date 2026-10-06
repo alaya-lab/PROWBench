@@ -1,0 +1,317 @@
+Scene: multi4-010-underwater-converge-turn
+Grid layout: A B / C D
+
+View A (follow-a)
+Scene: multi4-010-underwater-converge-turn
+Method: CWM
+Camera: follow-a
+
+Window 1
+Reference interval: [0, 5) s
+System prompt: Reference 1
+Positive prompt:
+Appearance and scene:
+
+The protagonist is participant A, a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins.
+
+Participant B is a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins, and keeps exactly this appearance. Participant C is a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins, and keeps exactly this appearance. Participant D is a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins, and keeps exactly this appearance. At the start of the clip the protagonist (participant A) (the protagonist) stands in the centre of the middle part of the frame, a small figure close by, nearest to the camera, seen from behind, facing away from the camera; participant B (participant B) stands on screen-right of the middle part of the frame, a small figure close by, behind the protagonist (participant A), to screen-right of the protagonist (participant A), seen from behind, facing away from the camera; participant C (participant C) stands in the centre of the upper part of the frame, a small figure in the middle distance, behind participant B, directly behind the protagonist (participant A), seen from behind, facing away from the camera; participant D (participant D) stands on screen-right of the upper part of the frame, tiny in the distance, in the far background, to screen-right of the protagonist (participant A), seen from behind, facing away from the camera. The other participants of the same recording are participant B, a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins; participant C, a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins and participant D, a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins; only those named above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. All people keep the same face, build and clothing throughout, with clothing folds responding naturally to movement. The protagonist (participant A) in the foreground covers participant C from about 0.1 s to 0.5 s; the protagonist (participant A) in the foreground covers participant C from about 0.7 s to 1.1 s; the protagonist (participant A) in the foreground covers participant C from about 4.6 s to 5.0 s. 
+
+The setting is an underwater reef seen below the surface: a sandy seabed with scattered dark rocks, clumps of branching coral and swaying sea plants, the rippling water surface overhead letting down soft light, and the blue water fading into haze in the distance. The people swim horizontally in open water above the seabed. Preserve the reference spacing, rock and coral positions and open swimming lanes. Use pale sand, dark volcanic rock, branching coral, green sea grass and clear blue water with light caustics. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The camera follows the recorded third-person path of the conditioning reference with its fixed 60-degree vertical field of view.
+
+Protagonist action timeline:
+
+0.00–2.50s: Participants A and C swim forward one behind the other on one side of the reef while participants B and D swim forward one behind the other on the other side, C ahead of A and D ahead of B, the two lines angling gently toward each other; the protagonist (participant A) moves about 2 metres along its route.; 2.50–5.00s: A and C keep turning gently inward while B and D straighten out, so the two lines end closer together, still with clear space between them, everyone swimming at the same steady pace; the protagonist (participant A) moves about 2 metres along its route.; 5.00–5.17s: Everyone holds the final pose and position and the camera holds its final pose.
+
+Other visible actors:
+
+0.00–5.17s, participant B: Moves about 2 metres along its route from 0.00 to 2.50 s; moves about 2 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.; 0.00–5.17s, participant C: Moves about 2 metres along its route from 0.00 to 2.50 s; moves about 2 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.; 0.00–5.17s, participant D: Moves about 2 metres along its route from 0.00 to 2.50 s; moves about 2 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.
+
+Reference 1:
+AWM_PROXY_CONTROL. Two visual references accompany this text. <Video 1> is the conditioning
+proxy video: treat it as a coarse spatiotemporal reference, not an appearance template or
+literal target geometry. <Picture 1> is the global RGB anchor image: it defines identity and
+appearance, never motion. <Picture 1> is the ABSOLUTE standard for the worldview, art
+direction and overall style of the entire take: every clip of the take, no matter how far into the
+future, must align with it to a high degree, and on worldview, art direction and style it
+outranks even the current clip's caption. It provides NOTHING about any future frame's
+current camera, composition, motion or interactions. Each subject's position and motion come
+from <Video 1>. A subject's appearance follows <Picture 1> when that subject is visible in
+it; subjects not visible in <Picture 1> take their appearance from the timestamped text,
+rendered consistently in <Picture 1>'s worldview and art direction.
+
+Human proxies in <Video 1> provide only framewise root position, coarse occupied scale, and
+whole-body root orientation, which are reliable at roughly 80-100% and should be followed
+closely. They carry no information about character appearance and do not represent identity,
+face, hairstyle, clothing, materials, colors, visual effects, anatomy, bones, joints, limb
+articulation, detailed posture, torso or head pose, hand pose, action phase, or physical
+contact. Reconstruct each character's appearance from <Picture 1> and the timestamped text,
+and reconstruct articulated motion from the timestamped text. Never reproduce a human proxy
+as a skeleton, stick figure, mannequin, node-connected body, or exposed rig. Left and right
+refer to each person's own body unless explicitly stated as screen direction.
+
+Vehicle proxies in <Video 1> provide only framewise position, trajectory, body heading,
+rotation, and accurate overall length, width, height, and occupied scale; these anchors
+should be followed closely. They carry no information about vehicle appearance. Never
+reproduce a vehicle proxy as a wireframe vehicle, cage frame, tubular skeleton, exposed
+chassis, or low-poly proxy car. Vehicle identity, type, design details, materials, colors,
+and visual effects are defined by <Picture 1> and the text.
+
+Roads, terrain, buildings, relative depth, rough scale, and layout in <Video 1> provide
+denser but still approximate structural cues. The text may reinterpret these cues to create
+strongly out-of-distribution scenes while maintaining broad spatial and temporal coherence.
+Conditioning colors, proxy geometry, node markers, rigging structures, and other
+visualization artifacts must never appear in the final video.
+
+When sources conflict, resolve in this order: (1) geometry, camera, position and motion
+follow <Video 1>; (2) the worldview, art direction and overall style follow <Picture 1>
+absolutely — above the current clip's caption; identity, appearance and materials follow
+<Picture 1> for subjects visible in it, and follow the text for subjects not visible in it;
+(3) the timestamped text defines the concrete events, actions and rewrite targets within
+those constraints; (4) when the opening of this clip is fixed to already-given video frames,
+seamless continuity with that fixed opening overrides everything else — never restart the
+scene.
+
+Clip contract: this clip is the very beginning of the take — nothing
+precedes it. <Picture 1> is the global
+appearance anchor for the whole take, and the first frame of the target is locked to this
+exact image: the clip begins at precisely this visual state — identities, appearance,
+materials, art direction, lighting, camera framing and layout — and continues directly from
+it while performing the timestamped actions. Do not restart, redesign or re-interpret any
+identity.
+
+
+View B (follow-b)
+Scene: multi4-010-underwater-converge-turn
+Method: CWM
+Camera: follow-b
+
+Window 1
+Reference interval: [0, 5) s
+System prompt: Reference 1
+Positive prompt:
+Appearance and scene:
+
+The protagonist is participant B, a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins.
+
+Participant A is a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins, and keeps exactly this appearance. Participant C is a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins, and keeps exactly this appearance. Participant D is not in frame at 0.00 s and enters the frame at about 0.3 s; from then on it is a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins, and keeps exactly this appearance. At the start of the clip the protagonist (participant B) (the protagonist) stands in the centre of the middle part of the frame, a small figure, behind participant A, seen from behind, facing away from the camera; participant A (participant A) stands at the far screen-left edge of the middle part of the frame, a small figure, nearest to the camera, to screen-left of the protagonist (participant B), partly cut off by the frame edge, seen from behind, facing away from the camera; participant C (participant C) stands on screen-left of the upper part of the frame, a small figure in the middle distance, behind the protagonist (participant B), to screen-left of the protagonist (participant B), seen from behind, facing away from the camera; participant D (participant D) stands in the centre of the upper part of the frame, a small figure in the middle distance, behind participant C, directly behind the protagonist (participant B), seen from behind, facing away from the camera. The other participants of the same recording are participant A, a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins; participant C, a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins and participant D, a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins; only those named above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. All people keep the same face, build and clothing throughout, with clothing folds responding naturally to movement. The protagonist (participant B) in the foreground covers participant D from about 0.0 s to 0.4 s; the protagonist (participant B) in the foreground covers participant D from about 0.5 s to 1.0 s; the protagonist (participant B) in the foreground covers participant D from about 1.2 s to 1.6 s; the protagonist (participant B) in the foreground covers participant D from about 1.9 s to 2.1 s; the protagonist (participant B) in the foreground covers participant D from about 2.5 s to 2.8 s; the protagonist (participant B) in the foreground covers participant D from about 3.1 s to 3.5 s; the protagonist (participant B) in the foreground covers participant D from about 3.7 s to 4.1 s; the protagonist (participant B) in the foreground covers participant D from about 4.3 s to 4.8 s. 
+
+The setting is an underwater reef seen below the surface: a sandy seabed with scattered dark rocks, clumps of branching coral and swaying sea plants, the rippling water surface overhead letting down soft light, and the blue water fading into haze in the distance. The people swim horizontally in open water above the seabed. Preserve the reference spacing, rock and coral positions and open swimming lanes. Use pale sand, dark volcanic rock, branching coral, green sea grass and clear blue water with light caustics. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The camera follows the recorded third-person path of the conditioning reference with its fixed 60-degree vertical field of view.
+
+Protagonist action timeline:
+
+0.00–2.50s: Participants A and C swim forward one behind the other on one side of the reef while participants B and D swim forward one behind the other on the other side, C ahead of A and D ahead of B, the two lines angling gently toward each other; the protagonist (participant B) moves about 2 metres along its route.; 2.50–5.00s: A and C keep turning gently inward while B and D straighten out, so the two lines end closer together, still with clear space between them, everyone swimming at the same steady pace; the protagonist (participant B) moves about 2 metres along its route.; 5.00–5.17s: Everyone holds the final pose and position and the camera holds its final pose.
+
+Other visible actors:
+
+0.00–5.17s, participant A: Moves about 2 metres along its route from 0.00 to 2.50 s; moves about 2 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.; 0.00–5.17s, participant C: Moves about 2 metres along its route from 0.00 to 2.50 s; moves about 2 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.; 0.00–5.17s, participant D: Moves about 2 metres along its route from 0.00 to 2.50 s; moves about 2 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.
+
+Reference 1:
+AWM_PROXY_CONTROL. Two visual references accompany this text. <Video 1> is the conditioning
+proxy video: treat it as a coarse spatiotemporal reference, not an appearance template or
+literal target geometry. <Picture 1> is the global RGB anchor image: it defines identity and
+appearance, never motion. <Picture 1> is the ABSOLUTE standard for the worldview, art
+direction and overall style of the entire take: every clip of the take, no matter how far into the
+future, must align with it to a high degree, and on worldview, art direction and style it
+outranks even the current clip's caption. It provides NOTHING about any future frame's
+current camera, composition, motion or interactions. Each subject's position and motion come
+from <Video 1>. A subject's appearance follows <Picture 1> when that subject is visible in
+it; subjects not visible in <Picture 1> take their appearance from the timestamped text,
+rendered consistently in <Picture 1>'s worldview and art direction.
+
+Human proxies in <Video 1> provide only framewise root position, coarse occupied scale, and
+whole-body root orientation, which are reliable at roughly 80-100% and should be followed
+closely. They carry no information about character appearance and do not represent identity,
+face, hairstyle, clothing, materials, colors, visual effects, anatomy, bones, joints, limb
+articulation, detailed posture, torso or head pose, hand pose, action phase, or physical
+contact. Reconstruct each character's appearance from <Picture 1> and the timestamped text,
+and reconstruct articulated motion from the timestamped text. Never reproduce a human proxy
+as a skeleton, stick figure, mannequin, node-connected body, or exposed rig. Left and right
+refer to each person's own body unless explicitly stated as screen direction.
+
+Vehicle proxies in <Video 1> provide only framewise position, trajectory, body heading,
+rotation, and accurate overall length, width, height, and occupied scale; these anchors
+should be followed closely. They carry no information about vehicle appearance. Never
+reproduce a vehicle proxy as a wireframe vehicle, cage frame, tubular skeleton, exposed
+chassis, or low-poly proxy car. Vehicle identity, type, design details, materials, colors,
+and visual effects are defined by <Picture 1> and the text.
+
+Roads, terrain, buildings, relative depth, rough scale, and layout in <Video 1> provide
+denser but still approximate structural cues. The text may reinterpret these cues to create
+strongly out-of-distribution scenes while maintaining broad spatial and temporal coherence.
+Conditioning colors, proxy geometry, node markers, rigging structures, and other
+visualization artifacts must never appear in the final video.
+
+When sources conflict, resolve in this order: (1) geometry, camera, position and motion
+follow <Video 1>; (2) the worldview, art direction and overall style follow <Picture 1>
+absolutely — above the current clip's caption; identity, appearance and materials follow
+<Picture 1> for subjects visible in it, and follow the text for subjects not visible in it;
+(3) the timestamped text defines the concrete events, actions and rewrite targets within
+those constraints; (4) when the opening of this clip is fixed to already-given video frames,
+seamless continuity with that fixed opening overrides everything else — never restart the
+scene.
+
+Clip contract: this clip is the very beginning of the take — nothing
+precedes it. <Picture 1> is the global
+appearance anchor for the whole take, and the first frame of the target is locked to this
+exact image: the clip begins at precisely this visual state — identities, appearance,
+materials, art direction, lighting, camera framing and layout — and continues directly from
+it while performing the timestamped actions. Do not restart, redesign or re-interpret any
+identity.
+
+
+View C (follow-c)
+Scene: multi4-010-underwater-converge-turn
+Method: CWM
+Camera: follow-c
+
+Window 1
+Reference interval: [0, 5) s
+System prompt: Reference 1
+Positive prompt:
+Appearance and scene:
+
+The protagonist is participant C, a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins.
+
+Participant A is a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins, and keeps exactly this appearance. Participant B is a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins, and keeps exactly this appearance. Participant D is a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins, and keeps exactly this appearance. At the start of the clip the protagonist (participant C) (the protagonist) stands in the centre of the middle part of the frame, a small figure, behind participant A, seen from behind, facing away from the camera; participant A (participant A) stands in the centre of the lower part of the frame, about a third to half of the frame height, nearest to the camera, seen from behind, facing away from the camera; participant D (participant D) stands on screen-right of the middle part of the frame, a small figure in the middle distance, behind the protagonist (participant C), to screen-right of the protagonist (participant C), seen from behind, facing away from the camera. The other participants of the same recording are participant A, a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins; participant B, a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins and participant D, a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins; only those named above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. All people keep the same face, build and clothing throughout, with clothing folds responding naturally to movement. Participant A in the foreground covers participant B from about 1.4 s to 1.9 s; participant A in the foreground covers participant B from about 1.9 s to 2.2 s; participant A in the foreground covers participant B from about 2.9 s to 3.1 s; participant A in the foreground covers participant B from about 3.2 s to 4.3 s; participant A in the foreground covers the protagonist from about 4.7 s to 4.9 s; participant A in the foreground covers participant D from about 0.8 s to 1.1 s; participant A in the foreground covers participant D from about 1.4 s to 1.7 s; participant A in the foreground covers participant D from about 2.0 s to 2.4 s; participant A in the foreground covers participant D from about 2.6 s to 3.0 s. Keep the reference's recorded vertical field of view at every frame. 
+
+The setting is an underwater reef seen below the surface: a sandy seabed with scattered dark rocks, clumps of branching coral and swaying sea plants, the rippling water surface overhead letting down soft light, and the blue water fading into haze in the distance. The people swim horizontally in open water above the seabed. Preserve the reference spacing, rock and coral positions and open swimming lanes. Use pale sand, dark volcanic rock, branching coral, green sea grass and clear blue water with light caustics. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The camera follows the recorded third-person path of the conditioning reference.
+
+Protagonist action timeline:
+
+0.00–2.50s: Participants A and C swim forward one behind the other on one side of the reef while participants B and D swim forward one behind the other on the other side, C ahead of A and D ahead of B, the two lines angling gently toward each other; the protagonist (participant C) moves about 2 metres along its route.; 2.50–5.00s: A and C keep turning gently inward while B and D straighten out, so the two lines end closer together, still with clear space between them, everyone swimming at the same steady pace; the protagonist (participant C) moves about 2 metres along its route.; 5.00–5.17s: Everyone holds the final pose and position and the camera holds its final pose.
+
+Other visible actors:
+
+0.00–5.17s, participant A: Moves about 2 metres along its route from 0.00 to 2.50 s; moves about 2 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.; 0.00–5.17s, participant B: Moves about 2 metres along its route from 0.00 to 2.50 s; moves about 2 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.; 0.00–5.17s, participant D: Moves about 2 metres along its route from 0.00 to 2.50 s; moves about 2 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.
+
+Reference 1:
+AWM_PROXY_CONTROL. Two visual references accompany this text. <Video 1> is the conditioning
+proxy video: treat it as a coarse spatiotemporal reference, not an appearance template or
+literal target geometry. <Picture 1> is the global RGB anchor image: it defines identity and
+appearance, never motion. <Picture 1> is the ABSOLUTE standard for the worldview, art
+direction and overall style of the entire take: every clip of the take, no matter how far into the
+future, must align with it to a high degree, and on worldview, art direction and style it
+outranks even the current clip's caption. It provides NOTHING about any future frame's
+current camera, composition, motion or interactions. Each subject's position and motion come
+from <Video 1>. A subject's appearance follows <Picture 1> when that subject is visible in
+it; subjects not visible in <Picture 1> take their appearance from the timestamped text,
+rendered consistently in <Picture 1>'s worldview and art direction.
+
+Human proxies in <Video 1> provide only framewise root position, coarse occupied scale, and
+whole-body root orientation, which are reliable at roughly 80-100% and should be followed
+closely. They carry no information about character appearance and do not represent identity,
+face, hairstyle, clothing, materials, colors, visual effects, anatomy, bones, joints, limb
+articulation, detailed posture, torso or head pose, hand pose, action phase, or physical
+contact. Reconstruct each character's appearance from <Picture 1> and the timestamped text,
+and reconstruct articulated motion from the timestamped text. Never reproduce a human proxy
+as a skeleton, stick figure, mannequin, node-connected body, or exposed rig. Left and right
+refer to each person's own body unless explicitly stated as screen direction.
+
+Vehicle proxies in <Video 1> provide only framewise position, trajectory, body heading,
+rotation, and accurate overall length, width, height, and occupied scale; these anchors
+should be followed closely. They carry no information about vehicle appearance. Never
+reproduce a vehicle proxy as a wireframe vehicle, cage frame, tubular skeleton, exposed
+chassis, or low-poly proxy car. Vehicle identity, type, design details, materials, colors,
+and visual effects are defined by <Picture 1> and the text.
+
+Roads, terrain, buildings, relative depth, rough scale, and layout in <Video 1> provide
+denser but still approximate structural cues. The text may reinterpret these cues to create
+strongly out-of-distribution scenes while maintaining broad spatial and temporal coherence.
+Conditioning colors, proxy geometry, node markers, rigging structures, and other
+visualization artifacts must never appear in the final video.
+
+When sources conflict, resolve in this order: (1) geometry, camera, position and motion
+follow <Video 1>; (2) the worldview, art direction and overall style follow <Picture 1>
+absolutely — above the current clip's caption; identity, appearance and materials follow
+<Picture 1> for subjects visible in it, and follow the text for subjects not visible in it;
+(3) the timestamped text defines the concrete events, actions and rewrite targets within
+those constraints; (4) when the opening of this clip is fixed to already-given video frames,
+seamless continuity with that fixed opening overrides everything else — never restart the
+scene.
+
+Clip contract: this clip is the very beginning of the take — nothing
+precedes it. <Picture 1> is the global
+appearance anchor for the whole take, and the first frame of the target is locked to this
+exact image: the clip begins at precisely this visual state — identities, appearance,
+materials, art direction, lighting, camera framing and layout — and continues directly from
+it while performing the timestamped actions. Do not restart, redesign or re-interpret any
+identity.
+
+
+View D (follow-d)
+Scene: multi4-010-underwater-converge-turn
+Method: CWM
+Camera: follow-d
+
+Window 1
+Reference interval: [0, 5) s
+System prompt: Reference 1
+Positive prompt:
+Appearance and scene:
+
+The protagonist is participant D, a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins.
+
+Participant A is a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins, and keeps exactly this appearance. Participant B is a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins, and keeps exactly this appearance. Participant C is a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins, and keeps exactly this appearance. At the start of the clip the protagonist (participant D) (the protagonist) stands in the centre of the middle part of the frame, tiny in the distance, behind participant A, seen from behind, facing away from the camera; participant A (participant A) stands on screen-left of the middle part of the frame, a small figure in the middle distance, behind participant B, to screen-left of the protagonist (participant D), seen from behind, facing away from the camera; participant B (participant B) stands in the centre of the middle part of the frame, a small figure in the middle distance, nearest to the camera, seen from behind, facing away from the camera; participant C (participant C) stands on screen-left of the middle part of the frame, tiny in the distance, in the far background, to screen-left of the protagonist (participant D), seen from behind, facing away from the camera. The other participants of the same recording are participant A, a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins; participant B, a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins and participant C, a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins; only those named above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything. All people keep the same face, build and clothing throughout, with clothing folds responding naturally to movement. Participant B in the foreground covers participant C from about 1.3 s to 1.6 s; participant B in the foreground covers participant C from about 1.9 s to 2.3 s; participant B in the foreground covers participant C from about 2.5 s to 2.9 s; participant B in the foreground covers the protagonist from about 3.3 s to 3.5 s; participant B in the foreground covers the protagonist from about 3.7 s to 4.1 s; participant B in the foreground covers the protagonist from about 4.3 s to 4.7 s. Keep the reference's recorded vertical field of view at every frame. 
+
+The setting is an underwater reef seen below the surface: a sandy seabed with scattered dark rocks, clumps of branching coral and swaying sea plants, the rippling water surface overhead letting down soft light, and the blue water fading into haze in the distance. The people swim horizontally in open water above the seabed. Preserve the reference spacing, rock and coral positions and open swimming lanes. Use pale sand, dark volcanic rock, branching coral, green sea grass and clear blue water with light caustics. Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows; no proxy colours, wireframes, block figures or game UI. The camera follows the recorded third-person path of the conditioning reference.
+
+Protagonist action timeline:
+
+0.00–2.50s: Participants A and C swim forward one behind the other on one side of the reef while participants B and D swim forward one behind the other on the other side, C ahead of A and D ahead of B, the two lines angling gently toward each other; the protagonist (participant D) moves about 2 metres along its route.; 2.50–5.00s: A and C keep turning gently inward while B and D straighten out, so the two lines end closer together, still with clear space between them, everyone swimming at the same steady pace; the protagonist (participant D) moves about 2 metres along its route.; 5.00–5.17s: Everyone holds the final pose and position and the camera holds its final pose.
+
+Other visible actors:
+
+0.00–5.17s, participant A: Moves about 2 metres along its route from 0.00 to 2.50 s; moves about 2 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.; 0.00–5.17s, participant B: Moves about 2 metres along its route from 0.00 to 2.50 s; moves about 2 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.; 0.00–5.17s, participant C: Moves about 2 metres along its route from 0.00 to 2.50 s; moves about 2 metres along its route from 2.50 to 5.00 s; holds the final state from 5.00 to 5.17 s.
+
+Reference 1:
+AWM_PROXY_CONTROL. Two visual references accompany this text. <Video 1> is the conditioning
+proxy video: treat it as a coarse spatiotemporal reference, not an appearance template or
+literal target geometry. <Picture 1> is the global RGB anchor image: it defines identity and
+appearance, never motion. <Picture 1> is the ABSOLUTE standard for the worldview, art
+direction and overall style of the entire take: every clip of the take, no matter how far into the
+future, must align with it to a high degree, and on worldview, art direction and style it
+outranks even the current clip's caption. It provides NOTHING about any future frame's
+current camera, composition, motion or interactions. Each subject's position and motion come
+from <Video 1>. A subject's appearance follows <Picture 1> when that subject is visible in
+it; subjects not visible in <Picture 1> take their appearance from the timestamped text,
+rendered consistently in <Picture 1>'s worldview and art direction.
+
+Human proxies in <Video 1> provide only framewise root position, coarse occupied scale, and
+whole-body root orientation, which are reliable at roughly 80-100% and should be followed
+closely. They carry no information about character appearance and do not represent identity,
+face, hairstyle, clothing, materials, colors, visual effects, anatomy, bones, joints, limb
+articulation, detailed posture, torso or head pose, hand pose, action phase, or physical
+contact. Reconstruct each character's appearance from <Picture 1> and the timestamped text,
+and reconstruct articulated motion from the timestamped text. Never reproduce a human proxy
+as a skeleton, stick figure, mannequin, node-connected body, or exposed rig. Left and right
+refer to each person's own body unless explicitly stated as screen direction.
+
+Vehicle proxies in <Video 1> provide only framewise position, trajectory, body heading,
+rotation, and accurate overall length, width, height, and occupied scale; these anchors
+should be followed closely. They carry no information about vehicle appearance. Never
+reproduce a vehicle proxy as a wireframe vehicle, cage frame, tubular skeleton, exposed
+chassis, or low-poly proxy car. Vehicle identity, type, design details, materials, colors,
+and visual effects are defined by <Picture 1> and the text.
+
+Roads, terrain, buildings, relative depth, rough scale, and layout in <Video 1> provide
+denser but still approximate structural cues. The text may reinterpret these cues to create
+strongly out-of-distribution scenes while maintaining broad spatial and temporal coherence.
+Conditioning colors, proxy geometry, node markers, rigging structures, and other
+visualization artifacts must never appear in the final video.
+
+When sources conflict, resolve in this order: (1) geometry, camera, position and motion
+follow <Video 1>; (2) the worldview, art direction and overall style follow <Picture 1>
+absolutely — above the current clip's caption; identity, appearance and materials follow
+<Picture 1> for subjects visible in it, and follow the text for subjects not visible in it;
+(3) the timestamped text defines the concrete events, actions and rewrite targets within
+those constraints; (4) when the opening of this clip is fixed to already-given video frames,
+seamless continuity with that fixed opening overrides everything else — never restart the
+scene.
+
+Clip contract: this clip is the very beginning of the take — nothing
+precedes it. <Picture 1> is the global
+appearance anchor for the whole take, and the first frame of the target is locked to this
+exact image: the clip begins at precisely this visual state — identities, appearance,
+materials, art direction, lighting, camera framing and layout — and continues directly from
+it while performing the timestamped actions. Do not restart, redesign or re-interpret any
+identity.
