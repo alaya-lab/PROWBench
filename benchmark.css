@@ -31,8 +31,7 @@
 .publication-links a { border-color: var(--ink); background: var(--ink); color: var(--bg); }
 .publication-links a:hover { border-color: var(--gold); background: var(--gold); }
 .publication-links button:disabled { opacity: 1; color: var(--faint); cursor: not-allowed; }
-.publication-links svg { width: 16px; height: 16px; flex-shrink: 0; }
-.publication-emoji { width: 16px; font-size: 15px; line-height: 1; }
+.publication-links svg, .publication-links .publication-icon { display: block; width: 16px; height: 16px; flex: 0 0 16px; object-fit: contain; }
 .benchmark-demo { width: 100%; max-width: 960px; margin: 28px auto 0; }
 .benchmark-demo video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border: 1px solid var(--line); border-radius: 8px; background: #050608; }
 
