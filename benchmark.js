@@ -2,6 +2,7 @@
   'use strict';
   // Preserve links shared before the three pages were separated.
   const oldSections = {
+    '#examples': 'scenes.html#examples',
     '#results': 'gallery.html#results',
     '#benchmark': 'index.html',
     '#leaderboard': 'index.html',
