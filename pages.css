@@ -1,7 +1,7 @@
 /* Compact input-to-output comparisons; media stays on demand. */
 .gallery-main { padding-top: 24px; padding-bottom: 36px; }
 .gallery-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 20px; margin-bottom: 18px; }
-.gallery-heading h1 { font: 450 32px/1.2 var(--serif); letter-spacing: -.025em; }
+.gallery-heading h2 { font: 450 32px/1.2 var(--serif); letter-spacing: -.025em; }
 .selection-summary { color: var(--faint); font-size: 14px; }
 .gallery-selection-note { flex-basis: 100%; margin: 0; color: var(--faint); font-size: 13px; line-height: 1.5; }
 .gallery-page [hidden] { display: none !important; }
@@ -35,8 +35,8 @@
 .compare-card-header { display: flex; flex-shrink: 0; align-items: center; gap: 8px; min-height: 40px; margin-bottom: 8px; }
 .remove-method { flex-shrink: 0; width: 30px; height: 36px; padding: 0; border: 1px solid transparent; border-radius: 4px; color: var(--muted); background: transparent; font-size: 24px; line-height: 1; }
 .remove-method:hover:not(:disabled) { border-color: var(--line); color: var(--ink); background: var(--surface); }
-.compare-card h2 { flex-shrink: 0; font: 500 14px/1.5 var(--sans); color: var(--faint); }
-.reference-card h2 { color: var(--gold); }
+.compare-card h3 { flex-shrink: 0; font: 500 14px/1.5 var(--sans); color: var(--faint); }
+.reference-card h3 { color: var(--gold); }
 .compare-card-header select { flex: 1; min-width: 0; width: 100%; height: 40px; min-height: 40px; font-size: 14px; font-weight: 500; }
 .conditioning { color: var(--muted); font-size: 14px; line-height: 1.5; margin-top: 8px; }
 .media-frame { position: relative; flex-shrink: 0; width: 100%; aspect-ratio: 16 / 9; background: #050608; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
@@ -69,14 +69,14 @@
   .gallery-page .scene-toolbar { flex-basis: 100%; }
   .compare-board { gap: 12px; }
   .compare-card-header { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 6px; }
-  .compare-card h2 { grid-column: 1; min-height: 24px; display: flex; align-items: center; }
+  .compare-card h3 { grid-column: 1; min-height: 24px; display: flex; align-items: center; }
   .compare-card-header select { grid-column: 1 / -1; grid-row: 2; }
   .remove-method { grid-column: 2; grid-row: 1; height: 24px; }
 }
 @media (max-width: 760px) {
   .gallery-main { padding-top: 20px; padding-bottom: 28px; }
   .gallery-heading { margin-bottom: 14px; }
-  .gallery-heading h1 { font-size: 28px; }
+  .gallery-heading h2 { font-size: 28px; }
   .compare-board { grid-template-columns: repeat(3, minmax(220px, 1fr)); grid-auto-flow: column; grid-auto-columns: minmax(220px, 1fr); gap: 12px; overflow-x: auto; padding-bottom: 8px; scrollbar-color: var(--line) transparent; }
   .gallery-page .scene-toolbar { gap: 8px; }
 }

@@ -108,8 +108,8 @@
   .benchmark-attribution { padding-bottom: 28px; }
 }
 @media (max-width: 480px) {
-  .publication-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; max-width: 340px; margin-inline: auto; }
-  .publication-links a, .publication-links button { padding-inline: 12px; }
+  .publication-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; max-width: 360px; margin-inline: auto; }
+  .publication-links a, .publication-links button { gap: 6px; padding-inline: 6px; font-size: 12px; }
 }
 
 /* Scene references have their own page. */
