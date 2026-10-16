@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0c0f">
+  <link rel="canonical" href="https://alaya-lab.github.io/PROWBench/index.html#leaderboard">
+  <title>Leaderboard · PROWBench</title>
+  <script>
+    (function () {
+      const destination = new URL('index.html', window.location.href);
+      const keys = new Set(['split', 'scale', 'family', 'metrics', 'q', 'sort', 'order', 'compact', 'models', 'compare']);
+      new URLSearchParams(window.location.search).forEach((value, key) => {
+        destination.searchParams.set(keys.has(key) ? 'lb_' + key : key, value);
+      });
+      const hash = window.location.hash;
+      destination.hash = ['#methodology', '#data-source', '#evaluation-source'].includes(hash) || hash.startsWith('#run-') ? hash : '#leaderboard';
+      window.location.replace(destination.href);
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content="0;url=index.html#leaderboard"></noscript>
+</head>
+<body style="background:#0b0c0f;color:#f3f0e9;font-family:sans-serif">
+  <p><a href="index.html#leaderboard" style="color:inherit">Open the PROWBench leaderboard →</a></p>
+</body>
+</html>

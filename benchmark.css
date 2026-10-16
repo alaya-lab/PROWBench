@@ -110,7 +110,3 @@
   .publication-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; max-width: 360px; margin-inline: auto; }
   .publication-links a, .publication-links button { gap: 6px; padding-inline: 6px; font-size: 12px; }
 }
-
-/* Scene references have their own page. */
-.scenes-main #examples { margin-top: 0; }
-.scenes-main .benchmark-section-head h1 { font: 500 clamp(30px, 4vw, 44px)/1.2 var(--serif); letter-spacing: -.025em; text-wrap: balance; }

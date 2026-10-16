@@ -1,11 +1,9 @@
 (() => {
   'use strict';
-  // Preserve links shared before the three pages were separated.
+  // Preserve legacy section links.
   const oldSections = {
-    '#examples': 'scenes.html#examples',
     '#benchmark': 'index.html',
-    '#leaderboard': 'index.html',
-    '#aggregate-method': 'index.html'
+    '#aggregate-method': 'index.html#methodology'
   };
   const destination = oldSections[window.location.hash];
   if (destination) { window.location.replace(destination); return; }

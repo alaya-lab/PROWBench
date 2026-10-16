@@ -1,0 +1,67 @@
+dataset,n_videos,metric,value,n,expected,aggregation
+verified_ff_40,40,iou,0.4591454852173903,40,40,official sample mean
+verified_ff_40,40,cerr,0.039371702554264885,40,40,official sample mean
+verified_ff_40,40,interaction,0.6166666666666666,40,40,official sample mean
+verified_ff_40,40,align,0.6958333333333335,40,40,official sample mean
+verified_ff_40,40,gisr,0.2954073578442896,40,40,official sample mean
+verified_ff_40,40,glra,0.314837208866066,40,40,official sample mean
+verified_ff_40,40,rot,2.4963182608968624,40,40,official sample mean
+verified_ff_40,40,trans,0.11605602797976824,40,40,official sample mean
+verified_ff_40,40,cammc,0.14655573780995287,40,40,official sample mean
+verified_ff_40,40,imaging,69.59480664889017,40,40,official sample mean
+verified_ff_40,40,aesthetic,0.5861370176076889,40,40,official sample mean
+verified_ff_40,40,warp,1.038542570444895,40,40,official sample mean
+verified_ff_40,40,msmooth,0.9867187283549346,40,40,official sample mean
+verified_ff_40,40,clip,25.26269535627216,40,40,official sample mean
+gunfight,20,iou,0.43590745658444235,20,20,official sample mean
+gunfight,20,cerr,0.035500470950289686,20,20,official sample mean
+gunfight,20,interaction,0.525,20,20,official sample mean
+gunfight,20,align,0.625,20,20,official sample mean
+gunfight,20,gisr,0.23294775415972874,20,20,official sample mean
+gunfight,20,glra,0.28430139095737916,20,20,official sample mean
+gunfight,20,rot,2.0997826944637112,20,20,official sample mean
+gunfight,20,trans,0.6051213919531865,20,20,official sample mean
+gunfight,20,cammc,0.635143077535334,20,20,official sample mean
+gunfight,20,imaging,73.36749148686725,20,20,official sample mean
+gunfight,20,aesthetic,0.5330355450510978,20,20,official sample mean
+gunfight,20,warp,0.3041096371037254,20,20,official sample mean
+gunfight,20,msmooth,0.991757233129601,20,20,official sample mean
+gunfight,20,clip,25.368012856692076,20,20,official sample mean
+unverified_ff_90,90,iou,0.41170622168013893,89,89,official sample mean
+unverified_ff_90,90,cerr,0.03866171161689835,89,89,official sample mean
+unverified_ff_90,90,interaction,0.5805555555555557,90,90,official sample mean
+unverified_ff_90,90,align,0.6896296296296297,90,90,official sample mean
+unverified_ff_90,90,gisr,0.24991244922887193,89,89,official sample mean
+unverified_ff_90,90,glra,0.2807938261484799,89,89,official sample mean
+unverified_ff_90,90,rot,4.5036568748700905,90,90,official sample mean
+unverified_ff_90,90,trans,0.14840304003825308,90,90,official sample mean
+unverified_ff_90,90,cammc,0.20693329331564433,90,90,official sample mean
+unverified_ff_90,90,imaging,58.934638919168044,90,90,official sample mean
+unverified_ff_90,90,aesthetic,0.49239658680227066,90,90,official sample mean
+unverified_ff_90,90,warp,0.7308796975824864,90,90,official sample mean
+unverified_ff_90,90,msmooth,0.9883673564179893,90,90,official sample mean
+unverified_ff_90,90,clip,24.43753753726681,90,90,official sample mean
+multi4,40,IoU,0.4695070852090844,10,10,mean of 10 scene means
+multi4,40,CenterErr,0.03351631401254121,10,10,mean of 10 scene means
+multi4,40,MissRate,0.10152887149945973,10,10,mean of 10 scene means
+multi4,40,RotErr_deg,1.0795176914973565,10,10,mean of 10 scene means
+multi4,40,TransErr,0.05171840824282793,10,10,mean of 10 scene means
+multi4,40,CamMC,0.06166637463512853,10,10,mean of 10 scene means
+multi4,40,ISR,0.675,10,10,mean of 10 scene means
+multi4,40,LRA,0.875,10,10,mean of 10 scene means
+multi4,40,gISR,0.3078416832458441,10,10,mean of 10 scene means
+multi4,40,gLRA,0.4015105405361552,10,10,mean of 10 scene means
+multi4,40,compliance_percent,72.79671717171716,10,10,official scene macro; percent
+multi4,40,consistency_percent,71.86868686868686,10,10,official scene macro; percent
+multi4,40,MEt3R,0.4269279863961318,540,540,official scene macro; zero overlap undefined
+long_horizon,10,iou,0.14364407190787212,10,10,official recording mean
+long_horizon,10,cerr,0.08165270165916706,10,10,official recording mean
+long_horizon,10,reappear_iou,0.014902994902331263,7,7,official recording mean
+long_horizon,10,state_persist,0.25,4,4,official recording mean
+long_horizon,10,rot_deg,30.926353358888495,10,10,official recording mean
+long_horizon,10,trans,0.3397802676745424,10,10,official recording mean
+long_horizon,10,cammc,0.834459459567316,10,10,official recording mean
+long_horizon,10,isr,0.5956349206349206,10,10,official recording mean
+long_horizon,10,lra,0.7764285714285715,10,10,official recording mean
+long_horizon,10,gisr,0.08791586133858578,10,10,official recording mean
+long_horizon,10,glra,0.11346345947697487,10,10,official recording mean

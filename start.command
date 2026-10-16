@@ -20,6 +20,10 @@ class RangeRequestHandler(http.server.SimpleHTTPRequestHandler):
 
     def end_headers(self):
         self.send_header("Accept-Ranges", "bytes")
+        # A preview must not mix cached scripts/styles with a newer HTML page.
+        request_path = self.path.partition("?")[0]
+        if request_path.endswith("/") or Path(request_path).suffix.lower() in {".html", ".css", ".js", ".json", ".md"}:
+            self.send_header("Cache-Control", "no-store")
         super().end_headers()
 
     def send_head(self):
@@ -89,6 +93,11 @@ except OSError as error:
     server = http.server.ThreadingHTTPServer(("127.0.0.1", 0), handler)
 url = f"http://127.0.0.1:{server.server_port}/"
 print(f"PROWBench: {url}", flush=True)
+proxy_template = os.environ.get("VSCODE_PROXY_URI", "")
+if "{{port}}" in proxy_template:
+    proxy_url = proxy_template.replace("{{port}}", str(server.server_port)).rstrip("/")
+    print(f"Remote browser preview: {proxy_url}/leaderboard.html", flush=True)
+    print("Open this link in the browser signed in to your cloud workspace.", flush=True)
 print("Keep this window open. Press Ctrl+C to stop the website.", flush=True)
 if not args.no_browser:
     webbrowser.open(url)

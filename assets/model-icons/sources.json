@@ -1,0 +1,82 @@
+{
+  "echo": {
+    "file": "assets/model-icons/echo-monogram.svg",
+    "kind": "custom_monogram",
+    "note": "Local EW identifier for EchoWM, not an official project logo."
+  },
+  "nvidia": {
+    "file": "assets/model-icons/nvidia.jpg",
+    "source": "https://github.com/NVlabs.png?size=64",
+    "resolved_source": "https://avatars.githubusercontent.com/u/2695301?s=64&v=4",
+    "size": [
+      64,
+      64
+    ],
+    "sha256": "4ed3e1bcd378bba1b45d9c195232115bbb4127800bc1481a40fe566cfd5fee4c"
+  },
+  "lingbot": {
+    "file": "assets/model-icons/lingbot.png",
+    "source": "https://github.com/Robbyant.png?size=64",
+    "resolved_source": "https://avatars.githubusercontent.com/u/212647524?s=64&v=4",
+    "size": [
+      64,
+      64
+    ],
+    "sha256": "64fa562c9146f582fe1748a81d8c90602d42836adb73c72e180eb430ab3bc799"
+  },
+  "alaya": {
+    "file": "assets/model-icons/alaya.png",
+    "source": "https://github.com/AlayaLab.png?size=64",
+    "resolved_source": "https://avatars.githubusercontent.com/u/220945292?s=64&v=4",
+    "size": [
+      64,
+      64
+    ],
+    "sha256": "fe3154e2266db5edaf3f19260f9356f5382830f8c156a778be3d5f90f6779320"
+  },
+  "cosmos": {
+    "file": "assets/model-icons/cosmos.png",
+    "source": "https://github.com/nvidia-cosmos.png?size=64",
+    "resolved_source": "https://avatars.githubusercontent.com/u/201181124?s=64&v=4",
+    "size": [
+      64,
+      64
+    ],
+    "sha256": "8186143c5caef76fced181972ca327dde7da92e1af3f8332db837f319f8c45e1"
+  },
+  "lynnreal": {
+    "file": "assets/model-icons/lynnreal-monogram.svg",
+    "kind": "custom_monogram",
+    "note": "Local LR identifier for LynnReal, not an official project logo."
+  },
+  "minimax": {
+    "file": "assets/model-icons/minimax.jpg",
+    "source": "https://github.com/MiniMax-AI.png?size=64",
+    "resolved_source": "https://avatars.githubusercontent.com/u/194880281?s=64&v=4",
+    "size": [
+      64,
+      64
+    ],
+    "sha256": "7c791d212b71db0d9a46f0d9b99eda8b25178c37d8f48c3f93818e73a4aebafc"
+  },
+  "seed": {
+    "file": "assets/model-icons/seed.ico",
+    "source": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/favicon_1/favicon.ico",
+    "resolved_source": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/favicon_1/favicon.ico",
+    "size": [
+      48,
+      48
+    ],
+    "sha256": "734fbc134328bc3a82165d7bc0b53aef8fd32f26446f7209a388c3a0869f0d2b"
+  },
+  "cwm": {
+    "file": "assets/model-icons/cwm.svg",
+    "kind": "custom_monogram",
+    "note": "Local CWM identifier, not an official project logo."
+  },
+  "c2r": {
+    "file": "assets/model-icons/c2r.svg",
+    "kind": "custom_monogram",
+    "note": "Local C2R identifier, not an official project logo."
+  }
+}

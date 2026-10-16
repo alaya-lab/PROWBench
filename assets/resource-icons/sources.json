@@ -1,0 +1,23 @@
+{
+  "github.svg": {
+    "kind": "brand_mark",
+    "source": "https://github.com/logos",
+    "note": "GitHub mark used to identify a link to a GitHub repository."
+  },
+  "huggingface.svg": {
+    "kind": "brand_mark",
+    "source": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+  },
+  "project.svg": {
+    "kind": "custom_vector",
+    "note": "Generic globe identifying a project website."
+  },
+  "paper.svg": {
+    "kind": "custom_vector",
+    "note": "Generic document identifying a research paper."
+  },
+  "article.svg": {
+    "kind": "custom_vector",
+    "note": "Generic article identifying a release announcement."
+  }
+}
